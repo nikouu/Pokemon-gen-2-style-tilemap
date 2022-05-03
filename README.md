@@ -60,19 +60,19 @@
 - Path
   - A completely blank tile. Usually intersperced with the path with  
 - Path with gravel 
- - This is the most common path in Gen 2 Pokemon
+  - This is the most common path in Gen 2 Pokemon
 gravel.
 - Flat grass
+  - The general green outside floor tile
 - Short tree
-  - In Gen 2, the headbutt trees
+  - The headbutt trees
 - Tall tree
-  - In gen 2, the trees that are double the short tree height
+  - The trees that are double the short tree height
 - Sign
   - The route/city signs
-- Ledge
-  - The ledge the player can jump off. Needs only 3 sides (left, right, bottom)
-- Mountain tiles
-  - Filled in ledge tiles that create rocky hills and mountains
+- Ridge
+  - The ledges the player can jump off
+  - The tiles that create rocky hills and mountains
 
 ## Wanted animated tiles
 - Water
