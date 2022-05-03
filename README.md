@@ -1,4 +1,4 @@
-# Pokemon gen 2 styled tilemap
+# Pokemon gen 2 style tilemap
 
 ## Wanted simple tiles
 - Path with gravel(?)
