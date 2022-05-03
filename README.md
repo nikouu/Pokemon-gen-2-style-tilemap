@@ -8,9 +8,8 @@
 - Gameboy tiles are 8x8 pixels
 - However, lots of things (including people) are 16x16 pixels (i.e. 2x2 tiles)
 - Inspiration from [Pokemon Gold/Silver](https://www.spriters-resource.com/game_boy_gbc/pokemongoldsilver/sheet/60234/)
-- Inspiration from [The Legend of Zelda: Oracle of Ages](https://www.spriters-resource.com/game_boy_gbc/thelegendofzeldaoracleofages/) and [The Legend of Zelda: Oracle of Seasons](https://www.spriters-resource.com/game_boy_gbc/thelegendofzeldaoracleofseasons/)
+- Slight inspiration from [The Legend of Zelda: Oracle of Ages](https://www.spriters-resource.com/game_boy_gbc/thelegendofzeldaoracleofages/) and [The Legend of Zelda: Oracle of Seasons](https://www.spriters-resource.com/game_boy_gbc/thelegendofzeldaoracleofseasons/)
 - [Full map of Gen 2 Johto and Kanto](https://www.reddit.com/r/pokemon/comments/ez1v43/gen_ii_map_of_overworld_and_dungeons_as_they/). Copying this into Aseprite, setup the grid as `{X: 1, Y: 6, Width: 8, Height: 8}` to align the main map to the grid. Grid toggle is `ctrl + '`
-- If an object doesn't fill in the entire space of the tile, the empty space is often the blank path without gravel colour
 
 
 ## Tiles
@@ -55,6 +54,7 @@
 - I have no idea how shading works
 - Checkerboards, checkerboards everywhere
 - Weird asymmertry everywhere
+- If an object doesn't fill in the entire space of the tile, the empty space is often the blank path without gravel colour
 
 ## Wanted simple tiles
 - Path
