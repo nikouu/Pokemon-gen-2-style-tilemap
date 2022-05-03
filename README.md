@@ -1,7 +1,7 @@
 # Pokemon gen 2 style tilemap
 
 ## Wanted simple tiles
-- Path with gravel(?)
+- Path
   - This is the most common path in Gen 2 Pokemon
 - Path without gravel 
   - A completely blank tile. Usually intersperced with the path with gravel.
