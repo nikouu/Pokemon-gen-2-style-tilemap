@@ -1,8 +1,8 @@
-# Pokemon gen 2 style tilemap
+# Pokemon Gen 2 Style Tilemap
 
 ## Objectives
 1. Similar but different tiles
-1. Use of same colour palette 
+1. Same colour palette 
 
 ## Notes
 - Gameboy tiles are 8x8 pixels
