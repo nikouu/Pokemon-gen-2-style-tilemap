@@ -1,14 +1,39 @@
 # Pokemon gen 2 style tilemap
 
+## Custom tiles
+
+| Tile type        | Original                                   | Custom |
+| ---------------- | ------------------------------------------ | ------ |
+| Path             | ![image](Original/Path_large.png)          |        |
+| Path with gravel | ![image](Original/Path-Gravel_large.png)   |        |
+| Grass - flat     | ![image](Original/Grass-flat_large.png)    |        |
+| Tree - short 00  | ![image](Original/Tree-short-00_large.png) |        |
+| Tree - short 01  | ![image](Original/Tree-short-01_large.png) |        |
+| Tree - short 02  | ![image](Original/Tree-short-02_large.png) |        |
+| Tree - short 03  | ![image](Original/Tree-short-03_large.png) |        |
+| Tree - tall 00   | ![image](Original/Tree-tall-00_large.png)  |        |
+| Tree - tall 01   | ![image](Original/Tree-tall-01_large.png)  |        |
+| Sign - metal 00  | ![image](Original/Sign-metal-00_large.png) |        |
+| Sign - metal 01  | ![image](Original/Sign-metal-01_large.png) |        |
+| Sign - metal 02  | ![image](Original/Sign-metal-02_large.png) |        |
+| Sign - metal 03  | ![image](Original/Sign-metal-03_large.png) |        |
+| Ridge 00         | ![image](Original/Ridge-00_large.png)      |        |
+| Ridge 01         | ![image](Original/Ridge-01_large.png)      |        |
+| Ridge 02         | ![image](Original/Ridge-02_large.png)      |        |
+| Ridge 03         | ![image](Original/Ridge-03_large.png)      |        |
+| Ridge 04         | ![image](Original/Ridge-04_large.png)      |        |
+| Ridge 05         | ![image](Original/Ridge-05_large.png)      |        |
+| Ridge 06         | ![image](Original/Ridge-06_large.png)      |        |
+| Ridge 07         | ![image](Original/Ridge-07_large.png)      |        |
+| Ridge 08         | ![image](Original/Ridge-08_large.png)      |        |
+
 ## Wanted simple tiles
 - Path
-  - This is the most common path in Gen 2 Pokemon
-- Path without gravel 
-  - A completely blank tile. Usually intersperced with the path with gravel.
+  - A completely blank tile. Usually intersperced with the path with  
+- Path with gravel 
+ - This is the most common path in Gen 2 Pokemon
+gravel.
 - Flat grass
-  - In Gen 2, the green that isn't tall, wild Pokemon grass
-- Tall grass
-  - In Gen 2, the majority of the grass Pokemon will appear in. Shakes when player walks through it.
 - Short tree
   - In Gen 2, the headbutt trees
 - Tall tree
