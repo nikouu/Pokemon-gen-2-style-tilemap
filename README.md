@@ -14,46 +14,53 @@
 
 ## Tiles
 
-| Tile type        | Original                                   | Custom                                   | Notes                                                                                                                      |
-| ---------------- | ------------------------------------------ | ---------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| Path             | ![image](Original/Path_large.png)          | ![image](Custom/Path_large.png)          | Hard to make distinct when using the same colours.                                                                         |
-| Path with gravel | ![image](Original/Path-Gravel_large.png)   | ![image](Custom/Path-Gravel_large.png)   | Just some dots.                                                                                                            |
-| Grass - flat     | ![image](Original/Grass-flat_large.png)    | ![image](Custom/Grass-flat_large.png)    | Basically a whole bunch of checkerboarding with some bits cut out.                                                         |
-| Tree - short 00  | ![image](Original/Tree-short-00_large.png) | ![image](Custom/Tree-short-00_large.png) | Background is just the grass texture. Followed the same shading style.  Ended up looking more bulbus at the top.           |
-| Tree - short 01  | ![image](Original/Tree-short-01_large.png) | ![image](Custom/Tree-short-01_large.png) | Background is just the grass texture. Followed the same shading style. Ended up looking more bulbus at the top.            |
-| Tree - short 02  | ![image](Original/Tree-short-02_large.png) | ![image](Custom/Tree-short-02_large.png) | Little shadow takes most of the space around the trunk. Ended up not using the same spiky tree look for the lower branches |
-| Tree - short 03  | ![image](Original/Tree-short-03_large.png) | ![image](Custom/Tree-short-03_large.png) | Little shadow takes most of the space around the trunk. Ended up not using the same spiky tree look for the lower branches |
-| Tree - tall 00   | ![image](Original/Tree-tall-00_large.png)  | ![image](Custom/Tree-tall-00_large.png)  | I think this also uses the normal grass background as a base                                                               |
-| Tree - tall 01   | ![image](Original/Tree-tall-01_large.png)  | ![image](Custom/Tree-tall-01_large.png)  | I think this also uses the normal grass background as a base                                                               |
-| Sign - metal 00  | ![image](Original/Sign-metal-00_large.png) | ![image](Custom/Sign-metal-00_large.png) | A taller sign.                                                                                                             |
-| Sign - metal 01  | ![image](Original/Sign-metal-01_large.png) | ![image](Custom/Sign-metal-01_large.png) | A taller sign.                                                                                                             |
-| Sign - metal 02  | ![image](Original/Sign-metal-02_large.png) | ![image](Custom/Sign-metal-02_large.png) | A taller sign.                                                                                                             |
-| Sign - metal 03  | ![image](Original/Sign-metal-03_large.png) | ![image](Custom/Sign-metal-03_large.png) | A taller sign.                                                                                                             |
-| Ridge 00         | ![image](Original/Ridge-00_large.png)      | ![image](Custom/Ridge-00_large.png)      | Checkerboard design behind.                                                                                                |
-| Ridge 01         | ![image](Original/Ridge-01_large.png)      | ![image](Custom/Ridge-01_large.png)      | Just lots of light shading on the top.                                                                                     |
-| Ridge 02         | ![image](Original/Ridge-02_large.png)      | ![image](Custom/Ridge-02_large.png)      | Checkerboard design behind.                                                                                                |
-| Ridge 03         | ![image](Original/Ridge-03_large.png)      | ![image](Custom/Ridge-03_large.png)      | This one looks like a dog's breakfast without the context of other tiles.                                                  |
-| Ridge 04         | ![image](Original/Ridge-04_large.png)      | ![image](Custom/Ridge-04_large.png)      | Surprisingly, this took a little bit of time to look okay and not overdone.                                                |
-| Ridge 05         | ![image](Original/Ridge-05_large.png)      | ![image](Custom/Ridge-05_large.png)      | Initially looks less defined, but together with other tiles it looks fine.                                                 |
-| Ridge 06         | ![image](Original/Ridge-06_large.png)      | ![image](Custom/Ridge-06_large.png)      | Used a basic circle design. Might be worth looking into exaggerating the curve.                                            |
-| Ridge 07         | ![image](Original/Ridge-07_large.png)      | ![image](Custom/Ridge-07_large.png)      | First run of this design looked like Hank Hill's ass.                                                                      |
-| Ridge 08         | ![image](Original/Ridge-08_large.png)      | ![image](Custom/Ridge-08_large.png)      | I'm assuming the bottom right corner light pixel is the light peeking over the top of the rock at the top of the shadow.   |
-| Water 00         | ![image](Original/Water-00_large.png)      |                                          |                                                                                                                            |
-| Water 01         | ![image](Original/Water-01_large.png)      |                                          |                                                                                                                            |
-| Water 02         | ![image](Original/Water-02_large.png)      |                                          |                                                                                                                            |
-| Water 03         | ![image](Original/Water-03_large.png)      |                                          |                                                                                                                            |
-| Water 04         | ![image](Original/Water-04_large.png)      |                                          |                                                                                                                            |
-| Water 05         | ![image](Original/Water-05_large.png)      |                                          |                                                                                                                            |
-| Water 06         | ![image](Original/Water-06_large.png)      |                                          |                                                                                                                            |
+| Tile type         | Original                                     | Custom                                   | Notes                                                                                                                      |
+| ----------------- | -------------------------------------------- | ---------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| Path              | ![image](Original/Path_large.png)            | ![image](Custom/Path_large.png)          | Hard to make distinct when using the same colours.                                                                         |
+| Path with gravel  | ![image](Original/Path-Gravel_large.png)     | ![image](Custom/Path-Gravel_large.png)   | Just some dots.                                                                                                            |
+| Grass - flat      | ![image](Original/Grass-flat_large.png)      | ![image](Custom/Grass-flat_large.png)    | Basically a whole bunch of checkerboarding with some bits cut out.                                                         |
+| Tree - short 00   | ![image](Original/Tree-short-00_large.png)   | ![image](Custom/Tree-short-00_large.png) | Background is just the grass texture. Followed the same shading style.  Ended up looking more bulbus at the top.           |
+| Tree - short 01   | ![image](Original/Tree-short-01_large.png)   | ![image](Custom/Tree-short-01_large.png) | Background is just the grass texture. Followed the same shading style. Ended up looking more bulbus at the top.            |
+| Tree - short 02   | ![image](Original/Tree-short-02_large.png)   | ![image](Custom/Tree-short-02_large.png) | Little shadow takes most of the space around the trunk. Ended up not using the same spiky tree look for the lower branches |
+| Tree - short 03   | ![image](Original/Tree-short-03_large.png)   | ![image](Custom/Tree-short-03_large.png) | Little shadow takes most of the space around the trunk. Ended up not using the same spiky tree look for the lower branches |
+| Tree - tall 00    | ![image](Original/Tree-tall-00_large.png)    | ![image](Custom/Tree-tall-00_large.png)  | I think this also uses the normal grass background as a base                                                               |
+| Tree - tall 01    | ![image](Original/Tree-tall-01_large.png)    | ![image](Custom/Tree-tall-01_large.png)  | I think this also uses the normal grass background as a base                                                               |
+| Sign - metal 00   | ![image](Original/Sign-metal-00_large.png)   | ![image](Custom/Sign-metal-00_large.png) | A taller sign.                                                                                                             |
+| Sign - metal 01   | ![image](Original/Sign-metal-01_large.png)   | ![image](Custom/Sign-metal-01_large.png) | A taller sign.                                                                                                             |
+| Sign - metal 02   | ![image](Original/Sign-metal-02_large.png)   | ![image](Custom/Sign-metal-02_large.png) | A taller sign.                                                                                                             |
+| Sign - metal 03   | ![image](Original/Sign-metal-03_large.png)   | ![image](Custom/Sign-metal-03_large.png) | A taller sign.                                                                                                             |
+| Ridge 00          | ![image](Original/Ridge-00_large.png)        | ![image](Custom/Ridge-00_large.png)      | Checkerboard design behind.                                                                                                |
+| Ridge 01          | ![image](Original/Ridge-01_large.png)        | ![image](Custom/Ridge-01_large.png)      | Just lots of light shading on the top.                                                                                     |
+| Ridge 02          | ![image](Original/Ridge-02_large.png)        | ![image](Custom/Ridge-02_large.png)      | Checkerboard design behind.                                                                                                |
+| Ridge 03          | ![image](Original/Ridge-03_large.png)        | ![image](Custom/Ridge-03_large.png)      | This one looks like a dog's breakfast without the context of other tiles.                                                  |
+| Ridge 04          | ![image](Original/Ridge-04_large.png)        | ![image](Custom/Ridge-04_large.png)      | Surprisingly, this took a little bit of time to look okay and not overdone.                                                |
+| Ridge 05          | ![image](Original/Ridge-05_large.png)        | ![image](Custom/Ridge-05_large.png)      | Initially looks less defined, but together with other tiles it looks fine.                                                 |
+| Ridge 06          | ![image](Original/Ridge-06_large.png)        | ![image](Custom/Ridge-06_large.png)      | Used a basic circle design. Might be worth looking into exaggerating the curve.                                            |
+| Ridge 07          | ![image](Original/Ridge-07_large.png)        | ![image](Custom/Ridge-07_large.png)      | First run of this design looked like Hank Hill's ass.                                                                      |
+| Ridge 08          | ![image](Original/Ridge-08_large.png)        | ![image](Custom/Ridge-08_large.png)      | I'm assuming the bottom right corner light pixel is the light peeking over the top of the rock at the top of the shadow.   |
+| Water 00          | ![image](Original/Water-00_large.png)        |                                          |                                                                                                                            |
+| Water 01          | ![image](Original/Water-01_large.png)        |                                          |                                                                                                                            |
+| Water 02          | ![image](Original/Water-02_large.png)        |                                          |                                                                                                                            |
+| Water 03          | ![image](Original/Water-03_large.png)        |                                          |                                                                                                                            |
+| Water 04          | ![image](Original/Water-04_large.png)        |                                          |                                                                                                                            |
+| Water 05          | ![image](Original/Water-05_large.png)        |                                          |                                                                                                                            |
+| Water 06          | ![image](Original/Water-06_large.png)        |                                          |                                                                                                                            |
+| Grass - rustle 00 | ![image](Original/Grass-rustle-00_large.png) |                                          |                                                                                                                            |
+| Grass - rustle 01 | ![image](Original/Grass-rustle-01_large.png) |                                          |                                                                                                                            |
+| Flower - Johto 00 | ![image](Original/Flower-johto-00_large.png)                                             |                                          |                                                                                                                            |
+| Flower - Johto 01 | ![image](Original/Flower-johto-01_large.png)                                             |                                          |                                                                                                                            |
 
 ## Constructed sprites
 
-| Sprite       | Original                                            | Custom |
-| ------------ | --------------------------------------------------- | ------ |
-| Tree - short | ![image](Original/Constructed/Tree-short_large.png) | ![image](Custom/Constructed/Tree-short_large.png)       |
-| Tree - tall  | ![image](Original/Constructed/Tree-tall_large.png)  | ![image](Custom/Constructed/Tree-tall_large.png)       |
-| Sign         | ![image](Original/Constructed/Sign_large.png)       | ![image](Custom/Constructed/Sign_large.png)       |
-| Ridge        | ![image](Original/Constructed/Ridge_large.png)      | ![image](Custom/Constructed/Ridge_large.png)       |
+| Sprite         | Original                                              | Custom                                            |
+| -------------- | ----------------------------------------------------- | ------------------------------------------------- |
+| Tree - short   | ![image](Original/Constructed/Tree-short_large.png)   | ![image](Custom/Constructed/Tree-short_large.png) |
+| Tree - tall    | ![image](Original/Constructed/Tree-tall_large.png)    | ![image](Custom/Constructed/Tree-tall_large.png)  |
+| Sign           | ![image](Original/Constructed/Sign_large.png)         | ![image](Custom/Constructed/Sign_large.png)       |
+| Ridge          | ![image](Original/Constructed/Ridge_large.png)        | ![image](Custom/Constructed/Ridge_large.png)      |
+| Water          | ![image](Original/Constructed/Water_large.gif)                                                      |                                                   |
+| Grass          |                                                       |                                                   |
+| Flower - Johto | ![image](Original/Constructed/Flower-johto_large.gif) |                                                   |
 
 ## Observations
 - Due to the GBC limitation, only 4 colours per sprite. Often this is a "black", "white", main colour light, and main colour dark.
@@ -63,6 +70,7 @@
 - If an object doesn't fill in the entire space of the tile, the empty space is often the blank path without gravel colour
 
 ### Water
+⚠️**On further analysis, I beleve this to be kinda wrong, but left here because it's interesting and might be worth picking up in the future**⚠️
 - I think water tiles are actually only 4 tiles rather than the 7 pulled from the sprite sheet. I say this because 
   - The local label(?) [.WaterTileFrames](https://github.com/pret/pokegold/blob/c133efea5f8438ea40be83dc3b2039494574c768/engine/tilesets/tileset_anims.asm#L405) points to a [4 frame png](https://github.com/pret/pokegold/blob/master/gfx/tilesets/water/water.png)
   - Via [AnimateWaterPalette](https://github.com/pret/pokegold/blob/c133efea5f8438ea40be83dc3b2039494574c768/engine/tilesets/tileset_anims.asm#L649), water palette seems to [cycle 4 colours](https://github.com/pret/pokegold/blob/c133efea5f8438ea40be83dc3b2039494574c768/engine/tilesets/tileset_anims.asm#L672) - `none(?)`, `light`, `dark`, `light` . I assume this is what changes the shading of the light coloured pixels in the frames. As some of the water frames are the same, just lighter/darker depending where in the cycle they are. Then ultimately the blank and just blue frame is either the palette colours swapping in no or blue value for the pixels. I find it difficult to read Assembly, but it seems to be something like this. 
@@ -70,19 +78,22 @@
 
   | Frame | Visible in-game Tile                  | Palette cycle | Original animation frame index (0 - 4) | Original frame                                        | Approx number of frames visible |
   | ----- | ------------------------------------- | ------------- | -------------------------------------- | ----------------------------------------------------- | ------------------------------- |
-  | 1     | ![image](Original/Water-00_large.png) | 0 (none)      | Frame 2                                | ![image](Original/Raw-water/Water-frame-02_large.png) | ~16                             |
-  | 2     | ![image](Original/Water-00_large.png) | 0 (none)      | Frame 3                                | ![image](Original/Raw-water/Water-frame-03_large.png) | ~4                              |
-  | 3     | ![image](Original/Water-01_large.png) | 1 (light)     | Frame 3                                | ![image](Original/Raw-water/Water-frame-03_large.png) | ~16                             |
-  | 4     | ![image](Original/Water-02_large.png) | 1 (light)     | Frame 0                                | ![image](Original/Raw-water/Water-frame-00_large.png) | ~4                              |
-  | 5     | ![image](Original/Water-03_large.png) | 2 (dark)      | Frame 0                                | ![image](Original/Raw-water/Water-frame-00_large.png) | ~16                             |
-  | 6     | ![image](Original/Water-04_large.png) | 2 (dark)      | Frame 1                                | ![image](Original/Raw-water/Water-frame-01_large.png) | ~4                              |
-  | 7     | ![image](Original/Water-05_large.png) | 1 (light)     | Frame 1                                | ![image](Original/Raw-water/Water-frame-01_large.png) | ~16                             |
-  | 8     | ![image](Original/Water-06_large.png) | 1 (light)     | Frame 2                                | ![image](Original/Raw-water/Water-frame-02_large.png) | ~4                              |
+  | 1     | ![image](Original/Water-00_large.png) | 0 (none)      | Frame 2                                | ![image](Original/Raw-water/Water-frame-02_large.png) | ~14?                            |
+  | 2     | ![image](Original/Water-00_large.png) | 0 (none)      | Frame 3                                | ![image](Original/Raw-water/Water-frame-03_large.png) | ~14?                            |
+  | 3     | ![image](Original/Water-01_large.png) | 1 (light)     | Frame 3                                | ![image](Original/Raw-water/Water-frame-03_large.png) | ~20?                            |
+  | 4     | ![image](Original/Water-02_large.png) | 1 (light)     | Frame 0                                | ![image](Original/Raw-water/Water-frame-00_large.png) | ~4?                             |
+  | 5     | ![image](Original/Water-03_large.png) | 2 (dark)      | Frame 0                                | ![image](Original/Raw-water/Water-frame-00_large.png) | ~24?                            |
+  | 6     | ![image](Original/Water-04_large.png) | 2 (dark)      | Frame 1                                | ![image](Original/Raw-water/Water-frame-01_large.png) | ~4?                             |
+  | 7     | ![image](Original/Water-05_large.png) | 1 (light)     | Frame 1                                | ![image](Original/Raw-water/Water-frame-01_large.png) | ~20?                            |
+  | 8     | ![image](Original/Water-06_large.png) | 1 (light)     | Frame 2                                | ![image](Original/Raw-water/Water-frame-02_large.png) | ~4?                             |
 
     - **The above is a sketchy understanding at best**
     - The tiles except the blank one add to 60 frames, or 1 second (GB/GBC runs at 60fps)
     - Makes sense that the minimum length is 4 frames due to [this comment](https://github.com/pret/pokegold/blob/c133efea5f8438ea40be83dc3b2039494574c768/engine/tilesets/tileset_anims.asm#L384). Maybe 4 frames is a "tick" here.
  - However, as neat as these are, I'll probably just be using the 7 frame water animation
+ - The water animation gif above might be a bit fast
+ - [bgb notes](https://github.com/doeg/gb-skeleton/blob/master/docs/bgb.md) 
+ 
 
 ## Wanted simple tiles
 - Path
@@ -104,8 +115,11 @@ gravel.
 
 ## Wanted animated tiles
 - Water
-- Flowers 
 - Tall grass
+- Flowers 
+  - There are Johto flowers and Kanto flowers, But I'll be focusing on Johto. 
+  - I think Johto flowers run at 24 frames per animation frame. Assembly [here](https://github.com/pret/pokegold/blob/c133efea5f8438ea40be83dc3b2039494574c768/engine/tilesets/tileset_anims.asm#L408).
+  - Also both seem to [run at different speeds](https://twitter.com/crystal_rby/status/1163503969429336066).
 
 ## Wanted building tiles 
 - Door
