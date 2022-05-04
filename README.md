@@ -1,13 +1,13 @@
 # Pokemon Gen 2 Style Tilemap
 
 ## Objectives
-1. Similar but different tiles
+1. Similar but different tiles. The kind that when side by side you can't really work out which is the original.
 1. Same colour palette 
 
 ## Notes
 - Gameboy tiles are 8x8 pixels
 - However, lots of things (including people) are 16x16 pixels (i.e. 2x2 tiles)
-- Inspiration from [Pokemon Gold/Silver](https://www.spriters-resource.com/game_boy_gbc/pokemongoldsilver/sheet/60234/)
+- Inspiration from [Pokemon Gold/Silver](https://www.spriters-resource.com/game_boy_gbc/pokemongoldsilver/sheet/60234/). This is also the spritesheet the originals come from.
 - Slight inspiration from [The Legend of Zelda: Oracle of Ages](https://www.spriters-resource.com/game_boy_gbc/thelegendofzeldaoracleofages/) and [The Legend of Zelda: Oracle of Seasons](https://www.spriters-resource.com/game_boy_gbc/thelegendofzeldaoracleofseasons/)
 - [Full map of Gen 2 Johto and Kanto](https://www.reddit.com/r/pokemon/comments/ez1v43/gen_ii_map_of_overworld_and_dungeons_as_they/). Copying this into Aseprite, setup the grid as `{X: 1, Y: 6, Width: 8, Height: 8}` to align the main map to the grid. Grid toggle is `ctrl + '`
 
@@ -38,7 +38,13 @@
 | Ridge 06         | ![image](Original/Ridge-06_large.png)      | ![image](Custom/Ridge-06_large.png)      | Used a basic circle design. Might be worth looking into exaggerating the curve.                                            |
 | Ridge 07         | ![image](Original/Ridge-07_large.png)      | ![image](Custom/Ridge-07_large.png)      | First run of this design looked like Hank Hill's ass.                                                                      |
 | Ridge 08         | ![image](Original/Ridge-08_large.png)      | ![image](Custom/Ridge-08_large.png)      | I'm assuming the bottom right corner light pixel is the light peeking over the top of the rock at the top of the shadow.   |
-|                  |                                            |                                          |                                                                                                                            |
+| Water 00         | ![image](Original/Water-00_large.png)      |                                          |                                                                                                                            |
+| Water 01         | ![image](Original/Water-01_large.png)      |                                          |                                                                                                                            |
+| Water 02         | ![image](Original/Water-02_large.png)      |                                          |                                                                                                                            |
+| Water 03         | ![image](Original/Water-03_large.png)      |                                          |                                                                                                                            |
+| Water 04         | ![image](Original/Water-04_large.png)      |                                          |                                                                                                                            |
+| Water 05         | ![image](Original/Water-05_large.png)      |                                          |                                                                                                                            |
+| Water 06         | ![image](Original/Water-06_large.png)      |                                          |                                                                                                                            |
 
 ## Constructed sprites
 
@@ -55,6 +61,21 @@
 - Checkerboards, checkerboards everywhere
 - Weird asymmertry everywhere
 - If an object doesn't fill in the entire space of the tile, the empty space is often the blank path without gravel colour
+- I think water tiles are actually only 4 tiles rather than the 7 pulled from the sprite sheet. I say this because 
+  - The local label(?) [.WaterTileFrames](https://github.com/pret/pokegold/blob/c133efea5f8438ea40be83dc3b2039494574c768/engine/tilesets/tileset_anims.asm#L405) points to a [4 frame png](https://github.com/pret/pokegold/blob/master/gfx/tilesets/water/water.png)
+  - Via [AnimateWaterPalette](https://github.com/pret/pokegold/blob/c133efea5f8438ea40be83dc3b2039494574c768/engine/tilesets/tileset_anims.asm#L649), water palette seems to [cycle 4 colours](https://github.com/pret/pokegold/blob/c133efea5f8438ea40be83dc3b2039494574c768/engine/tilesets/tileset_anims.asm#L672) - `none(?)`, `light`, `dark`, `light` . I assume this is what changes the shading of the light coloured pixels in the frames. As some of the water frames are the same, just lighter/darker depending where in the cycle they are. Then ultimately the blank and just blue frame is either the palette colours swapping in no or blue value for the pixels. I find it difficult to read Assembly, but it seems to be something like this. 
+  - An educated assumption might look like this:
+
+  | Frame | Visible in-game Tile                  | Palette cycle | Original animation frame index (0 - 4) | Original frame                                        |
+  | ----- | ------------------------------------- | ------------- | -------------------------------------- | ----------------------------------------------------- |
+  | 1     | ![image](Original/Water-00_large.png) | 0 (none)      | Unsure                                 | Unsure                                                |
+  | 2     | ![image](Original/Water-01_large.png) | 1 (light)     | Frame 3                                | ![image](Original/Raw-water/Water-frame-03_large.png) |
+  | 3     | ![image](Original/Water-02_large.png) | 1 (light)     | Frame 0                                | ![image](Original/Raw-water/Water-frame-00_large.png) |
+  | 4     | ![image](Original/Water-03_large.png) | 2 (dark)      | Frame 0                                | ![image](Original/Raw-water/Water-frame-00_large.png) |
+  | 5     | ![image](Original/Water-04_large.png) | 2 (dark)      | Frame 1                                | ![image](Original/Raw-water/Water-frame-01_large.png) |
+  | 6     | ![image](Original/Water-05_large.png) | 1 (light)     | Frame 1                                | ![image](Original/Raw-water/Water-frame-01_large.png) |
+  | 7     | ![image](Original/Water-06_large.png) | 1 (light)     | Frame 2                                | ![image](Original/Raw-water/Water-frame-02_large.png) |
+
 
 ## Wanted simple tiles
 - Path
