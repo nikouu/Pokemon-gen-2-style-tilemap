@@ -61,21 +61,28 @@
 - Checkerboards, checkerboards everywhere
 - Weird asymmertry everywhere
 - If an object doesn't fill in the entire space of the tile, the empty space is often the blank path without gravel colour
+
+### Water
 - I think water tiles are actually only 4 tiles rather than the 7 pulled from the sprite sheet. I say this because 
   - The local label(?) [.WaterTileFrames](https://github.com/pret/pokegold/blob/c133efea5f8438ea40be83dc3b2039494574c768/engine/tilesets/tileset_anims.asm#L405) points to a [4 frame png](https://github.com/pret/pokegold/blob/master/gfx/tilesets/water/water.png)
   - Via [AnimateWaterPalette](https://github.com/pret/pokegold/blob/c133efea5f8438ea40be83dc3b2039494574c768/engine/tilesets/tileset_anims.asm#L649), water palette seems to [cycle 4 colours](https://github.com/pret/pokegold/blob/c133efea5f8438ea40be83dc3b2039494574c768/engine/tilesets/tileset_anims.asm#L672) - `none(?)`, `light`, `dark`, `light` . I assume this is what changes the shading of the light coloured pixels in the frames. As some of the water frames are the same, just lighter/darker depending where in the cycle they are. Then ultimately the blank and just blue frame is either the palette colours swapping in no or blue value for the pixels. I find it difficult to read Assembly, but it seems to be something like this. 
   - An educated assumption might look like this:
 
-  | Frame | Visible in-game Tile                  | Palette cycle | Original animation frame index (0 - 4) | Original frame                                        |
-  | ----- | ------------------------------------- | ------------- | -------------------------------------- | ----------------------------------------------------- |
-  | 1     | ![image](Original/Water-00_large.png) | 0 (none)      | Unsure                                 | Unsure                                                |
-  | 2     | ![image](Original/Water-01_large.png) | 1 (light)     | Frame 3                                | ![image](Original/Raw-water/Water-frame-03_large.png) |
-  | 3     | ![image](Original/Water-02_large.png) | 1 (light)     | Frame 0                                | ![image](Original/Raw-water/Water-frame-00_large.png) |
-  | 4     | ![image](Original/Water-03_large.png) | 2 (dark)      | Frame 0                                | ![image](Original/Raw-water/Water-frame-00_large.png) |
-  | 5     | ![image](Original/Water-04_large.png) | 2 (dark)      | Frame 1                                | ![image](Original/Raw-water/Water-frame-01_large.png) |
-  | 6     | ![image](Original/Water-05_large.png) | 1 (light)     | Frame 1                                | ![image](Original/Raw-water/Water-frame-01_large.png) |
-  | 7     | ![image](Original/Water-06_large.png) | 1 (light)     | Frame 2                                | ![image](Original/Raw-water/Water-frame-02_large.png) |
+  | Frame | Visible in-game Tile                  | Palette cycle | Original animation frame index (0 - 4) | Original frame                                        | Approx number of frames visible |
+  | ----- | ------------------------------------- | ------------- | -------------------------------------- | ----------------------------------------------------- | ------------------------------- |
+  | 1     | ![image](Original/Water-00_large.png) | 0 (none)      | Frame 2                                | ![image](Original/Raw-water/Water-frame-02_large.png) | ~16                             |
+  | 2     | ![image](Original/Water-00_large.png) | 0 (none)      | Frame 3                                | ![image](Original/Raw-water/Water-frame-03_large.png) | ~4                              |
+  | 3     | ![image](Original/Water-01_large.png) | 1 (light)     | Frame 3                                | ![image](Original/Raw-water/Water-frame-03_large.png) | ~16                             |
+  | 4     | ![image](Original/Water-02_large.png) | 1 (light)     | Frame 0                                | ![image](Original/Raw-water/Water-frame-00_large.png) | ~4                              |
+  | 5     | ![image](Original/Water-03_large.png) | 2 (dark)      | Frame 0                                | ![image](Original/Raw-water/Water-frame-00_large.png) | ~16                             |
+  | 6     | ![image](Original/Water-04_large.png) | 2 (dark)      | Frame 1                                | ![image](Original/Raw-water/Water-frame-01_large.png) | ~4                              |
+  | 7     | ![image](Original/Water-05_large.png) | 1 (light)     | Frame 1                                | ![image](Original/Raw-water/Water-frame-01_large.png) | ~16                             |
+  | 8     | ![image](Original/Water-06_large.png) | 1 (light)     | Frame 2                                | ![image](Original/Raw-water/Water-frame-02_large.png) | ~4                              |
 
+    - **The above is a sketchy understanding at best**
+    - The tiles except the blank one add to 60 frames, or 1 second (GB/GBC runs at 60fps)
+    - Makes sense that the minimum length is 4 frames due to [this comment](https://github.com/pret/pokegold/blob/c133efea5f8438ea40be83dc3b2039494574c768/engine/tilesets/tileset_anims.asm#L384). Maybe 4 frames is a "tick" here.
+ - However, as neat as these are, I'll probably just be using the 7 frame water animation
 
 ## Wanted simple tiles
 - Path
