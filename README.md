@@ -93,7 +93,7 @@
  - However, as neat as these are, I'll probably just be using the 7 frame water animation
  - The water animation gif above might be a bit fast
  - [bgb notes](https://github.com/doeg/gb-skeleton/blob/master/docs/bgb.md) 
- 
+ - [More bgb notes](https://eldred.fr/gb-asm-tutorial/part1/tracing.html)
 
 ## Wanted simple tiles
 - Path
