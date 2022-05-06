@@ -14,41 +14,64 @@
 
 ## Tiles
 
-| Tile type         | Original                                     | Custom                                   | Notes                                                                                                                      |
-| ----------------- | -------------------------------------------- | ---------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| Path              | ![image](Original/Path_large.png)            | ![image](Custom/Path_large.png)          | Hard to make distinct when using the same colours.                                                                         |
-| Path with gravel  | ![image](Original/Path-Gravel_large.png)     | ![image](Custom/Path-Gravel_large.png)   | Just some dots.                                                                                                            |
-| Grass - flat      | ![image](Original/Grass-flat_large.png)      | ![image](Custom/Grass-flat_large.png)    | Basically a whole bunch of checkerboarding with some bits cut out.                                                         |
-| Tree - short 00   | ![image](Original/Tree-short-00_large.png)   | ![image](Custom/Tree-short-00_large.png) | Background is just the grass texture. Followed the same shading style.  Ended up looking more bulbus at the top.           |
-| Tree - short 01   | ![image](Original/Tree-short-01_large.png)   | ![image](Custom/Tree-short-01_large.png) | Background is just the grass texture. Followed the same shading style. Ended up looking more bulbus at the top.            |
-| Tree - short 02   | ![image](Original/Tree-short-02_large.png)   | ![image](Custom/Tree-short-02_large.png) | Little shadow takes most of the space around the trunk. Ended up not using the same spiky tree look for the lower branches |
-| Tree - short 03   | ![image](Original/Tree-short-03_large.png)   | ![image](Custom/Tree-short-03_large.png) | Little shadow takes most of the space around the trunk. Ended up not using the same spiky tree look for the lower branches |
-| Tree - tall 00    | ![image](Original/Tree-tall-00_large.png)    | ![image](Custom/Tree-tall-00_large.png)  | I think this also uses the normal grass background as a base                                                               |
-| Tree - tall 01    | ![image](Original/Tree-tall-01_large.png)    | ![image](Custom/Tree-tall-01_large.png)  | I think this also uses the normal grass background as a base                                                               |
-| Sign - metal 00   | ![image](Original/Sign-metal-00_large.png)   | ![image](Custom/Sign-metal-00_large.png) | A taller sign.                                                                                                             |
-| Sign - metal 01   | ![image](Original/Sign-metal-01_large.png)   | ![image](Custom/Sign-metal-01_large.png) | A taller sign.                                                                                                             |
-| Sign - metal 02   | ![image](Original/Sign-metal-02_large.png)   | ![image](Custom/Sign-metal-02_large.png) | A taller sign.                                                                                                             |
-| Sign - metal 03   | ![image](Original/Sign-metal-03_large.png)   | ![image](Custom/Sign-metal-03_large.png) | A taller sign.                                                                                                             |
-| Ridge 00          | ![image](Original/Ridge-00_large.png)        | ![image](Custom/Ridge-00_large.png)      | Checkerboard design behind.                                                                                                |
-| Ridge 01          | ![image](Original/Ridge-01_large.png)        | ![image](Custom/Ridge-01_large.png)      | Just lots of light shading on the top.                                                                                     |
-| Ridge 02          | ![image](Original/Ridge-02_large.png)        | ![image](Custom/Ridge-02_large.png)      | Checkerboard design behind.                                                                                                |
-| Ridge 03          | ![image](Original/Ridge-03_large.png)        | ![image](Custom/Ridge-03_large.png)      | This one looks like a dog's breakfast without the context of other tiles.                                                  |
-| Ridge 04          | ![image](Original/Ridge-04_large.png)        | ![image](Custom/Ridge-04_large.png)      | Surprisingly, this took a little bit of time to look okay and not overdone.                                                |
-| Ridge 05          | ![image](Original/Ridge-05_large.png)        | ![image](Custom/Ridge-05_large.png)      | Initially looks less defined, but together with other tiles it looks fine.                                                 |
-| Ridge 06          | ![image](Original/Ridge-06_large.png)        | ![image](Custom/Ridge-06_large.png)      | Used a basic circle design. Might be worth looking into exaggerating the curve.                                            |
-| Ridge 07          | ![image](Original/Ridge-07_large.png)        | ![image](Custom/Ridge-07_large.png)      | First run of this design looked like Hank Hill's ass.                                                                      |
-| Ridge 08          | ![image](Original/Ridge-08_large.png)        | ![image](Custom/Ridge-08_large.png)      | I'm assuming the bottom right corner light pixel is the light peeking over the top of the rock at the top of the shadow.   |
-| Water 00          | ![image](Original/Water-00_large.png)        |                                          |                                                                                                                            |
-| Water 01          | ![image](Original/Water-01_large.png)        |                                          |                                                                                                                            |
-| Water 02          | ![image](Original/Water-02_large.png)        |                                          |                                                                                                                            |
-| Water 03          | ![image](Original/Water-03_large.png)        |                                          |                                                                                                                            |
-| Water 04          | ![image](Original/Water-04_large.png)        |                                          |                                                                                                                            |
-| Water 05          | ![image](Original/Water-05_large.png)        |                                          |                                                                                                                            |
-| Water 06          | ![image](Original/Water-06_large.png)        |                                          |                                                                                                                            |
-| Grass - rustle 00 | ![image](Original/Grass-rustle-00_large.png) |                                          |                                                                                                                            |
-| Grass - rustle 01 | ![image](Original/Grass-rustle-01_large.png) |                                          |                                                                                                                            |
-| Flower - Johto 00 | ![image](Original/Flower-johto-00_large.png)                                             |                                          |                                                                                                                            |
-| Flower - Johto 01 | ![image](Original/Flower-johto-01_large.png)                                             |                                          |                                                                                                                            |
+| Tile type                 | Original                                           | Custom                                   | Notes                                                                                                                      |
+| ------------------------- | -------------------------------------------------- | ---------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| Path                      | ![image](Original/Path_large.png)                  | ![image](Custom/Path_large.png)          | Hard to make distinct when using the same colours.                                                                         |
+| Path with gravel          | ![image](Original/Path-Gravel_large.png)           | ![image](Custom/Path-Gravel_large.png)   | Just some dots.                                                                                                            |
+| Grass - flat              | ![image](Original/Grass-flat_large.png)            | ![image](Custom/Grass-flat_large.png)    | Basically a whole bunch of checkerboarding with some bits cut out.                                                         |
+| Grass - tall              | ![image](Original/Grass-tall_large.png)            |                                          |                                                                                                                            |
+| Tree - short 00           | ![image](Original/Tree-short-00_large.png)         | ![image](Custom/Tree-short-00_large.png) | Background is just the grass texture. Followed the same shading style.  Ended up looking more bulbus at the top.           |
+| Tree - short 01           | ![image](Original/Tree-short-01_large.png)         | ![image](Custom/Tree-short-01_large.png) | Background is just the grass texture. Followed the same shading style. Ended up looking more bulbus at the top.            |
+| Tree - short 02           | ![image](Original/Tree-short-02_large.png)         | ![image](Custom/Tree-short-02_large.png) | Little shadow takes most of the space around the trunk. Ended up not using the same spiky tree look for the lower branches |
+| Tree - short 03           | ![image](Original/Tree-short-03_large.png)         | ![image](Custom/Tree-short-03_large.png) | Little shadow takes most of the space around the trunk. Ended up not using the same spiky tree look for the lower branches |
+| Tree - tall 00            | ![image](Original/Tree-tall-00_large.png)          | ![image](Custom/Tree-tall-00_large.png)  | I think this also uses the normal grass background as a base                                                               |
+| Tree - tall 01            | ![image](Original/Tree-tall-01_large.png)          | ![image](Custom/Tree-tall-01_large.png)  | I think this also uses the normal grass background as a base                                                               |
+| Sign - metal 00           | ![image](Original/Sign-metal-00_large.png)         | ![image](Custom/Sign-metal-00_large.png) | A taller sign.                                                                                                             |
+| Sign - metal 01           | ![image](Original/Sign-metal-01_large.png)         | ![image](Custom/Sign-metal-01_large.png) | A taller sign.                                                                                                             |
+| Sign - metal 02           | ![image](Original/Sign-metal-02_large.png)         | ![image](Custom/Sign-metal-02_large.png) | A taller sign.                                                                                                             |
+| Sign - metal 03           | ![image](Original/Sign-metal-03_large.png)         | ![image](Custom/Sign-metal-03_large.png) | A taller sign.                                                                                                             |
+| Ridge 00                  | ![image](Original/Ridge-00_large.png)              | ![image](Custom/Ridge-00_large.png)      | Checkerboard design behind.                                                                                                |
+| Ridge 01                  | ![image](Original/Ridge-01_large.png)              | ![image](Custom/Ridge-01_large.png)      | Just lots of light shading on the top.                                                                                     |
+| Ridge 02                  | ![image](Original/Ridge-02_large.png)              | ![image](Custom/Ridge-02_large.png)      | Checkerboard design behind.                                                                                                |
+| Ridge 03                  | ![image](Original/Ridge-03_large.png)              | ![image](Custom/Ridge-03_large.png)      | This one looks like a dog's breakfast without the context of other tiles.                                                  |
+| Ridge 04                  | ![image](Original/Ridge-04_large.png)              | ![image](Custom/Ridge-04_large.png)      | Surprisingly, this took a little bit of time to look okay and not overdone.                                                |
+| Ridge 05                  | ![image](Original/Ridge-05_large.png)              | ![image](Custom/Ridge-05_large.png)      | Initially looks less defined, but together with other tiles it looks fine.                                                 |
+| Ridge 06                  | ![image](Original/Ridge-06_large.png)              | ![image](Custom/Ridge-06_large.png)      | Used a basic circle design. Might be worth looking into exaggerating the curve.                                            |
+| Ridge 07                  | ![image](Original/Ridge-07_large.png)              | ![image](Custom/Ridge-07_large.png)      | First run of this design looked like Hank Hill's ass.                                                                      |
+| Ridge 08                  | ![image](Original/Ridge-08_large.png)              | ![image](Custom/Ridge-08_large.png)      | I'm assuming the bottom right corner light pixel is the light peeking over the top of the rock at the top of the shadow.   |
+| Water 00                  | ![image](Original/Water-00_large.png)              |                                          |                                                                                                                            |
+| Water 01                  | ![image](Original/Water-01_large.png)              |                                          |                                                                                                                            |
+| Water 02                  | ![image](Original/Water-02_large.png)              |                                          |                                                                                                                            |
+| Water 03                  | ![image](Original/Water-03_large.png)              |                                          |                                                                                                                            |
+| Water 04                  | ![image](Original/Water-04_large.png)              |                                          |                                                                                                                            |
+| Water 05                  | ![image](Original/Water-05_large.png)              |                                          |                                                                                                                            |
+| Water 06                  | ![image](Original/Water-06_large.png)              |                                          |                                                                                                                            |
+| Grass - rustle 00         | ![image](Original/Grass-rustle-00_large.png)       |                                          |                                                                                                                            |
+| Grass - rustle 01         | ![image](Original/Grass-rustle-01_large.png)       |                                          |                                                                                                                            |
+| Flower - Johto 00         | ![image](Original/Flower-johto-00_large.png)       |                                          |                                                                                                                            |
+| Flower - Johto 01         | ![image](Original/Flower-johto-01_large.png)       |                                          |                                                                                                                            |
+| Building - Roof - flat 00 | ![image](Original/Building-roof-flat-00_large.png) |                                          | Top left corner. Though there are many roof colours in game.                                                               |
+| Building - Roof - flat 01 | ![image](Original/Building-roof-flat-01_large.png) |                                          | Top middle                                                                                                                 |
+| Building - Roof - flat 02 | ![image](Original/Building-roof-flat-02_large.png) |                                          | Top right corner                                                                                                           |
+| Building - Roof - flat 03 | ![image](Original/Building-roof-flat-03_large.png) |                                          | Left middle                                                                                                                |
+| Building - Roof - flat 04 | ![image](Original/Building-roof-flat-04_large.png) |                                          | Centre fill                                                                                                                |
+| Building - Roof - flat 05 | ![image](Original/Building-roof-flat-05_large.png) |                                          | Right middle                                                                                                               |
+| Building - Roof - flat 06 | ![image](Original/Building-roof-flat-06_large.png) |                                          | Bottom left corner                                                                                                         |
+| Building - Roof - flat 07 | ![image](Original/Building-roof-flat-07_large.png) |                                          | Bottom middle                                                                                                              |
+| Building - Roof - flat 08 | ![image](Original/Building-roof-flat-08_large.png) |                                          | Bottom right corner                                                                                                        |
+| Building - Wall 00        | ![image](Original/Building-wall-00_large.png)      |                                          | Left building wall                                                                                                         |
+| Building - Wall 01        | ![image](Original/Building-wall-01_large.png)      |                                          | Right building wall                                                                                                        |
+| Building - Wall 02        | ![image](Original/Building-wall-02_large.png)      |                                          | Bottom left building corner                                                                                                |
+| Building - Wall 03        | ![image](Original/Building-wall-03_large.png)      |                                          | Bottom middle building floor. I never realised this had the three dots, even when a brick cladding is used                 |
+| Building - Wall 04        | ![image](Original/Building-wall-04_large.png)      |                                          | Bottom right building corner                                                                                               |
+| Building - Cladding 00    |  ![image](Original/Building-cladding-00_large.png)                                                  |                                          | Hatched design                                                                                                             |
+| Building - Cladding 01    |  ![image](Original/Building-cladding-01_large.png)                                                  |                                          | Brick. The pink building bricks were also used as the paths in Goldenrod                                                                                                                      |
+| Building - Window         |  ![image](Original/Building-window_large.png)                                                  |                                          | Window                                                                                                                     |
+| Building - Door 00        |  ![image](Original/Building-door-00_large.png)                                                  |                                          | Top left door                                                                                                              |
+| Building - Door 01        |  ![image](Original/Building-door-01_large.png)                                                 |                                          | Top right door                                                                                                             |
+| Building - Door 02        |  ![image](Original/Building-door-02_large.png)                                                  |                                          | Bottom left door                                                                                                           |
+| Building - Door 03        |  ![image](Original/Building-door-03_large.png)                                                  |                                          | Bottom right door                                                                                                          |
+|                           |                                                    |                                          |                                                                                                                            |
 
 ## Constructed sprites
 
@@ -58,9 +81,10 @@
 | Tree - tall    | ![image](Original/Constructed/Tree-tall_large.png)    | ![image](Custom/Constructed/Tree-tall_large.png)  |
 | Sign           | ![image](Original/Constructed/Sign_large.png)         | ![image](Custom/Constructed/Sign_large.png)       |
 | Ridge          | ![image](Original/Constructed/Ridge_large.png)        | ![image](Custom/Constructed/Ridge_large.png)      |
-| Water          | ![image](Original/Constructed/Water_large.gif)                                                      |                                                   |
-| Grass          |                                                       |                                                   |
+| Water          | ![image](Original/Constructed/Water_large.gif)        |                                                   |
+| Grass - rustle | ![image](Original/Constructed/Grass-rustle_large.png) |                                                   |
 | Flower - Johto | ![image](Original/Constructed/Flower-johto_large.gif) |                                                   |
+| Building       | ![image](Original/Constructed/Building_large.png)     |                                                   |
 
 ## Observations
 - Due to the GBC limitation, only 4 colours per sprite. Often this is a "black", "white", main colour light, and main colour dark.
@@ -95,7 +119,10 @@
  - [bgb notes](https://github.com/doeg/gb-skeleton/blob/master/docs/bgb.md) 
  - [More bgb notes](https://eldred.fr/gb-asm-tutorial/part1/tracing.html)
 
-## Wanted simple tiles
+## Wanted tiles
+A list of types of tiles I'd like to have. 
+
+### Simple tiles
 - Path
   - A completely blank tile. Usually intersperced with the path with  
 - Path with gravel 
@@ -113,7 +140,7 @@ gravel.
   - The ledges the player can jump off
   - The tiles that create rocky hills and mountains
 
-## Wanted animated tiles
+### Animated tiles
 - Water
 - Tall grass
 - Flowers 
@@ -121,7 +148,7 @@ gravel.
   - I think Johto flowers run at 24 frames per animation frame. Assembly [here](https://github.com/pret/pokegold/blob/c133efea5f8438ea40be83dc3b2039494574c768/engine/tilesets/tileset_anims.asm#L408).
   - Also both seem to [run at different speeds](https://twitter.com/crystal_rby/status/1163503969429336066).
 
-## Wanted building tiles 
+### building tiles 
 - Door
 - Window
 - Flat roof style
