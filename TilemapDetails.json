@@ -1,0 +1,227 @@
+{
+	"TilemapWidth": 10,
+	"TileWidth": 8,
+	"TileHeight": 8,
+	"Tiles": [
+		{
+			"Name": "Path",
+			"Filename": "Path.png"
+		},
+		{
+			"Name": "Path with gravel",
+			"Filename": "Path-Gravel.png"
+		},
+		{
+			"Name": "Grass - flat",
+			"Filename": "Grass-flat.png"
+		},
+		{
+			"Name": "Grass - tall",
+			"Filename": "Grass-tall.png"
+		},
+		{
+			"Name": "Tree - short 00",
+			"Filename": "Tree-short-00.png"
+		},
+		{
+			"Name": "Tree - short 01",
+			"Filename": "Tree-short-01.png"
+		},
+		{
+			"Name": "Tree - short 02",
+			"Filename": "Tree-short-02.png"
+		},
+		{
+			"Name": "Tree - short 03",
+			"Filename": "Tree-short-03.png"
+		},
+		{
+			"Name": "Tree - tall 00",
+			"Filename": "Tree-tall-00.png"
+		},
+		{
+			"Name": "Tree - tall 01",
+			"Filename": "Tree-tall-01.png"
+		},
+		{
+			"Name": "Sign - metal 00",
+			"Filename": "Sign-metal-00.png"
+		},
+		{
+			"Name": "Sign - metal 01",
+			"Filename": "Sign-metal-01.png"
+		},
+		{
+			"Name": "Sign - metal 02",
+			"Filename": "Sign-metal-02.png"
+		},
+		{
+			"Name": "Sign - metal 03",
+			"Filename": "Sign-metal-03.png"
+		},
+		{
+			"Name": "Ridge 00",
+			"Filename": "Ridge-00.png"
+		},
+		{
+			"Name": "Ridge 01",
+			"Filename": "Ridge-01.png"
+		},
+		{
+			"Name": "Ridge 02",
+			"Filename": "Ridge-02.png"
+		},
+		{
+			"Name": "Ridge 03",
+			"Filename": "Ridge-03.png"
+		},
+		{
+			"Name": "Ridge 04",
+			"Filename": "Ridge-04.png"
+		},
+		{
+			"Name": "Ridge 05",
+			"Filename": "Ridge-05.png"
+		},
+		{
+			"Name": "Ridge 06",
+			"Filename": "Ridge-06.png"
+		},
+		{
+			"Name": "Ridge 07",
+			"Filename": "Ridge-07.png"
+		},
+		{
+			"Name": "Ridge 08",
+			"Filename": "Ridge-08.png"
+		},
+		{
+			"Name": "Water 00",
+			"Filename": "Water-00.png"
+		},
+		{
+			"Name": "Water 01",
+			"Filename": "Water-01.png"
+		},
+		{
+			"Name": "Water 02",
+			"Filename": "Water-02.png"
+		},
+		{
+			"Name": "Water 03",
+			"Filename": "Water-03.png"
+		},
+		{
+			"Name": "Water 04",
+			"Filename": "Water-04.png"
+		},
+		{
+			"Name": "Water 05",
+			"Filename": "Water-05.png"
+		},
+		{
+			"Name": "Water 06",
+			"Filename": "Water-06.png"
+		},
+		{
+			"Name": "Grass - rustle 00",
+			"Filename": "Grass-rustle-00.png"
+		},
+		{
+			"Name": "Grass - rustle 01",
+			"Filename": "Grass-rustle-01.png"
+		},
+		{
+			"Name": "Flower - Johto 00",
+			"Filename": "Flower-johto-00.png"
+		},
+		{
+			"Name": "Flower - Johto 01",
+			"Filename": "Flower-johto-01.png"
+		},
+		{
+			"Name": "Building - Roof - flat 00",
+			"Filename": "Building-roof-flat-00.png"
+		},
+		{
+			"Name": "Building - Roof - flat 01",
+			"Filename": "Building-roof-flat-01.png"
+		},
+		{
+			"Name": "Building - Roof - flat 02",
+			"Filename": "Building-roof-flat-02.png"
+		},
+		{
+			"Name": "Building - Roof - flat 03",
+			"Filename": "Building-roof-flat-03.png"
+		},
+		{
+			"Name": "Building - Roof - flat 04",
+			"Filename": "Building-roof-flat-04.png"
+		},
+		{
+			"Name": "Building - Roof - flat 05",
+			"Filename": "Building-roof-flat-05.png"
+		},
+		{
+			"Name": "Building - Roof - flat 06",
+			"Filename": "Building-roof-flat-06.png"
+		},
+		{
+			"Name": "Building - Roof - flat 07",
+			"Filename": "Building-roof-flat-07.png"
+		},
+		{
+			"Name": "Building - Roof - flat 08",
+			"Filename": "Building-roof-flat-08.png"
+		},
+		{
+			"Name": "Building - Wall 00",
+			"Filename": "Building-wall-00.png"
+		},
+		{
+			"Name": "Building - Wall 01",
+			"Filename": "Building-wall-01.png"
+		},
+		{
+			"Name": "Building - Wall 02",
+			"Filename": "Building-wall-02.png"
+		},
+		{
+			"Name": "Building - Wall 03",
+			"Filename": "Building-wall-03.png"
+		},
+		{
+			"Name": "Building - Wall 04",
+			"Filename": "Building-wall-04.png"
+		},
+		{
+			"Name": "Building - Cladding 00",
+			"Filename": "Building-cladding-00.png"
+		},
+		{
+			"Name": "Building - Cladding 01",
+			"Filename": "Building-cladding-01.png"
+		},
+		{
+			"Name": "Building - Window",
+			"Filename": "Building-window.png"
+		},
+		{
+			"Name": "Building - Door 00",
+			"Filename": "Building-door-00.png"
+		},
+		{
+			"Name": "Building - Door 01",
+			"Filename": "Building-door-01.png"
+		},
+		{
+			"Name": "Building - Door 02",
+			"Filename": "Building-door-02.png"
+		},
+		{
+			"Name": "Building - Door 03",
+			"Filename": "Building-door-03.png"
+		}
+	]
+}
