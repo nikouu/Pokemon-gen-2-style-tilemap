@@ -159,3 +159,28 @@ gravel.
 - Fill in for building (brick)
 
 ## Indoor
+
+### Tiles
+
+### Constructed Tiles
+
+### Wanted tiles
+- Back wall
+- Window
+- Art/poster
+- Flooring
+- Table
+- Short plant
+- Tall plant
+- Computer
+- TV
+- Bookshelf
+- Bed
+- Fridge
+- Sink
+- Stovetop
+- Cupboard/cabinet
+- Stool
+- Radio
+- Bin
+- Drawers 
