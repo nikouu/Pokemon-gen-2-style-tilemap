@@ -21,7 +21,7 @@
 | Path                      | ![image](Original/Path_large.png)                  | ![image](Custom/Path_large.png)                  | Hard to make distinct when using the same colours.                                                                                                                                                                                                                     |
 | Path with gravel          | ![image](Original/Path-Gravel_large.png)           | ![image](Custom/Path-Gravel_large.png)           | Just some dots.                                                                                                                                                                                                                                                        |
 | Grass - flat              | ![image](Original/Grass-flat_large.png)            | ![image](Custom/Grass-flat_large.png)            | Basically a whole bunch of checkerboarding with some bits cut out.                                                                                                                                                                                                     |
-| Grass - tall              | ![image](Original/Grass-tall_large.png)            | ![image](Custom/Grass-tall_large.png)            | Couldn't make nice looking grass on my own. Might have to revisit. Maybe get inspiration fron gen 1 or 3?                                                                                                                                                                                                    |
+| Grass - tall              | ![image](Original/Grass-tall_large.png)            | ![image](Custom/Grass-tall_large.png)            | Couldn't make nice looking grass on my own. Might have to revisit. Maybe get inspiration fron gen 1 or 3?                                                                                                                                                              |
 | Tree - short 00           | ![image](Original/Tree-short-00_large.png)         | ![image](Custom/Tree-short-00_large.png)         | Background is just the grass texture. Followed the same shading style.  Ended up looking more bulbus at the top.                                                                                                                                                       |
 | Tree - short 01           | ![image](Original/Tree-short-01_large.png)         | ![image](Custom/Tree-short-01_large.png)         | Background is just the grass texture. Followed the same shading style. Ended up looking more bulbus at the top.                                                                                                                                                        |
 | Tree - short 02           | ![image](Original/Tree-short-02_large.png)         | ![image](Custom/Tree-short-02_large.png)         | Little shadow takes most of the space around the trunk. Ended up not using the same spiky tree look for the lower branches                                                                                                                                             |
@@ -51,7 +51,7 @@
 | Grass - rustle 00         | ![image](Original/Grass-rustle-00_large.png)       |                                                  |                                                                                                                                                                                                                                                                        |
 | Grass - rustle 01         | ![image](Original/Grass-rustle-01_large.png)       |                                                  |                                                                                                                                                                                                                                                                        |
 | Flower - Johto 00         | ![image](Original/Flower-johto-00_large.png)       | ![image](Custom/Flower-johto-00_large.png)       | Flipped the background pixels. The original did a great job with the space it had.                                                                                                                                                                                     |
-| Flower - Johto 01         | ![image](Original/Flower-johto-01_large.png)       | ![image](Custom/Flower-johto-01_large.png)       | Maybe move the flower the other way? Maybe do a V shaped flower like a tulip?                                                                                                                                                                                                                                                                        |
+| Flower - Johto 01         | ![image](Original/Flower-johto-01_large.png)       | ![image](Custom/Flower-johto-01_large.png)       | Maybe move the flower the other way? Maybe do a V shaped flower like a tulip?                                                                                                                                                                                          |
 | Building - Roof - flat 00 | ![image](Original/Building-roof-flat-00_large.png) | ![image](Custom/Building-roof-flat-00_large.png) | Top left corner. Though there are many roof colours in game and a couple of roof designs too. I took inspriation from my [first building](https://github.com/nikouu/Pixelart-Practice/blob/main/first%20building.aseprite).                                            |
 | Building - Roof - flat 01 | ![image](Original/Building-roof-flat-01_large.png) | ![image](Custom/Building-roof-flat-01_large.png) | Top middle. Hard to be different here too I think when explicitly making a flat roof                                                                                                                                                                                   |
 | Building - Roof - flat 02 | ![image](Original/Building-roof-flat-02_large.png) | ![image](Custom/Building-roof-flat-02_large.png) | Top right corner                                                                                                                                                                                                                                                       |
@@ -161,6 +161,29 @@ gravel.
 ## Indoor
 
 ### Tiles
+| Tile type             | Original                                         | Custom | Notes |
+| --------------------- | ------------------------------------------------ | ------ | ----- |
+| Void                  | ![image](Original/Void_large.png)                |        |       |
+| Back wall - wood      | ![image](Original/Back-wall-wood_large.png)      |        |       |
+| Back wall - painted   | ![image](Original/Back-wall-painted_large.png)   |        |       |
+| Back wall - window 00 | ![image](Original/Back-wall-window-00_large.png) |        |       |
+| Back wall - window 01 | ![image](Original/Back-wall-window-01_large.png) |        |       |
+| Back wall - window 02 | ![image](Original/Back-wall-window-02_large.png) |        |       |
+| Back wall - window 03 | ![image](Original/Back-wall-window-03_large.png) |        |       |
+| Back wall - art 00    | ![image](Original/Back-wall-art-00_large.png)    |        |       |
+| Back wall - art 01    | ![image](Original/Back-wall-art-01_large.png)    |        |       |
+| Back wall - art 02    | ![image](Original/Back-wall-art-02_large.png)    |        |       |
+| Back wall - art 03    | ![image](Original/Back-wall-art-03_large.png)    |        |       |
+| Flooring - basic      | ![image](Original/Flooring-basic_large.png)      |        |       |
+| Table - type 1 - 00   | ![image](Original/Table-type-1-00_large.png)     |        |       |
+| Table - type 1 - 01   | ![image](Original/Table-type-1-01_large.png)     |        |       |
+| Table - type 1 - 02   | ![image](Original/Table-type-1-02_large.png)     |        |       |
+| Table - type 1 - 03   | ![image](Original/Table-type-1-03_large.png)     |        |       |
+| Table - type 1 - 04   | ![image](Original/Table-type-1-04_large.png)     |        |       |
+| Table - type 1 - 05   | ![image](Original/Table-type-1-05_large.png)     |        |       |
+| Table - type 1 - 06   | ![image](Original/Table-type-1-06_large.png)     |        |       |
+| Table - type 1 - 07   | ![image](Original/Table-type-1-07_large.png)     |        |       |
+| Table - type 1 - 08   | ![image](Original/Table-type-1-08_large.png)     |        |       |
 
 ### Constructed Tiles
 
@@ -170,7 +193,6 @@ gravel.
 - Art/poster
 - Flooring
 - Table
-- Short plant
 - Tall plant
 - Computer
 - TV
