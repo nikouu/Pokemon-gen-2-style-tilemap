@@ -10,6 +10,11 @@
 - Inspiration from [Pokemon Gold/Silver](https://www.spriters-resource.com/game_boy_gbc/pokemongoldsilver/sheet/60234/). This is also the spritesheet the originals come from.
 - Slight inspiration from [The Legend of Zelda: Oracle of Ages](https://www.spriters-resource.com/game_boy_gbc/thelegendofzeldaoracleofages/) and [The Legend of Zelda: Oracle of Seasons](https://www.spriters-resource.com/game_boy_gbc/thelegendofzeldaoracleofseasons/)
 - [Full map of Gen 2 Johto and Kanto](https://www.reddit.com/r/pokemon/comments/ez1v43/gen_ii_map_of_overworld_and_dungeons_as_they/). Copying this into Aseprite, setup the grid as `{X: 1, Y: 6, Width: 8, Height: 8}` to align the main map to the grid. Grid toggle is `ctrl + '`
+- Tile naming convention: <Object> - <type> - <index>
+    - Object: The thing the tile represents.
+    - Type: The type/subclass/description of the Object
+    - Index: If it is a multi-tile Object, the index of the tile. From left to right, top to bottom.
+- Each tile has a large version. Exported from Aseprite at 800% size with `_large` in the filename.
 
 
 ## Outdoor
@@ -161,29 +166,31 @@ gravel.
 ## Indoor
 
 ### Tiles
-| Tile type             | Original                                         | Custom | Notes |
-| --------------------- | ------------------------------------------------ | ------ | ----- |
-| Void                  | ![image](Original/Void_large.png)                |        |       |
-| Back wall - wood      | ![image](Original/Back-wall-wood_large.png)      |        |       |
-| Back wall - painted   | ![image](Original/Back-wall-painted_large.png)   |        |       |
-| Back wall - window 00 | ![image](Original/Back-wall-window-00_large.png) |        |       |
-| Back wall - window 01 | ![image](Original/Back-wall-window-01_large.png) |        |       |
-| Back wall - window 02 | ![image](Original/Back-wall-window-02_large.png) |        |       |
-| Back wall - window 03 | ![image](Original/Back-wall-window-03_large.png) |        |       |
-| Back wall - art 00    | ![image](Original/Back-wall-art-00_large.png)    |        |       |
-| Back wall - art 01    | ![image](Original/Back-wall-art-01_large.png)    |        |       |
-| Back wall - art 02    | ![image](Original/Back-wall-art-02_large.png)    |        |       |
-| Back wall - art 03    | ![image](Original/Back-wall-art-03_large.png)    |        |       |
-| Flooring - basic      | ![image](Original/Flooring-basic_large.png)      |        |       |
-| Table - type 1 - 00   | ![image](Original/Table-type-1-00_large.png)     |        |       |
-| Table - type 1 - 01   | ![image](Original/Table-type-1-01_large.png)     |        |       |
-| Table - type 1 - 02   | ![image](Original/Table-type-1-02_large.png)     |        |       |
-| Table - type 1 - 03   | ![image](Original/Table-type-1-03_large.png)     |        |       |
-| Table - type 1 - 04   | ![image](Original/Table-type-1-04_large.png)     |        |       |
-| Table - type 1 - 05   | ![image](Original/Table-type-1-05_large.png)     |        |       |
-| Table - type 1 - 06   | ![image](Original/Table-type-1-06_large.png)     |        |       |
-| Table - type 1 - 07   | ![image](Original/Table-type-1-07_large.png)     |        |       |
-| Table - type 1 - 08   | ![image](Original/Table-type-1-08_large.png)     |        |       |
+| Tile type                   | Original                                         | Custom | Notes |
+| --------------------------- | ------------------------------------------------ | ------ | ----- |
+| Void                        | ![image](Original/Void_large.png)                |        |       |
+| Back wall - wood            | ![image](Original/Back-wall-wood_large.png)      |        |       |
+| Back wall - painted         | ![image](Original/Back-wall-painted_large.png)   |        |       |
+| Back wall - window 00       | ![image](Original/Back-wall-window-00_large.png) |        |       |
+| Back wall - window 01       | ![image](Original/Back-wall-window-01_large.png) |        |       |
+| Back wall - window 02       | ![image](Original/Back-wall-window-02_large.png) |        |       |
+| Back wall - window 03       | ![image](Original/Back-wall-window-03_large.png) |        |       |
+| Back wall - art 00          | ![image](Original/Back-wall-art-00_large.png)    |        |       |
+| Back wall - art 01          | ![image](Original/Back-wall-art-01_large.png)    |        |       |
+| Back wall - art 02          | ![image](Original/Back-wall-art-02_large.png)    |        |       |
+| Back wall - art 03          | ![image](Original/Back-wall-art-03_large.png)    |        |       |
+| Flooring - basic            | ![image](Original/Flooring-basic_large.png)      |        |       |
+| Table - type 1 - 00         | ![image](Original/Table-type-1-00_large.png)     |        |       |
+| Table - type 1 - 01         | ![image](Original/Table-type-1-01_large.png)     |        |       |
+| Table - type 1 - 02         | ![image](Original/Table-type-1-02_large.png)     |        |       |
+| Table - type 1 - 03         | ![image](Original/Table-type-1-03_large.png)     |        |       |
+| Table - type 1 - 04         | ![image](Original/Table-type-1-04_large.png)     |        |       |
+| Table - type 1 - 05         | ![image](Original/Table-type-1-05_large.png)     |        |       |
+| Table - type 1 - 06         | ![image](Original/Table-type-1-06_large.png)     |        |       |
+| Table - type 1 - 07         | ![image](Original/Table-type-1-07_large.png)     |        |       |
+| Table - type 1 - 08         | ![image](Original/Table-type-1-08_large.png)     |        |       |
+| Indoor plant - type 01 - 00 |                                                  |        |       |
+| Indoor plant - type 01 - 01 |                                                  |        |       |
 
 ### Constructed Tiles
 
