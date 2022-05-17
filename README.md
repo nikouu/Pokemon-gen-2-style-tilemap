@@ -77,22 +77,20 @@
 | Building - Door 00        | ![image](Original/Building-door-00_large.png)      | ![image](Custom/Building-door-00_large.png)      | Top left door. Never realised the door was so highlighted in the top half. I'm assuming this is to show the light coming out of the window. And perhaps this is the same door used in the night scenes, so it would look nicelyl it without having toc hange the tile. |
 | Building - Door 01        | ![image](Original/Building-door-01_large.png)      | ![image](Custom/Building-door-01_large.png)      | Top right door                                                                                                                                                                                                                                                         |
 | Building - Door 02        | ![image](Original/Building-door-02_large.png)      | ![image](Custom/Building-door-02_large.png)      | Bottom left door                                                                                                                                                                                                                                                       |
-| Building - Door 03        | ![image](Original/Building-door-03_large.png)      | ![image](Custom/Building-door-03_large.png)      | Bottom right door                                                                                                                                                                                                                                                      |
-|                           |                                                    |                                                  |                                                                                                                                                                                                                                                                        |
+| Building - Door 03        | ![image](Original/Building-door-03_large.png)      | ![image](Custom/Building-door-03_large.png)      | Bottom right door                                                                                                                                                                                                                                                      |                                                                                                                                                                                                                                                                  |
 
 ### Constructed tiles
 
-| Sprite         | Original                                              | Custom                                              |
-| -------------- | ----------------------------------------------------- | --------------------------------------------------- |
-| Tree - short   | ![image](Original/Constructed/Tree-short_large.png)   | ![image](Custom/Constructed/Tree-short_large.png)   |
-| Tree - tall    | ![image](Original/Constructed/Tree-tall_large.png)    | ![image](Custom/Constructed/Tree-tall_large.png)    |
-| Sign           | ![image](Original/Constructed/Sign_large.png)         | ![image](Custom/Constructed/Sign_large.png)         |
-| Ridge          | ![image](Original/Constructed/Ridge_large.png)        | ![image](Custom/Constructed/Ridge_large.png)        |
-| Water          | ![image](Original/Constructed/Water_large.gif)        |                                                     |
-| Grass - rustle | ![image](Original/Constructed/Grass-rustle_large.png) |                                                     |
-| Flower - Johto | ![image](Original/Constructed/Flower-johto_large.gif) | ![image](Custom/Constructed/Flower-johto_large.gif) |
-| Building       | ![image](Original/Constructed/Building_large.png)     | ![image](Custom/Constructed/Building_large.png)     |
-|                |                                                       |                                                     |
+| Constructed Tile | Original                                              | Custom                                              |
+| ---------------- | ----------------------------------------------------- | --------------------------------------------------- |
+| Tree - short     | ![image](Original/Constructed/Tree-short_large.png)   | ![image](Custom/Constructed/Tree-short_large.png)   |
+| Tree - tall      | ![image](Original/Constructed/Tree-tall_large.png)    | ![image](Custom/Constructed/Tree-tall_large.png)    |
+| Sign             | ![image](Original/Constructed/Sign_large.png)         | ![image](Custom/Constructed/Sign_large.png)         |
+| Ridge            | ![image](Original/Constructed/Ridge_large.png)        | ![image](Custom/Constructed/Ridge_large.png)        |
+| Water            | ![image](Original/Constructed/Water_large.gif)        |                                                     |
+| Grass - rustle   | ![image](Original/Constructed/Grass-rustle_large.png) |                                                     |
+| Flower - Johto   | ![image](Original/Constructed/Flower-johto_large.gif) | ![image](Custom/Constructed/Flower-johto_large.gif) |
+| Building         | ![image](Original/Constructed/Building_large.png)     | ![image](Custom/Constructed/Building_large.png)     |
 
 ### Observations
 - Due to the GBC limitation, only 4 colours per sprite. Often this is a "black", "white", main colour light, and main colour dark.
@@ -166,7 +164,7 @@ gravel.
 ## Indoor
 
 ### Tiles
-| Tile type                   | Original                                             | Custom | Notes |
+| Tile                        | Original                                             | Custom | Notes |
 | --------------------------- | ---------------------------------------------------- | ------ | ----- |
 | Void                        | ![image](Original/Void_large.png)                    |        |       |
 | Back wall - painted         | ![image](Original/Back-wall-painted_large.png)       |        |       |
@@ -259,10 +257,9 @@ gravel.
 | Radio - type 02 - 01        | ![image](Original/Radio-type-02-01_large.png)        |        |       |
 | Radio - type 02 - 02        | ![image](Original/Radio-type-02-02_large.png)        |        |       |
 | Radio - type 02 - 03        | ![image](Original/Radio-type-02-03_large.png)        |        |       |
-|                             |                                                      |        |       |
 
 ### Constructed Tiles 
-| Sprite                 | Original                                                      | Custom |
+| Constucted Tile        | Original                                                      | Custom |
 | ---------------------- | ------------------------------------------------------------- | ------ |
 | Back wall - window     | ![image](Original/Constructed/Back-wall-window_large.png)     |        |
 | Back wall - art        | ![image](Original/Constructed/Back-wall-art_large.png)        |        |

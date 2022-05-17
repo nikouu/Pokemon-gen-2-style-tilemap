@@ -1,227 +1,591 @@
 {
-	"TilemapWidth": 16,
-	"TileWidth": 8,
-	"TileHeight": 8,
-	"Tiles": [
-		{
-			"Name": "Path",
-			"Filename": "Path.png"
-		},
-		{
-			"Name": "Path with gravel",
-			"Filename": "Path-Gravel.png"
-		},
-		{
-			"Name": "Grass - flat",
-			"Filename": "Grass-flat.png"
-		},
-		{
-			"Name": "Grass - tall",
-			"Filename": "Grass-tall.png"
-		},
-		{
-			"Name": "Tree - short 00",
-			"Filename": "Tree-short-00.png"
-		},
-		{
-			"Name": "Tree - short 01",
-			"Filename": "Tree-short-01.png"
-		},
-		{
-			"Name": "Tree - short 02",
-			"Filename": "Tree-short-02.png"
-		},
-		{
-			"Name": "Tree - short 03",
-			"Filename": "Tree-short-03.png"
-		},
-		{
-			"Name": "Tree - tall 00",
-			"Filename": "Tree-tall-00.png"
-		},
-		{
-			"Name": "Tree - tall 01",
-			"Filename": "Tree-tall-01.png"
-		},
-		{
-			"Name": "Sign - metal 00",
-			"Filename": "Sign-metal-00.png"
-		},
-		{
-			"Name": "Sign - metal 01",
-			"Filename": "Sign-metal-01.png"
-		},
-		{
-			"Name": "Sign - metal 02",
-			"Filename": "Sign-metal-02.png"
-		},
-		{
-			"Name": "Sign - metal 03",
-			"Filename": "Sign-metal-03.png"
-		},
-		{
-			"Name": "Ridge 00",
-			"Filename": "Ridge-00.png"
-		},
-		{
-			"Name": "Ridge 01",
-			"Filename": "Ridge-01.png"
-		},
-		{
-			"Name": "Ridge 02",
-			"Filename": "Ridge-02.png"
-		},
-		{
-			"Name": "Ridge 03",
-			"Filename": "Ridge-03.png"
-		},
-		{
-			"Name": "Ridge 04",
-			"Filename": "Ridge-04.png"
-		},
-		{
-			"Name": "Ridge 05",
-			"Filename": "Ridge-05.png"
-		},
-		{
-			"Name": "Ridge 06",
-			"Filename": "Ridge-06.png"
-		},
-		{
-			"Name": "Ridge 07",
-			"Filename": "Ridge-07.png"
-		},
-		{
-			"Name": "Ridge 08",
-			"Filename": "Ridge-08.png"
-		},
-		{
-			"Name": "Water 00",
-			"Filename": "Water-00.png"
-		},
-		{
-			"Name": "Water 01",
-			"Filename": "Water-01.png"
-		},
-		{
-			"Name": "Water 02",
-			"Filename": "Water-02.png"
-		},
-		{
-			"Name": "Water 03",
-			"Filename": "Water-03.png"
-		},
-		{
-			"Name": "Water 04",
-			"Filename": "Water-04.png"
-		},
-		{
-			"Name": "Water 05",
-			"Filename": "Water-05.png"
-		},
-		{
-			"Name": "Water 06",
-			"Filename": "Water-06.png"
-		},
-		{
-			"Name": "Grass - rustle 00",
-			"Filename": "Grass-rustle-00.png"
-		},
-		{
-			"Name": "Grass - rustle 01",
-			"Filename": "Grass-rustle-01.png"
-		},
-		{
-			"Name": "Flower - Johto 00",
-			"Filename": "Flower-johto-00.png"
-		},
-		{
-			"Name": "Flower - Johto 01",
-			"Filename": "Flower-johto-01.png"
-		},
-		{
-			"Name": "Building - Roof - flat 00",
-			"Filename": "Building-roof-flat-00.png"
-		},
-		{
-			"Name": "Building - Roof - flat 01",
-			"Filename": "Building-roof-flat-01.png"
-		},
-		{
-			"Name": "Building - Roof - flat 02",
-			"Filename": "Building-roof-flat-02.png"
-		},
-		{
-			"Name": "Building - Roof - flat 03",
-			"Filename": "Building-roof-flat-03.png"
-		},
-		{
-			"Name": "Building - Roof - flat 04",
-			"Filename": "Building-roof-flat-04.png"
-		},
-		{
-			"Name": "Building - Roof - flat 05",
-			"Filename": "Building-roof-flat-05.png"
-		},
-		{
-			"Name": "Building - Roof - flat 06",
-			"Filename": "Building-roof-flat-06.png"
-		},
-		{
-			"Name": "Building - Roof - flat 07",
-			"Filename": "Building-roof-flat-07.png"
-		},
-		{
-			"Name": "Building - Roof - flat 08",
-			"Filename": "Building-roof-flat-08.png"
-		},
-		{
-			"Name": "Building - Wall 00",
-			"Filename": "Building-wall-00.png"
-		},
-		{
-			"Name": "Building - Wall 01",
-			"Filename": "Building-wall-01.png"
-		},
-		{
-			"Name": "Building - Wall 02",
-			"Filename": "Building-wall-02.png"
-		},
-		{
-			"Name": "Building - Wall 03",
-			"Filename": "Building-wall-03.png"
-		},
-		{
-			"Name": "Building - Wall 04",
-			"Filename": "Building-wall-04.png"
-		},
-		{
-			"Name": "Building - Cladding 00",
-			"Filename": "Building-cladding-00.png"
-		},
-		{
-			"Name": "Building - Cladding 01",
-			"Filename": "Building-cladding-01.png"
-		},
-		{
-			"Name": "Building - Window",
-			"Filename": "Building-window.png"
-		},
-		{
-			"Name": "Building - Door 00",
-			"Filename": "Building-door-00.png"
-		},
-		{
-			"Name": "Building - Door 01",
-			"Filename": "Building-door-01.png"
-		},
-		{
-			"Name": "Building - Door 02",
-			"Filename": "Building-door-02.png"
-		},
-		{
-			"Name": "Building - Door 03",
-			"Filename": "Building-door-03.png"
-		}
-	]
+  "TilemapWidth": 16,
+  "TileWidth": 8,
+  "TileHeight": 8,
+  "Tiles": [
+    {
+      "Name": "Path",
+      "Filename": "Path.png"
+    },
+    {
+      "Name": "Path with gravel",
+      "Filename": "Path-Gravel.png"
+    },
+    {
+      "Name": "Grass - flat",
+      "Filename": "Grass-flat.png"
+    },
+    {
+      "Name": "Grass - tall",
+      "Filename": "Grass-tall.png"
+    },
+    {
+      "Name": "Tree - short 00",
+      "Filename": "Tree-short-00.png"
+    },
+    {
+      "Name": "Tree - short 01",
+      "Filename": "Tree-short-01.png"
+    },
+    {
+      "Name": "Tree - short 02",
+      "Filename": "Tree-short-02.png"
+    },
+    {
+      "Name": "Tree - short 03",
+      "Filename": "Tree-short-03.png"
+    },
+    {
+      "Name": "Tree - tall 00",
+      "Filename": "Tree-tall-00.png"
+    },
+    {
+      "Name": "Tree - tall 01",
+      "Filename": "Tree-tall-01.png"
+    },
+    {
+      "Name": "Sign - metal 00",
+      "Filename": "Sign-metal-00.png"
+    },
+    {
+      "Name": "Sign - metal 01",
+      "Filename": "Sign-metal-01.png"
+    },
+    {
+      "Name": "Sign - metal 02",
+      "Filename": "Sign-metal-02.png"
+    },
+    {
+      "Name": "Sign - metal 03",
+      "Filename": "Sign-metal-03.png"
+    },
+    {
+      "Name": "Ridge 00",
+      "Filename": "Ridge-00.png"
+    },
+    {
+      "Name": "Ridge 01",
+      "Filename": "Ridge-01.png"
+    },
+    {
+      "Name": "Ridge 02",
+      "Filename": "Ridge-02.png"
+    },
+    {
+      "Name": "Ridge 03",
+      "Filename": "Ridge-03.png"
+    },
+    {
+      "Name": "Ridge 04",
+      "Filename": "Ridge-04.png"
+    },
+    {
+      "Name": "Ridge 05",
+      "Filename": "Ridge-05.png"
+    },
+    {
+      "Name": "Ridge 06",
+      "Filename": "Ridge-06.png"
+    },
+    {
+      "Name": "Ridge 07",
+      "Filename": "Ridge-07.png"
+    },
+    {
+      "Name": "Ridge 08",
+      "Filename": "Ridge-08.png"
+    },
+    {
+      "Name": "Water 00",
+      "Filename": "Water-00.png"
+    },
+    {
+      "Name": "Water 01",
+      "Filename": "Water-01.png"
+    },
+    {
+      "Name": "Water 02",
+      "Filename": "Water-02.png"
+    },
+    {
+      "Name": "Water 03",
+      "Filename": "Water-03.png"
+    },
+    {
+      "Name": "Water 04",
+      "Filename": "Water-04.png"
+    },
+    {
+      "Name": "Water 05",
+      "Filename": "Water-05.png"
+    },
+    {
+      "Name": "Water 06",
+      "Filename": "Water-06.png"
+    },
+    {
+      "Name": "Grass - rustle 00",
+      "Filename": "Grass-rustle-00.png"
+    },
+    {
+      "Name": "Grass - rustle 01",
+      "Filename": "Grass-rustle-01.png"
+    },
+    {
+      "Name": "Flower - Johto 00",
+      "Filename": "Flower-johto-00.png"
+    },
+    {
+      "Name": "Flower - Johto 01",
+      "Filename": "Flower-johto-01.png"
+    },
+    {
+      "Name": "Building - Roof - flat 00",
+      "Filename": "Building-roof-flat-00.png"
+    },
+    {
+      "Name": "Building - Roof - flat 01",
+      "Filename": "Building-roof-flat-01.png"
+    },
+    {
+      "Name": "Building - Roof - flat 02",
+      "Filename": "Building-roof-flat-02.png"
+    },
+    {
+      "Name": "Building - Roof - flat 03",
+      "Filename": "Building-roof-flat-03.png"
+    },
+    {
+      "Name": "Building - Roof - flat 04",
+      "Filename": "Building-roof-flat-04.png"
+    },
+    {
+      "Name": "Building - Roof - flat 05",
+      "Filename": "Building-roof-flat-05.png"
+    },
+    {
+      "Name": "Building - Roof - flat 06",
+      "Filename": "Building-roof-flat-06.png"
+    },
+    {
+      "Name": "Building - Roof - flat 07",
+      "Filename": "Building-roof-flat-07.png"
+    },
+    {
+      "Name": "Building - Roof - flat 08",
+      "Filename": "Building-roof-flat-08.png"
+    },
+    {
+      "Name": "Building - Wall 00",
+      "Filename": "Building-wall-00.png"
+    },
+    {
+      "Name": "Building - Wall 01",
+      "Filename": "Building-wall-01.png"
+    },
+    {
+      "Name": "Building - Wall 02",
+      "Filename": "Building-wall-02.png"
+    },
+    {
+      "Name": "Building - Wall 03",
+      "Filename": "Building-wall-03.png"
+    },
+    {
+      "Name": "Building - Wall 04",
+      "Filename": "Building-wall-04.png"
+    },
+    {
+      "Name": "Building - Cladding 00",
+      "Filename": "Building-cladding-00.png"
+    },
+    {
+      "Name": "Building - Cladding 01",
+      "Filename": "Building-cladding-01.png"
+    },
+    {
+      "Name": "Building - Window",
+      "Filename": "Building-window.png"
+    },
+    {
+      "Name": "Building - Door 00",
+      "Filename": "Building-door-00.png"
+    },
+    {
+      "Name": "Building - Door 01",
+      "Filename": "Building-door-01.png"
+    },
+    {
+      "Name": "Building - Door 02",
+      "Filename": "Building-door-02.png"
+    },
+    {
+      "Name": "Building - Door 03",
+      "Filename": "Building-door-03.png"
+    },
+    {
+      "Name": "Void",
+      "Filename": "Void.png"
+    },
+    {
+      "Name": "Back wall - painted",
+      "Filename": "Back-wall-painted.png"
+    },
+    {
+      "Name": "Back wall - wood",
+      "Filename": "Back-wall-wood.png"
+    },
+    {
+      "Name": "Back wall - window 00",
+      "Filename": "Back-wall-window-00.png"
+    },
+    {
+      "Name": "Back wall - window 01",
+      "Filename": "Back-wall-window-01.png"
+    },
+    {
+      "Name": "Back wall - window 02",
+      "Filename": "Back-wall-window-02.png"
+    },
+    {
+      "Name": "Back wall - window 03",
+      "Filename": "Back-wall-window-03.png"
+    },
+    {
+      "Name": "Back wall - art 00",
+      "Filename": "Back-wall-art-00.png"
+    },
+    {
+      "Name": "Back wall - art 01",
+      "Filename": "Back-wall-art-01.png"
+    },
+    {
+      "Name": "Back wall - art 02",
+      "Filename": "Back-wall-art-02.png"
+    },
+    {
+      "Name": "Back wall - art 03",
+      "Filename": "Back-wall-art-03.png"
+    },
+    {
+      "Name": "Flooring - basic",
+      "Filename": "Flooring-basic.png"
+    },
+    {
+      "Name": "Flooring - wood",
+      "Filename": "Flooring-wood.png"
+    },
+    {
+      "Name": "Table - type 01 - 00",
+      "Filename": "Table-type-1-00.png"
+    },
+    {
+      "Name": "Table - type 01 - 01",
+      "Filename": "Table-type-1-01.png"
+    },
+    {
+      "Name": "Table - type 01 - 02",
+      "Filename": "Table-type-1-02.png"
+    },
+    {
+      "Name": "Table - type 01 - 03",
+      "Filename": "Table-type-1-03.png"
+    },
+    {
+      "Name": "Table - type 01 - 04",
+      "Filename": "Table-type-1-04.png"
+    },
+    {
+      "Name": "Table - type 01 - 05",
+      "Filename": "Table-type-1-05.png"
+    },
+    {
+      "Name": "Table - type 01 - 06",
+      "Filename": "Table-type-1-06.png"
+    },
+    {
+      "Name": "Table - type 01 - 07",
+      "Filename": "Table-type-1-07.png"
+    },
+    {
+      "Name": "Table - type 01 - 08",
+      "Filename": "Table-type-1-08.png"
+    },
+    {
+      "Name": "Table - type 01 - 09",
+      "Filename": "Table-type-1-09.png"
+    },
+    {
+      "Name": "Table - type 01 - 10",
+      "Filename": "Table-type-1-10.png"
+    },
+    {
+      "Name": "Table - type 01 - 11",
+      "Filename": "Table-type-1-11.png"
+    },
+    {
+      "Name": "Indoor plant - type 01 - 00",
+      "Filename": "Indoor-plant-type-01-00.png"
+    },
+    {
+      "Name": "Indoor plant - type 01 - 01",
+      "Filename": "Indoor-plant-type-01-01.png"
+    },
+    {
+      "Name": "Indoor plant - type 01 - 02",
+      "Filename": "Indoor-plant-type-01-02.png"
+    },
+    {
+      "Name": "Indoor plant - type 01 - 03",
+      "Filename": "Indoor-plant-type-01-03.png"
+    },
+    {
+      "Name": "Indoor plant - type 01 - 04",
+      "Filename": "Indoor-plant-type-01-04.png"
+    },
+    {
+      "Name": "Indoor plant - type 01 - 05",
+      "Filename": "Indoor-plant-type-01-05.png"
+    },
+    {
+      "Name": "Indoor plant - type 01 - 06",
+      "Filename": "Indoor-plant-type-01-06.png"
+    },
+    {
+      "Name": "Indoor plant - type 01 - 07",
+      "Filename": "Indoor-plant-type-01-07.png"
+    },
+    {
+      "Name": "Computer - type 01 - 00",
+      "Filename": "Computer-type-01-00.png"
+    },
+    {
+      "Name": "Computer - type 01 - 01",
+      "Filename": "Computer-type-01-01.png"
+    },
+    {
+      "Name": "Computer - type 01 - 02",
+      "Filename": "Computer-type-01-02.png"
+    },
+    {
+      "Name": "Computer - type 01 - 03",
+      "Filename": "Computer-type-01-03.png"
+    },
+    {
+      "Name": "Computer - type 01 - 04",
+      "Filename": "Computer-type-01-04.png"
+    },
+    {
+      "Name": "Computer - type 01 - 05",
+      "Filename": "Computer-type-01-05.png"
+    },
+    {
+      "Name": "Computer - type 01 - 06",
+      "Filename": "Computer-type-01-06.png"
+    },
+    {
+      "Name": "Computer - type 01 - 07",
+      "Filename": "Computer-type-01-07.png"
+    },
+    {
+      "Name": "TV - type 01 - 00",
+      "Filename": "TV-type-01-00.png"
+    },
+    {
+      "Name": "TV - type 01 - 01",
+      "Filename": "TV-type-01-01.png"
+    },
+    {
+      "Name": "TV - type 01 - 02",
+      "Filename": "TV-type-01-02.png"
+    },
+    {
+      "Name": "TV - type 01 - 03",
+      "Filename": "TV-type-01-03.png"
+    },
+    {
+      "Name": "Bookshelf - type 01 - 00",
+      "Filename": "Bookshelf-type-01-00.png"
+    },
+    {
+      "Name": "Bookshelf - type 01 - 01",
+      "Filename": "Bookshelf-type-01-01.png"
+    },
+    {
+      "Name": "Bookshelf - type 01 - 02",
+      "Filename": "Bookshelf-type-01-02.png"
+    },
+    {
+      "Name": "Bookshelf - type 01 - 03",
+      "Filename": "Bookshelf-type-01-03.png"
+    },
+    {
+      "Name": "Bookshelf - type 01 - 04",
+      "Filename": "Bookshelf-type-01-04.png"
+    },
+    {
+      "Name": "Bookshelf - type 01 - 05",
+      "Filename": "Bookshelf-type-01-05.png"
+    },
+    {
+      "Name": "Bookshelf - type 01 - 06",
+      "Filename": "Bookshelf-type-01-06.png"
+    },
+    {
+      "Name": "Bookshelf - type 01 - 07",
+      "Filename": "Bookshelf-type-01-07.png"
+    },
+    {
+      "Name": "Bed - type 01 - 00",
+      "Filename": "Bed-type-01-00.png"
+    },
+    {
+      "Name": "Bed - type 01 - 01",
+      "Filename": "Bed-type-01-01.png"
+    },
+    {
+      "Name": "Bed - type 01 - 02",
+      "Filename": "Bed-type-01-02.png"
+    },
+    {
+      "Name": "Bed - type 01 - 03",
+      "Filename": "Bed-type-01-03.png"
+    },
+    {
+      "Name": "Bed - type 01 - 04",
+      "Filename": "Bed-type-01-04.png"
+    },
+    {
+      "Name": "Bed - type 01 - 05",
+      "Filename": "Bed-type-01-05.png"
+    },
+    {
+      "Name": "Bed - type 01 - 06",
+      "Filename": "Bed-type-01-06.png"
+    },
+    {
+      "Name": "Bed - type 01 - 07",
+      "Filename": "Bed-type-01-07.png"
+    },
+    {
+      "Name": "Fridge - type 01 - 00",
+      "Filename": "Fridge-type-01-00.png"
+    },
+    {
+      "Name": "Fridge - type 01 - 01",
+      "Filename": "Fridge-type-01-01.png"
+    },
+    {
+      "Name": "Fridge - type 01 - 02",
+      "Filename": "Fridge-type-01-02.png"
+    },
+    {
+      "Name": "Fridge - type 01 - 03",
+      "Filename": "Fridge-type-01-03.png"
+    },
+    {
+      "Name": "Fridge - type 01 - 04",
+      "Filename": "Fridge-type-01-04.png"
+    },
+    {
+      "Name": "Fridge - type 01 - 05",
+      "Filename": "Fridge-type-01-05.png"
+    },
+    {
+      "Name": "Sink - 01",
+      "Filename": "Sink-00.png"
+    },
+    {
+      "Name": "Sink - 02",
+      "Filename": "Sink-01.png"
+    },
+    {
+      "Name": "Stove - 00",
+      "Filename": "Stove-00.png"
+    },
+    {
+      "Name": "Stove - 01",
+      "Filename": "Stove-01.png"
+    },
+    {
+      "Name": "Stove - 02",
+      "Filename": "Stove-02.png"
+    },
+    {
+      "Name": "Stove - 03",
+      "Filename": "Stove-03.png"
+    },
+    {
+      "Name": "Cabnet - 00",
+      "Filename": "Cabnet-00.png"
+    },
+    {
+      "Name": "Cabnet - 01",
+      "Filename": "Cabnet-01.png"
+    },
+    {
+      "Name": "Stool - type 01 - 00",
+      "Filename": "Stool-type-01-00.png"
+    },
+    {
+      "Name": "Stool - type 01 - 01",
+      "Filename": "Stool-type-01-01.png"
+    },
+    {
+      "Name": "Stool - type 01 - 02",
+      "Filename": "Stool-type-01-02.png"
+    },
+    {
+      "Name": "Stool - type 01 - 03",
+      "Filename": "Stool-type-01-03.png"
+    },
+    {
+      "Name": "Stool - type 02 - 00",
+      "Filename": "Stool-type-02-00.png"
+    },
+    {
+      "Name": "Stool - type 02 - 01",
+      "Filename": "Stool-type-02-01.png"
+    },
+    {
+      "Name": "Stool - type 02 - 02",
+      "Filename": "Stool-type-02-02.png"
+    },
+    {
+      "Name": "Stool - type 02 - 03",
+      "Filename": "Stool-type-02-03.png"
+    },
+    {
+      "Name": "Radio - type 01 - 00",
+      "Filename": "Radio-type-01-00.png"
+    },
+    {
+      "Name": "Radio - type 01 - 01",
+      "Filename": "Radio-type-01-01.png"
+    },
+    {
+      "Name": "Radio - type 01 - 02",
+      "Filename": "Radio-type-01-02.png"
+    },
+    {
+      "Name": "Radio - type 01 - 03",
+      "Filename": "Radio-type-01-03.png"
+    },
+    {
+      "Name": "Radio - type 02 - 00",
+      "Filename": "Radio-type-02-00.png"
+    },
+    {
+      "Name": "Radio - type 02 - 01",
+      "Filename": "Radio-type-02-01.png"
+    },
+    {
+      "Name": "Radio - type 02 - 02",
+      "Filename": "Radio-type-02-02.png"
+    },
+    {
+      "Name": "Radio - type 02 - 03",
+      "Filename": "Radio-type-02-03.png"
+    }
+  ]
 }
