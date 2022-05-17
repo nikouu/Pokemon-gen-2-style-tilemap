@@ -262,6 +262,26 @@ gravel.
 |                             |                                                      |        |       |
 
 ### Constructed Tiles 
+| Sprite                 | Original                                                      | Custom |
+| ---------------------- | ------------------------------------------------------------- | ------ |
+| Back wall - window     | ![image](Original/Constructed/Back-wall-window_large.png)     |        |
+| Back wall - art        | ![image](Original/Constructed/Back-wall-art_large.png)        |        |
+| Table - type 01        | ![image](Original/Constructed/Table-type-01_large.png)        |        |
+| Indoor plant - type 01 | ![image](Original/Constructed/Indoor-plant-type-01_large.png) |        |
+| Computer - type 01     | ![image](Original/Constructed/Computer-type-01_large.png)     |        |
+| TV - type 01           | ![image](Original/Constructed/TV-type-01_large.png)           |        |
+| Bookshelf - type 01    | ![image](Original/Constructed/Bookshelf-type-01_large.png)    |        |
+| Bed - type 01          | ![image](Original/Constructed/Bed-type-01_large.png)          |        |
+| Fridge - type 01       | ![image](Original/Constructed/Fridge-type-01_large.png)       |        |
+| Sink                   | ![image](Original/Constructed/Sink_large.png)                 |        |
+| Stove                  | ![image](Original/Constructed/Stove_large.png)                |        |
+| Cabinet                | ![image](Original/Constructed/Cabinet_large.png)              |        |
+| Stool - type 01        | ![image](Original/Constructed/Stool-type-01_large.png)        |        |
+| Stool - type 02        | ![image](Original/Constructed/Stool-type-02_large.png)        |        |
+| Radio - type 01        | ![image](Original/Constructed/Radio-type-01_large.png)        |        |
+| Radio - type 02        | ![image](Original/Constructed/Radio-type-02_large.png)        |        |
+
+
 
 ### Wanted tiles
 - Back wall
