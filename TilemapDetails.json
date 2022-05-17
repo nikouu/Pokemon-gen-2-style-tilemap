@@ -5,587 +5,879 @@
   "Tiles": [
     {
       "Name": "Path",
-      "Filename": "Path.png"
+      "Filename": "Path.png",
+      "X": 0,
+      "Y": 0
     },
     {
       "Name": "Path with gravel",
-      "Filename": "Path-Gravel.png"
+      "Filename": "Path-Gravel.png",
+      "X": 8,
+      "Y": 0
     },
     {
       "Name": "Grass - flat",
-      "Filename": "Grass-flat.png"
+      "Filename": "Grass-flat.png",
+      "X": 16,
+      "Y": 0
     },
     {
       "Name": "Grass - tall",
-      "Filename": "Grass-tall.png"
+      "Filename": "Grass-tall.png",
+      "X": 24,
+      "Y": 0
     },
     {
       "Name": "Tree - short 00",
-      "Filename": "Tree-short-00.png"
+      "Filename": "Tree-short-00.png",
+      "X": 32,
+      "Y": 0
     },
     {
       "Name": "Tree - short 01",
-      "Filename": "Tree-short-01.png"
+      "Filename": "Tree-short-01.png",
+      "X": 40,
+      "Y": 0
     },
     {
       "Name": "Tree - short 02",
-      "Filename": "Tree-short-02.png"
+      "Filename": "Tree-short-02.png",
+      "X": 48,
+      "Y": 0
     },
     {
       "Name": "Tree - short 03",
-      "Filename": "Tree-short-03.png"
+      "Filename": "Tree-short-03.png",
+      "X": 56,
+      "Y": 0
     },
     {
       "Name": "Tree - tall 00",
-      "Filename": "Tree-tall-00.png"
+      "Filename": "Tree-tall-00.png",
+      "X": 64,
+      "Y": 0
     },
     {
       "Name": "Tree - tall 01",
-      "Filename": "Tree-tall-01.png"
+      "Filename": "Tree-tall-01.png",
+      "X": 72,
+      "Y": 0
     },
     {
       "Name": "Sign - metal 00",
-      "Filename": "Sign-metal-00.png"
+      "Filename": "Sign-metal-00.png",
+      "X": 80,
+      "Y": 0
     },
     {
       "Name": "Sign - metal 01",
-      "Filename": "Sign-metal-01.png"
+      "Filename": "Sign-metal-01.png",
+      "X": 88,
+      "Y": 0
     },
     {
       "Name": "Sign - metal 02",
-      "Filename": "Sign-metal-02.png"
+      "Filename": "Sign-metal-02.png",
+      "X": 96,
+      "Y": 0
     },
     {
       "Name": "Sign - metal 03",
-      "Filename": "Sign-metal-03.png"
+      "Filename": "Sign-metal-03.png",
+      "X": 104,
+      "Y": 0
     },
     {
       "Name": "Ridge 00",
-      "Filename": "Ridge-00.png"
+      "Filename": "Ridge-00.png",
+      "X": 112,
+      "Y": 0
     },
     {
       "Name": "Ridge 01",
-      "Filename": "Ridge-01.png"
+      "Filename": "Ridge-01.png",
+      "X": 120,
+      "Y": 0
     },
     {
       "Name": "Ridge 02",
-      "Filename": "Ridge-02.png"
+      "Filename": "Ridge-02.png",
+      "X": 0,
+      "Y": 8
     },
     {
       "Name": "Ridge 03",
-      "Filename": "Ridge-03.png"
+      "Filename": "Ridge-03.png",
+      "X": 8,
+      "Y": 8
     },
     {
       "Name": "Ridge 04",
-      "Filename": "Ridge-04.png"
+      "Filename": "Ridge-04.png",
+      "X": 16,
+      "Y": 8
     },
     {
       "Name": "Ridge 05",
-      "Filename": "Ridge-05.png"
+      "Filename": "Ridge-05.png",
+      "X": 24,
+      "Y": 8
     },
     {
       "Name": "Ridge 06",
-      "Filename": "Ridge-06.png"
+      "Filename": "Ridge-06.png",
+      "X": 32,
+      "Y": 8
     },
     {
       "Name": "Ridge 07",
-      "Filename": "Ridge-07.png"
+      "Filename": "Ridge-07.png",
+      "X": 40,
+      "Y": 8
     },
     {
       "Name": "Ridge 08",
-      "Filename": "Ridge-08.png"
+      "Filename": "Ridge-08.png",
+      "X": 48,
+      "Y": 8
     },
     {
       "Name": "Water 00",
-      "Filename": "Water-00.png"
+      "Filename": "Water-00.png",
+      "X": 56,
+      "Y": 8
     },
     {
       "Name": "Water 01",
-      "Filename": "Water-01.png"
+      "Filename": "Water-01.png",
+      "X": 64,
+      "Y": 8
     },
     {
       "Name": "Water 02",
-      "Filename": "Water-02.png"
+      "Filename": "Water-02.png",
+      "X": 72,
+      "Y": 8
     },
     {
       "Name": "Water 03",
-      "Filename": "Water-03.png"
+      "Filename": "Water-03.png",
+      "X": 80,
+      "Y": 8
     },
     {
       "Name": "Water 04",
-      "Filename": "Water-04.png"
+      "Filename": "Water-04.png",
+      "X": 88,
+      "Y": 8
     },
     {
       "Name": "Water 05",
-      "Filename": "Water-05.png"
+      "Filename": "Water-05.png",
+      "X": 96,
+      "Y": 8
     },
     {
       "Name": "Water 06",
-      "Filename": "Water-06.png"
+      "Filename": "Water-06.png",
+      "X": 104,
+      "Y": 8
     },
     {
       "Name": "Grass - rustle 00",
-      "Filename": "Grass-rustle-00.png"
+      "Filename": "Grass-rustle-00.png",
+      "X": 112,
+      "Y": 8
     },
     {
       "Name": "Grass - rustle 01",
-      "Filename": "Grass-rustle-01.png"
+      "Filename": "Grass-rustle-01.png",
+      "X": 120,
+      "Y": 8
     },
     {
       "Name": "Flower - Johto 00",
-      "Filename": "Flower-johto-00.png"
+      "Filename": "Flower-johto-00.png",
+      "X": 0,
+      "Y": 16
     },
     {
       "Name": "Flower - Johto 01",
-      "Filename": "Flower-johto-01.png"
+      "Filename": "Flower-johto-01.png",
+      "X": 8,
+      "Y": 16
     },
     {
       "Name": "Building - Roof - flat 00",
-      "Filename": "Building-roof-flat-00.png"
+      "Filename": "Building-roof-flat-00.png",
+      "X": 16,
+      "Y": 16
     },
     {
       "Name": "Building - Roof - flat 01",
-      "Filename": "Building-roof-flat-01.png"
+      "Filename": "Building-roof-flat-01.png",
+      "X": 24,
+      "Y": 16
     },
     {
       "Name": "Building - Roof - flat 02",
-      "Filename": "Building-roof-flat-02.png"
+      "Filename": "Building-roof-flat-02.png",
+      "X": 32,
+      "Y": 16
     },
     {
       "Name": "Building - Roof - flat 03",
-      "Filename": "Building-roof-flat-03.png"
+      "Filename": "Building-roof-flat-03.png",
+      "X": 40,
+      "Y": 16
     },
     {
       "Name": "Building - Roof - flat 04",
-      "Filename": "Building-roof-flat-04.png"
+      "Filename": "Building-roof-flat-04.png",
+      "X": 48,
+      "Y": 16
     },
     {
       "Name": "Building - Roof - flat 05",
-      "Filename": "Building-roof-flat-05.png"
+      "Filename": "Building-roof-flat-05.png",
+      "X": 56,
+      "Y": 16
     },
     {
       "Name": "Building - Roof - flat 06",
-      "Filename": "Building-roof-flat-06.png"
+      "Filename": "Building-roof-flat-06.png",
+      "X": 64,
+      "Y": 16
     },
     {
       "Name": "Building - Roof - flat 07",
-      "Filename": "Building-roof-flat-07.png"
+      "Filename": "Building-roof-flat-07.png",
+      "X": 72,
+      "Y": 16
     },
     {
       "Name": "Building - Roof - flat 08",
-      "Filename": "Building-roof-flat-08.png"
+      "Filename": "Building-roof-flat-08.png",
+      "X": 80,
+      "Y": 16
     },
     {
       "Name": "Building - Wall 00",
-      "Filename": "Building-wall-00.png"
+      "Filename": "Building-wall-00.png",
+      "X": 88,
+      "Y": 16
     },
     {
       "Name": "Building - Wall 01",
-      "Filename": "Building-wall-01.png"
+      "Filename": "Building-wall-01.png",
+      "X": 96,
+      "Y": 16
     },
     {
       "Name": "Building - Wall 02",
-      "Filename": "Building-wall-02.png"
+      "Filename": "Building-wall-02.png",
+      "X": 104,
+      "Y": 16
     },
     {
       "Name": "Building - Wall 03",
-      "Filename": "Building-wall-03.png"
+      "Filename": "Building-wall-03.png",
+      "X": 112,
+      "Y": 16
     },
     {
       "Name": "Building - Wall 04",
-      "Filename": "Building-wall-04.png"
+      "Filename": "Building-wall-04.png",
+      "X": 120,
+      "Y": 16
     },
     {
       "Name": "Building - Cladding 00",
-      "Filename": "Building-cladding-00.png"
+      "Filename": "Building-cladding-00.png",
+      "X": 0,
+      "Y": 24
     },
     {
       "Name": "Building - Cladding 01",
-      "Filename": "Building-cladding-01.png"
+      "Filename": "Building-cladding-01.png",
+      "X": 8,
+      "Y": 24
     },
     {
       "Name": "Building - Window",
-      "Filename": "Building-window.png"
+      "Filename": "Building-window.png",
+      "X": 16,
+      "Y": 24
     },
     {
       "Name": "Building - Door 00",
-      "Filename": "Building-door-00.png"
+      "Filename": "Building-door-00.png",
+      "X": 24,
+      "Y": 24
     },
     {
       "Name": "Building - Door 01",
-      "Filename": "Building-door-01.png"
+      "Filename": "Building-door-01.png",
+      "X": 32,
+      "Y": 24
     },
     {
       "Name": "Building - Door 02",
-      "Filename": "Building-door-02.png"
+      "Filename": "Building-door-02.png",
+      "X": 40,
+      "Y": 24
     },
     {
       "Name": "Building - Door 03",
-      "Filename": "Building-door-03.png"
+      "Filename": "Building-door-03.png",
+      "X": 48,
+      "Y": 24
     },
     {
       "Name": "Void",
-      "Filename": "Void.png"
+      "Filename": "Void.png",
+      "X": 56,
+      "Y": 24
     },
     {
       "Name": "Back wall - painted",
-      "Filename": "Back-wall-painted.png"
+      "Filename": "Back-wall-painted.png",
+      "X": 64,
+      "Y": 24
     },
     {
       "Name": "Back wall - wood",
-      "Filename": "Back-wall-wood.png"
+      "Filename": "Back-wall-wood.png",
+      "X": 72,
+      "Y": 24
     },
     {
       "Name": "Back wall - window 00",
-      "Filename": "Back-wall-window-00.png"
+      "Filename": "Back-wall-window-00.png",
+      "X": 80,
+      "Y": 24
     },
     {
       "Name": "Back wall - window 01",
-      "Filename": "Back-wall-window-01.png"
+      "Filename": "Back-wall-window-01.png",
+      "X": 88,
+      "Y": 24
     },
     {
       "Name": "Back wall - window 02",
-      "Filename": "Back-wall-window-02.png"
+      "Filename": "Back-wall-window-02.png",
+      "X": 96,
+      "Y": 24
     },
     {
       "Name": "Back wall - window 03",
-      "Filename": "Back-wall-window-03.png"
+      "Filename": "Back-wall-window-03.png",
+      "X": 104,
+      "Y": 24
     },
     {
       "Name": "Back wall - art 00",
-      "Filename": "Back-wall-art-00.png"
+      "Filename": "Back-wall-art-00.png",
+      "X": 112,
+      "Y": 24
     },
     {
       "Name": "Back wall - art 01",
-      "Filename": "Back-wall-art-01.png"
+      "Filename": "Back-wall-art-01.png",
+      "X": 120,
+      "Y": 24
     },
     {
       "Name": "Back wall - art 02",
-      "Filename": "Back-wall-art-02.png"
+      "Filename": "Back-wall-art-02.png",
+      "X": 0,
+      "Y": 32
     },
     {
       "Name": "Back wall - art 03",
-      "Filename": "Back-wall-art-03.png"
+      "Filename": "Back-wall-art-03.png",
+      "X": 8,
+      "Y": 32
     },
     {
       "Name": "Flooring - basic",
-      "Filename": "Flooring-basic.png"
+      "Filename": "Flooring-basic.png",
+      "X": 16,
+      "Y": 32
     },
     {
       "Name": "Flooring - wood",
-      "Filename": "Flooring-wood.png"
+      "Filename": "Flooring-wood.png",
+      "X": 24,
+      "Y": 32
     },
     {
       "Name": "Table - type 01 - 00",
-      "Filename": "Table-type-1-00.png"
+      "Filename": "Table-type-1-00.png",
+      "X": 32,
+      "Y": 32
     },
     {
       "Name": "Table - type 01 - 01",
-      "Filename": "Table-type-1-01.png"
+      "Filename": "Table-type-1-01.png",
+      "X": 40,
+      "Y": 32
     },
     {
       "Name": "Table - type 01 - 02",
-      "Filename": "Table-type-1-02.png"
+      "Filename": "Table-type-1-02.png",
+      "X": 48,
+      "Y": 32
     },
     {
       "Name": "Table - type 01 - 03",
-      "Filename": "Table-type-1-03.png"
+      "Filename": "Table-type-1-03.png",
+      "X": 56,
+      "Y": 32
     },
     {
       "Name": "Table - type 01 - 04",
-      "Filename": "Table-type-1-04.png"
+      "Filename": "Table-type-1-04.png",
+      "X": 64,
+      "Y": 32
     },
     {
       "Name": "Table - type 01 - 05",
-      "Filename": "Table-type-1-05.png"
+      "Filename": "Table-type-1-05.png",
+      "X": 72,
+      "Y": 32
     },
     {
       "Name": "Table - type 01 - 06",
-      "Filename": "Table-type-1-06.png"
+      "Filename": "Table-type-1-06.png",
+      "X": 80,
+      "Y": 32
     },
     {
       "Name": "Table - type 01 - 07",
-      "Filename": "Table-type-1-07.png"
+      "Filename": "Table-type-1-07.png",
+      "X": 88,
+      "Y": 32
     },
     {
       "Name": "Table - type 01 - 08",
-      "Filename": "Table-type-1-08.png"
+      "Filename": "Table-type-1-08.png",
+      "X": 96,
+      "Y": 32
     },
     {
       "Name": "Table - type 01 - 09",
-      "Filename": "Table-type-1-09.png"
+      "Filename": "Table-type-1-09.png",
+      "X": 104,
+      "Y": 32
     },
     {
       "Name": "Table - type 01 - 10",
-      "Filename": "Table-type-1-10.png"
+      "Filename": "Table-type-1-10.png",
+      "X": 112,
+      "Y": 32
     },
     {
       "Name": "Table - type 01 - 11",
-      "Filename": "Table-type-1-11.png"
+      "Filename": "Table-type-1-11.png",
+      "X": 120,
+      "Y": 32
     },
     {
       "Name": "Indoor plant - type 01 - 00",
-      "Filename": "Indoor-plant-type-01-00.png"
+      "Filename": "Indoor-plant-type-01-00.png",
+      "X": 0,
+      "Y": 40
     },
     {
       "Name": "Indoor plant - type 01 - 01",
-      "Filename": "Indoor-plant-type-01-01.png"
+      "Filename": "Indoor-plant-type-01-01.png",
+      "X": 8,
+      "Y": 40
     },
     {
       "Name": "Indoor plant - type 01 - 02",
-      "Filename": "Indoor-plant-type-01-02.png"
+      "Filename": "Indoor-plant-type-01-02.png",
+      "X": 16,
+      "Y": 40
     },
     {
       "Name": "Indoor plant - type 01 - 03",
-      "Filename": "Indoor-plant-type-01-03.png"
+      "Filename": "Indoor-plant-type-01-03.png",
+      "X": 24,
+      "Y": 40
     },
     {
       "Name": "Indoor plant - type 01 - 04",
-      "Filename": "Indoor-plant-type-01-04.png"
+      "Filename": "Indoor-plant-type-01-04.png",
+      "X": 32,
+      "Y": 40
     },
     {
       "Name": "Indoor plant - type 01 - 05",
-      "Filename": "Indoor-plant-type-01-05.png"
+      "Filename": "Indoor-plant-type-01-05.png",
+      "X": 40,
+      "Y": 40
     },
     {
       "Name": "Indoor plant - type 01 - 06",
-      "Filename": "Indoor-plant-type-01-06.png"
+      "Filename": "Indoor-plant-type-01-06.png",
+      "X": 48,
+      "Y": 40
     },
     {
       "Name": "Indoor plant - type 01 - 07",
-      "Filename": "Indoor-plant-type-01-07.png"
+      "Filename": "Indoor-plant-type-01-07.png",
+      "X": 56,
+      "Y": 40
     },
     {
       "Name": "Computer - type 01 - 00",
-      "Filename": "Computer-type-01-00.png"
+      "Filename": "Computer-type-01-00.png",
+      "X": 64,
+      "Y": 40
     },
     {
       "Name": "Computer - type 01 - 01",
-      "Filename": "Computer-type-01-01.png"
+      "Filename": "Computer-type-01-01.png",
+      "X": 72,
+      "Y": 40
     },
     {
       "Name": "Computer - type 01 - 02",
-      "Filename": "Computer-type-01-02.png"
+      "Filename": "Computer-type-01-02.png",
+      "X": 80,
+      "Y": 40
     },
     {
       "Name": "Computer - type 01 - 03",
-      "Filename": "Computer-type-01-03.png"
+      "Filename": "Computer-type-01-03.png",
+      "X": 88,
+      "Y": 40
     },
     {
       "Name": "Computer - type 01 - 04",
-      "Filename": "Computer-type-01-04.png"
+      "Filename": "Computer-type-01-04.png",
+      "X": 96,
+      "Y": 40
     },
     {
       "Name": "Computer - type 01 - 05",
-      "Filename": "Computer-type-01-05.png"
+      "Filename": "Computer-type-01-05.png",
+      "X": 104,
+      "Y": 40
     },
     {
       "Name": "Computer - type 01 - 06",
-      "Filename": "Computer-type-01-06.png"
+      "Filename": "Computer-type-01-06.png",
+      "X": 112,
+      "Y": 40
     },
     {
       "Name": "Computer - type 01 - 07",
-      "Filename": "Computer-type-01-07.png"
+      "Filename": "Computer-type-01-07.png",
+      "X": 120,
+      "Y": 40
     },
     {
       "Name": "TV - type 01 - 00",
-      "Filename": "TV-type-01-00.png"
+      "Filename": "TV-type-01-00.png",
+      "X": 0,
+      "Y": 48
     },
     {
       "Name": "TV - type 01 - 01",
-      "Filename": "TV-type-01-01.png"
+      "Filename": "TV-type-01-01.png",
+      "X": 8,
+      "Y": 48
     },
     {
       "Name": "TV - type 01 - 02",
-      "Filename": "TV-type-01-02.png"
+      "Filename": "TV-type-01-02.png",
+      "X": 16,
+      "Y": 48
     },
     {
       "Name": "TV - type 01 - 03",
-      "Filename": "TV-type-01-03.png"
+      "Filename": "TV-type-01-03.png",
+      "X": 24,
+      "Y": 48
     },
     {
       "Name": "Bookshelf - type 01 - 00",
-      "Filename": "Bookshelf-type-01-00.png"
+      "Filename": "Bookshelf-type-01-00.png",
+      "X": 32,
+      "Y": 48
     },
     {
       "Name": "Bookshelf - type 01 - 01",
-      "Filename": "Bookshelf-type-01-01.png"
+      "Filename": "Bookshelf-type-01-01.png",
+      "X": 40,
+      "Y": 48
     },
     {
       "Name": "Bookshelf - type 01 - 02",
-      "Filename": "Bookshelf-type-01-02.png"
+      "Filename": "Bookshelf-type-01-02.png",
+      "X": 48,
+      "Y": 48
     },
     {
       "Name": "Bookshelf - type 01 - 03",
-      "Filename": "Bookshelf-type-01-03.png"
+      "Filename": "Bookshelf-type-01-03.png",
+      "X": 56,
+      "Y": 48
     },
     {
       "Name": "Bookshelf - type 01 - 04",
-      "Filename": "Bookshelf-type-01-04.png"
+      "Filename": "Bookshelf-type-01-04.png",
+      "X": 64,
+      "Y": 48
     },
     {
       "Name": "Bookshelf - type 01 - 05",
-      "Filename": "Bookshelf-type-01-05.png"
+      "Filename": "Bookshelf-type-01-05.png",
+      "X": 72,
+      "Y": 48
     },
     {
       "Name": "Bookshelf - type 01 - 06",
-      "Filename": "Bookshelf-type-01-06.png"
+      "Filename": "Bookshelf-type-01-06.png",
+      "X": 80,
+      "Y": 48
     },
     {
       "Name": "Bookshelf - type 01 - 07",
-      "Filename": "Bookshelf-type-01-07.png"
+      "Filename": "Bookshelf-type-01-07.png",
+      "X": 88,
+      "Y": 48
     },
     {
       "Name": "Bed - type 01 - 00",
-      "Filename": "Bed-type-01-00.png"
+      "Filename": "Bed-type-01-00.png",
+      "X": 96,
+      "Y": 48
     },
     {
       "Name": "Bed - type 01 - 01",
-      "Filename": "Bed-type-01-01.png"
+      "Filename": "Bed-type-01-01.png",
+      "X": 104,
+      "Y": 48
     },
     {
       "Name": "Bed - type 01 - 02",
-      "Filename": "Bed-type-01-02.png"
+      "Filename": "Bed-type-01-02.png",
+      "X": 112,
+      "Y": 48
     },
     {
       "Name": "Bed - type 01 - 03",
-      "Filename": "Bed-type-01-03.png"
+      "Filename": "Bed-type-01-03.png",
+      "X": 120,
+      "Y": 48
     },
     {
       "Name": "Bed - type 01 - 04",
-      "Filename": "Bed-type-01-04.png"
+      "Filename": "Bed-type-01-04.png",
+      "X": 0,
+      "Y": 56
     },
     {
       "Name": "Bed - type 01 - 05",
-      "Filename": "Bed-type-01-05.png"
+      "Filename": "Bed-type-01-05.png",
+      "X": 8,
+      "Y": 56
     },
     {
       "Name": "Bed - type 01 - 06",
-      "Filename": "Bed-type-01-06.png"
+      "Filename": "Bed-type-01-06.png",
+      "X": 16,
+      "Y": 56
     },
     {
       "Name": "Bed - type 01 - 07",
-      "Filename": "Bed-type-01-07.png"
+      "Filename": "Bed-type-01-07.png",
+      "X": 24,
+      "Y": 56
     },
     {
       "Name": "Fridge - type 01 - 00",
-      "Filename": "Fridge-type-01-00.png"
+      "Filename": "Fridge-type-01-00.png",
+      "X": 32,
+      "Y": 56
     },
     {
       "Name": "Fridge - type 01 - 01",
-      "Filename": "Fridge-type-01-01.png"
+      "Filename": "Fridge-type-01-01.png",
+      "X": 40,
+      "Y": 56
     },
     {
       "Name": "Fridge - type 01 - 02",
-      "Filename": "Fridge-type-01-02.png"
+      "Filename": "Fridge-type-01-02.png",
+      "X": 48,
+      "Y": 56
     },
     {
       "Name": "Fridge - type 01 - 03",
-      "Filename": "Fridge-type-01-03.png"
+      "Filename": "Fridge-type-01-03.png",
+      "X": 56,
+      "Y": 56
     },
     {
       "Name": "Fridge - type 01 - 04",
-      "Filename": "Fridge-type-01-04.png"
+      "Filename": "Fridge-type-01-04.png",
+      "X": 64,
+      "Y": 56
     },
     {
       "Name": "Fridge - type 01 - 05",
-      "Filename": "Fridge-type-01-05.png"
+      "Filename": "Fridge-type-01-05.png",
+      "X": 72,
+      "Y": 56
     },
     {
       "Name": "Sink - 01",
-      "Filename": "Sink-00.png"
+      "Filename": "Sink-00.png",
+      "X": 80,
+      "Y": 56
     },
     {
       "Name": "Sink - 02",
-      "Filename": "Sink-01.png"
+      "Filename": "Sink-01.png",
+      "X": 88,
+      "Y": 56
     },
     {
       "Name": "Stove - 00",
-      "Filename": "Stove-00.png"
+      "Filename": "Stove-00.png",
+      "X": 96,
+      "Y": 56
     },
     {
       "Name": "Stove - 01",
-      "Filename": "Stove-01.png"
+      "Filename": "Stove-01.png",
+      "X": 104,
+      "Y": 56
     },
     {
       "Name": "Stove - 02",
-      "Filename": "Stove-02.png"
+      "Filename": "Stove-02.png",
+      "X": 112,
+      "Y": 56
     },
     {
       "Name": "Stove - 03",
-      "Filename": "Stove-03.png"
+      "Filename": "Stove-03.png",
+      "X": 120,
+      "Y": 56
     },
     {
       "Name": "Cabnet - 00",
-      "Filename": "Cabnet-00.png"
+      "Filename": "Cabnet-00.png",
+      "X": 0,
+      "Y": 64
     },
     {
       "Name": "Cabnet - 01",
-      "Filename": "Cabnet-01.png"
+      "Filename": "Cabnet-01.png",
+      "X": 8,
+      "Y": 64
     },
     {
       "Name": "Stool - type 01 - 00",
-      "Filename": "Stool-type-01-00.png"
+      "Filename": "Stool-type-01-00.png",
+      "X": 16,
+      "Y": 64
     },
     {
       "Name": "Stool - type 01 - 01",
-      "Filename": "Stool-type-01-01.png"
+      "Filename": "Stool-type-01-01.png",
+      "X": 24,
+      "Y": 64
     },
     {
       "Name": "Stool - type 01 - 02",
-      "Filename": "Stool-type-01-02.png"
+      "Filename": "Stool-type-01-02.png",
+      "X": 32,
+      "Y": 64
     },
     {
       "Name": "Stool - type 01 - 03",
-      "Filename": "Stool-type-01-03.png"
+      "Filename": "Stool-type-01-03.png",
+      "X": 40,
+      "Y": 64
     },
     {
       "Name": "Stool - type 02 - 00",
-      "Filename": "Stool-type-02-00.png"
+      "Filename": "Stool-type-02-00.png",
+      "X": 48,
+      "Y": 64
     },
     {
       "Name": "Stool - type 02 - 01",
-      "Filename": "Stool-type-02-01.png"
+      "Filename": "Stool-type-02-01.png",
+      "X": 56,
+      "Y": 64
     },
     {
       "Name": "Stool - type 02 - 02",
-      "Filename": "Stool-type-02-02.png"
+      "Filename": "Stool-type-02-02.png",
+      "X": 64,
+      "Y": 64
     },
     {
       "Name": "Stool - type 02 - 03",
-      "Filename": "Stool-type-02-03.png"
+      "Filename": "Stool-type-02-03.png",
+      "X": 72,
+      "Y": 64
     },
     {
       "Name": "Radio - type 01 - 00",
-      "Filename": "Radio-type-01-00.png"
+      "Filename": "Radio-type-01-00.png",
+      "X": 80,
+      "Y": 64
     },
     {
       "Name": "Radio - type 01 - 01",
-      "Filename": "Radio-type-01-01.png"
+      "Filename": "Radio-type-01-01.png",
+      "X": 88,
+      "Y": 64
     },
     {
       "Name": "Radio - type 01 - 02",
-      "Filename": "Radio-type-01-02.png"
+      "Filename": "Radio-type-01-02.png",
+      "X": 96,
+      "Y": 64
     },
     {
       "Name": "Radio - type 01 - 03",
-      "Filename": "Radio-type-01-03.png"
+      "Filename": "Radio-type-01-03.png",
+      "X": 104,
+      "Y": 64
     },
     {
       "Name": "Radio - type 02 - 00",
-      "Filename": "Radio-type-02-00.png"
+      "Filename": "Radio-type-02-00.png",
+      "X": 112,
+      "Y": 64
     },
     {
       "Name": "Radio - type 02 - 01",
-      "Filename": "Radio-type-02-01.png"
+      "Filename": "Radio-type-02-01.png",
+      "X": 120,
+      "Y": 64
     },
     {
       "Name": "Radio - type 02 - 02",
-      "Filename": "Radio-type-02-02.png"
+      "Filename": "Radio-type-02-02.png",
+      "X": 0,
+      "Y": 72
     },
     {
       "Name": "Radio - type 02 - 03",
-      "Filename": "Radio-type-02-03.png"
+      "Filename": "Radio-type-02-03.png",
+      "X": 8,
+      "Y": 72
     }
   ]
 }

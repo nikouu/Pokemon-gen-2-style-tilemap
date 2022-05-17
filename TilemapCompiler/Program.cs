@@ -17,6 +17,8 @@ var readmeMarkdown = Markdown.Parse(File.ReadAllText(readmePath), pipline);
 
 var tileListFromMarkdown = new List<Tile>();
 
+Console.WriteLine("Iterating through tables for tiles...");
+
 foreach (var table in readmeMarkdown.Descendants<Table>())
 {
     var firstColumnHeader = table?.Descendants<TableRow>()?.ElementAt(0)
@@ -29,14 +31,10 @@ foreach (var table in readmeMarkdown.Descendants<Table>())
                                  ?.Descendants<LiteralInline>().ElementAt(0)
                                  ?.ToString();
 
-    var thirdColumnHeader = table?.Descendants<TableRow>()?.ElementAt(0)
-                                 ?.Descendants<TableCell>()?.ElementAt(2)
-                                 ?.Descendants<LiteralInline>().ElementAt(0)
-                                 ?.ToString();
 
-    bool isCorrectTable = (firstColumnHeader, secondColumnHeader, thirdColumnHeader) switch
+    bool isCorrectTable = (firstColumnHeader, secondColumnHeader) switch
     {
-        ("Tile", "Original", "Custom") => true,
+        ("Tile", "Original") => true,
         _ => false
     };
 
@@ -49,20 +47,22 @@ foreach (var table in readmeMarkdown.Descendants<Table>())
     {
         Name = row.Descendants<TableCell>().ElementAt(0).Descendants<LiteralInline>().FirstOrDefault().ToString(),
         Filename = Path.GetFileName(row.Descendants<TableCell>().ElementAt(1).Descendants<LinkInline>().ElementAt(0).Url).Replace("_large", "")
-
     });
 
     tileListFromMarkdown.AddRange(rows);
 }
 
+Console.WriteLine($"Found {tileListFromMarkdown.Count()} tiles");
+
 var tilemapDetails = JsonSerializer.Deserialize<TilemapDetails>(File.ReadAllText(tilemapDetailsPath));
 //var tilemapDetailsRow = tilemapDetails.Tiles.Chunk(tilemapDetails.TilemapWidth);
 
-var tilemapDetailsRow = tileListFromMarkdown.Chunk(tilemapDetails.TilemapWidth);
+var tilemapDetailsRow = tileListFromMarkdown.Chunk(tilemapDetails.TilemapWidth).ToArray();
 
 
 var tilemapRow = new List<Bitmap>();
 
+Console.WriteLine("Starting tilemap creation...");
 
 foreach (var rowTiles in tilemapDetailsRow)
 {
@@ -92,6 +92,9 @@ foreach (var rowTiles in tilemapDetailsRow)
         {
             g.DrawImage(tileImage, Array.IndexOf(rowTiles, tile) * tilemapDetails.TileWidth, 0);
         }
+
+        tile.X = Array.IndexOf(rowTiles, tile) * tilemapDetails.TileWidth;
+        tile.Y = Array.IndexOf(tilemapDetailsRow, rowTiles) * tilemapDetails.TileHeight;
     }
 
     tilemapRow.Add(bitmapRow);
@@ -109,7 +112,7 @@ for (int i = 0; i < tilemapRow.Count; i++)
 
 tilemapImage.Save(outputPath, ImageFormat.Png);
 
-tilemapDetails.Tiles = tileListFromMarkdown.ToArray();
+tilemapDetails.Tiles = tilemapDetailsRow.SelectMany(x => x).ToArray();
 
 var jsonOptions = new JsonSerializerOptions { WriteIndented = true };
 var jsonString = JsonSerializer.Serialize(tilemapDetails, jsonOptions);
@@ -129,4 +132,7 @@ public class Tile
 {
     public string Name { get; set; }
     public string Filename { get; set; }
+
+    public int X { get; set; }
+    public int Y { get; set; }
 }
