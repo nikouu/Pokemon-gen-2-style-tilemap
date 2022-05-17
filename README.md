@@ -4,6 +4,19 @@
 1. Similar but different tiles. The kind that when side by side you can't really work out which is the original.
 1. Same colour palette 
 
+## Compiler
+There's a *dirty* compiler that uses the tables in the readme.md file to generate:
+1. A tilemap for both the original and custom tiles
+2. A JSON output of the tilemap
+
+If there are missing tiles, a fuchsia square is used instead. 
+
+This helps me create tilemaps easily for the future by only having to document them here. The tilemaps themselves look like:
+
+| Tilemap from original tiles | Tilemap from custom tiles |
+| --------------------------- | ------------------------- |
+| ![image](Original.png)      | ![image](Custom.png)      |
+
 ## Notes
 - Gameboy tiles are 8x8 pixels
 - However, lots of things (including people) are 16x16 pixels (i.e. 2x2 tiles)
