@@ -5,13 +5,13 @@
 1. Same colour palette 
 
 ## Compiler
-There's a *dirty* compiler that uses the tables in the readme.md file to generate:
-1. A tilemap for both the original and custom tiles
-2. A JSON output of the tilemap
+There's a *dirty* compiler that extracts data from the tables in this readme.md file to generate:
+1. A tilemap for both the [original](Original.png) and [custom](Custom.png) tiles
+2. A JSON output of the tilemap with tile names, the filename, and coordinates. [TilemapDetails.json](TilemapDetails.json)
 
 If there are missing tiles, a fuchsia square is used instead. 
 
-This helps me create tilemaps easily for the future by only having to document them here. The tilemaps themselves look like:
+This helps me create tilemaps easily by only having to document them here. The tilemaps themselves look like:
 
 | Tilemap from original tiles | Tilemap from custom tiles |
 | --------------------------- | ------------------------- |
