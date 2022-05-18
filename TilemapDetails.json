@@ -568,316 +568,304 @@
       "Y": 40
     },
     {
-      "Name": "Computer - type 01 - 06",
-      "Filename": "Computer-type-01-06.png",
+      "Name": "TV - type 01 - 00",
+      "Filename": "TV-type-01-00.png",
       "X": 112,
       "Y": 40
     },
     {
-      "Name": "Computer - type 01 - 07",
-      "Filename": "Computer-type-01-07.png",
+      "Name": "TV - type 01 - 01",
+      "Filename": "TV-type-01-01.png",
       "X": 120,
       "Y": 40
     },
     {
-      "Name": "TV - type 01 - 00",
-      "Filename": "TV-type-01-00.png",
-      "X": 0,
-      "Y": 48
-    },
-    {
-      "Name": "TV - type 01 - 01",
-      "Filename": "TV-type-01-01.png",
-      "X": 8,
-      "Y": 48
-    },
-    {
       "Name": "TV - type 01 - 02",
       "Filename": "TV-type-01-02.png",
-      "X": 16,
+      "X": 0,
       "Y": 48
     },
     {
       "Name": "TV - type 01 - 03",
       "Filename": "TV-type-01-03.png",
-      "X": 24,
+      "X": 8,
       "Y": 48
     },
     {
       "Name": "Bookshelf - type 01 - 00",
       "Filename": "Bookshelf-type-01-00.png",
-      "X": 32,
+      "X": 16,
       "Y": 48
     },
     {
       "Name": "Bookshelf - type 01 - 01",
       "Filename": "Bookshelf-type-01-01.png",
-      "X": 40,
+      "X": 24,
       "Y": 48
     },
     {
       "Name": "Bookshelf - type 01 - 02",
       "Filename": "Bookshelf-type-01-02.png",
-      "X": 48,
+      "X": 32,
       "Y": 48
     },
     {
       "Name": "Bookshelf - type 01 - 03",
       "Filename": "Bookshelf-type-01-03.png",
-      "X": 56,
+      "X": 40,
       "Y": 48
     },
     {
       "Name": "Bookshelf - type 01 - 04",
       "Filename": "Bookshelf-type-01-04.png",
-      "X": 64,
+      "X": 48,
       "Y": 48
     },
     {
       "Name": "Bookshelf - type 01 - 05",
       "Filename": "Bookshelf-type-01-05.png",
-      "X": 72,
+      "X": 56,
       "Y": 48
     },
     {
       "Name": "Bookshelf - type 01 - 06",
       "Filename": "Bookshelf-type-01-06.png",
-      "X": 80,
+      "X": 64,
       "Y": 48
     },
     {
       "Name": "Bookshelf - type 01 - 07",
       "Filename": "Bookshelf-type-01-07.png",
-      "X": 88,
+      "X": 72,
       "Y": 48
     },
     {
       "Name": "Bed - type 01 - 00",
       "Filename": "Bed-type-01-00.png",
-      "X": 96,
+      "X": 80,
       "Y": 48
     },
     {
       "Name": "Bed - type 01 - 01",
       "Filename": "Bed-type-01-01.png",
-      "X": 104,
+      "X": 88,
       "Y": 48
     },
     {
       "Name": "Bed - type 01 - 02",
       "Filename": "Bed-type-01-02.png",
-      "X": 112,
+      "X": 96,
       "Y": 48
     },
     {
       "Name": "Bed - type 01 - 03",
       "Filename": "Bed-type-01-03.png",
-      "X": 120,
+      "X": 104,
       "Y": 48
     },
     {
       "Name": "Bed - type 01 - 04",
       "Filename": "Bed-type-01-04.png",
-      "X": 0,
-      "Y": 56
+      "X": 112,
+      "Y": 48
     },
     {
       "Name": "Bed - type 01 - 05",
       "Filename": "Bed-type-01-05.png",
-      "X": 8,
-      "Y": 56
+      "X": 120,
+      "Y": 48
     },
     {
       "Name": "Bed - type 01 - 06",
       "Filename": "Bed-type-01-06.png",
-      "X": 16,
+      "X": 0,
       "Y": 56
     },
     {
       "Name": "Bed - type 01 - 07",
       "Filename": "Bed-type-01-07.png",
-      "X": 24,
+      "X": 8,
       "Y": 56
     },
     {
       "Name": "Fridge - type 01 - 00",
       "Filename": "Fridge-type-01-00.png",
-      "X": 32,
+      "X": 16,
       "Y": 56
     },
     {
       "Name": "Fridge - type 01 - 01",
       "Filename": "Fridge-type-01-01.png",
-      "X": 40,
+      "X": 24,
       "Y": 56
     },
     {
       "Name": "Fridge - type 01 - 02",
       "Filename": "Fridge-type-01-02.png",
-      "X": 48,
+      "X": 32,
       "Y": 56
     },
     {
       "Name": "Fridge - type 01 - 03",
       "Filename": "Fridge-type-01-03.png",
-      "X": 56,
+      "X": 40,
       "Y": 56
     },
     {
       "Name": "Fridge - type 01 - 04",
       "Filename": "Fridge-type-01-04.png",
-      "X": 64,
+      "X": 48,
       "Y": 56
     },
     {
       "Name": "Fridge - type 01 - 05",
       "Filename": "Fridge-type-01-05.png",
-      "X": 72,
+      "X": 56,
       "Y": 56
     },
     {
       "Name": "Sink - 01",
       "Filename": "Sink-00.png",
-      "X": 80,
+      "X": 64,
       "Y": 56
     },
     {
       "Name": "Sink - 02",
       "Filename": "Sink-01.png",
-      "X": 88,
+      "X": 72,
       "Y": 56
     },
     {
       "Name": "Stove - 00",
       "Filename": "Stove-00.png",
-      "X": 96,
+      "X": 80,
       "Y": 56
     },
     {
       "Name": "Stove - 01",
       "Filename": "Stove-01.png",
-      "X": 104,
+      "X": 88,
       "Y": 56
     },
     {
       "Name": "Stove - 02",
       "Filename": "Stove-02.png",
-      "X": 112,
+      "X": 96,
       "Y": 56
     },
     {
       "Name": "Stove - 03",
       "Filename": "Stove-03.png",
-      "X": 120,
+      "X": 104,
       "Y": 56
     },
     {
       "Name": "Cabnet - 00",
       "Filename": "Cabnet-00.png",
-      "X": 0,
-      "Y": 64
+      "X": 112,
+      "Y": 56
     },
     {
       "Name": "Cabnet - 01",
       "Filename": "Cabnet-01.png",
-      "X": 8,
-      "Y": 64
+      "X": 120,
+      "Y": 56
     },
     {
       "Name": "Stool - type 01 - 00",
       "Filename": "Stool-type-01-00.png",
-      "X": 16,
+      "X": 0,
       "Y": 64
     },
     {
       "Name": "Stool - type 01 - 01",
       "Filename": "Stool-type-01-01.png",
-      "X": 24,
+      "X": 8,
       "Y": 64
     },
     {
       "Name": "Stool - type 01 - 02",
       "Filename": "Stool-type-01-02.png",
-      "X": 32,
+      "X": 16,
       "Y": 64
     },
     {
       "Name": "Stool - type 01 - 03",
       "Filename": "Stool-type-01-03.png",
-      "X": 40,
+      "X": 24,
       "Y": 64
     },
     {
       "Name": "Stool - type 02 - 00",
       "Filename": "Stool-type-02-00.png",
-      "X": 48,
+      "X": 32,
       "Y": 64
     },
     {
       "Name": "Stool - type 02 - 01",
       "Filename": "Stool-type-02-01.png",
-      "X": 56,
+      "X": 40,
       "Y": 64
     },
     {
       "Name": "Stool - type 02 - 02",
       "Filename": "Stool-type-02-02.png",
-      "X": 64,
+      "X": 48,
       "Y": 64
     },
     {
       "Name": "Stool - type 02 - 03",
       "Filename": "Stool-type-02-03.png",
-      "X": 72,
+      "X": 56,
       "Y": 64
     },
     {
       "Name": "Radio - type 01 - 00",
       "Filename": "Radio-type-01-00.png",
-      "X": 80,
+      "X": 64,
       "Y": 64
     },
     {
       "Name": "Radio - type 01 - 01",
       "Filename": "Radio-type-01-01.png",
-      "X": 88,
+      "X": 72,
       "Y": 64
     },
     {
       "Name": "Radio - type 01 - 02",
       "Filename": "Radio-type-01-02.png",
-      "X": 96,
+      "X": 80,
       "Y": 64
     },
     {
       "Name": "Radio - type 01 - 03",
       "Filename": "Radio-type-01-03.png",
-      "X": 104,
+      "X": 88,
       "Y": 64
     },
     {
       "Name": "Radio - type 02 - 00",
       "Filename": "Radio-type-02-00.png",
-      "X": 112,
+      "X": 96,
       "Y": 64
     },
     {
       "Name": "Radio - type 02 - 01",
       "Filename": "Radio-type-02-01.png",
-      "X": 120,
+      "X": 104,
       "Y": 64
     },
     {
       "Name": "Radio - type 02 - 02",
       "Filename": "Radio-type-02-02.png",
-      "X": 0,
-      "Y": 72
+      "X": 112,
+      "Y": 64
     },
     {
       "Name": "Radio - type 02 - 03",
       "Filename": "Radio-type-02-03.png",
-      "X": 8,
-      "Y": 72
+      "X": 120,
+      "Y": 64
     }
   ]
 }
