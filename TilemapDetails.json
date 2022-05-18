@@ -400,14 +400,14 @@
       "Y": 32
     },
     {
-      "Name": "Flooring - basic",
-      "Filename": "Flooring-basic.png",
+      "Name": "Flooring - type 01",
+      "Filename": "Flooring-type-01.png",
       "X": 16,
       "Y": 32
     },
     {
-      "Name": "Flooring - wood",
-      "Filename": "Flooring-wood.png",
+      "Name": "Flooring - type 02",
+      "Filename": "Flooring-type-02.png",
       "X": 24,
       "Y": 32
     },

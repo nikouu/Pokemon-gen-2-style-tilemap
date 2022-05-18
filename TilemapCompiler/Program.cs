@@ -12,8 +12,8 @@ var tilemapDetailsPath = args[1];
 var outputPath = args[2];
 var readmePath = args[3];
 
-var pipline = new MarkdownPipelineBuilder().UseAdvancedExtensions().Build();
-var readmeMarkdown = Markdown.Parse(File.ReadAllText(readmePath), pipline);
+var pipeline = new MarkdownPipelineBuilder().UseAdvancedExtensions().Build();
+var readmeMarkdown = Markdown.Parse(File.ReadAllText(readmePath), pipeline);
 
 var tileListFromMarkdown = new List<Tile>();
 

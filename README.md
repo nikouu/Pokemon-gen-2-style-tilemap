@@ -5,9 +5,9 @@
 1. Same colour palette 
 
 ## Compiler
-There's a *dirty* compiler that extracts data from the tables in this readme.md file to generate:
+There's a *crusty* compiler that extracts data from the tables in this readme.md file to generate:
 1. A tilemap for both the [original](Original.png) and [custom](Custom.png) tiles
-2. A JSON output of the tilemap with tile names, the filename, and coordinates. [TilemapDetails.json](TilemapDetails.json)
+2. A JSON output of the tilemap with tile names, the filename, and coordinates: [TilemapDetails.json](TilemapDetails.json)
 
 If there are missing tiles, a fuchsia square is used instead. 
 
@@ -190,8 +190,8 @@ gravel.
 | Back wall - art 01          | ![image](Original/Back-wall-art-01_large.png)        |        |       |
 | Back wall - art 02          | ![image](Original/Back-wall-art-02_large.png)        |        |       |
 | Back wall - art 03          | ![image](Original/Back-wall-art-03_large.png)        |        |       |
-| Flooring - basic            | ![image](Original/Flooring-basic_large.png)          |        |       |
-| Flooring - wood             | ![image](Original/Flooring-wood_large.png)           |        |       |
+| Flooring - type 01          | ![image](Original/Flooring-type-01_large.png)        |        |       |
+| Flooring - type 02          | ![image](Original/Flooring-type-02_large.png)        |        |       |
 | Table - type 01 - 00        | ![image](Original/Table-type-1-00_large.png)         |        |       |
 | Table - type 01 - 01        | ![image](Original/Table-type-1-01_large.png)         |        |       |
 | Table - type 01 - 02        | ![image](Original/Table-type-1-02_large.png)         |        |       |
@@ -272,7 +272,7 @@ gravel.
 | Radio - type 02 - 03        | ![image](Original/Radio-type-02-03_large.png)        |        |       |
 
 ### Constructed Tiles 
-| Constucted Tile        | Original                                                      | Custom |
+| Constructed Tile        | Original                                                      | Custom |
 | ---------------------- | ------------------------------------------------------------- | ------ |
 | Back wall - window     | ![image](Original/Constructed/Back-wall-window_large.png)     |        |
 | Back wall - art        | ![image](Original/Constructed/Back-wall-art_large.png)        |        |
