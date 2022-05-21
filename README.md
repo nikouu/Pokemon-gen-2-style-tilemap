@@ -181,7 +181,7 @@ gravel.
 | --------------------------- | ---------------------------------------------------- | -------------------------------------------- | -------------------------------------------------------------- |
 | Void                        | ![image](Original/Void_large.png)                    | ![image](Custom/Void_large.png)              |                                                                |
 | Back wall - painted         | ![image](Original/Back-wall-painted_large.png)       | ![image](Custom/Back-wall-painted_large.png) |                                                                |
-| Back wall - wood            | ![image](Original/Back-wall-wood_large.png)          | ![image](Custom/Back-wall-wood_large.png)    |                                                                |
+| Back wall - wood            | ![image](Original/Back-wall-wood_large.png)          | ![image](Custom/Back-wall-wood_large.png)    |  ╚(ಠ_ಠ)=┐ ┌=(ಠ_ಠ)╝                                                             |
 | Back wall - window 00       | ![image](Original/Back-wall-window-00_large.png)     |                                              |                                                                |
 | Back wall - window 01       | ![image](Original/Back-wall-window-01_large.png)     |                                              |                                                                |
 | Back wall - window 02       | ![image](Original/Back-wall-window-02_large.png)     |                                              |                                                                |
