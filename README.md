@@ -23,7 +23,7 @@ This helps me create tilemaps easily by only having to document them here. The t
 - Inspiration from [Pokemon Gold/Silver](https://www.spriters-resource.com/game_boy_gbc/pokemongoldsilver/sheet/60234/). This is also the spritesheet the originals come from.
 - Slight inspiration from [The Legend of Zelda: Oracle of Ages](https://www.spriters-resource.com/game_boy_gbc/thelegendofzeldaoracleofages/) and [The Legend of Zelda: Oracle of Seasons](https://www.spriters-resource.com/game_boy_gbc/thelegendofzeldaoracleofseasons/)
 - [Full map of Gen 2 Johto and Kanto](https://www.reddit.com/r/pokemon/comments/ez1v43/gen_ii_map_of_overworld_and_dungeons_as_they/). Copying this into Aseprite, setup the grid as `{X: 1, Y: 6, Width: 8, Height: 8}` to align the main map to the grid. Grid toggle is `ctrl + '`
-- Tile naming convention: <Object> - <type> - <index>
+- Tile naming convention: \<Object> - \<type> - \<index>
     - Object: The thing the tile represents.
     - Type: The type/subclass/description of the Object
     - Index: If it is a multi-tile Object, the index of the tile. From left to right, top to bottom.
