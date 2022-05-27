@@ -181,17 +181,17 @@ gravel.
 | --------------------------- | ---------------------------------------------------- | -------------------------------------------- | -------------------------------------------------------------- |
 | Void                        | ![image](Original/Void_large.png)                    | ![image](Custom/Void_large.png)              |                                                                |
 | Back wall - painted         | ![image](Original/Back-wall-painted_large.png)       | ![image](Custom/Back-wall-painted_large.png) |                                                                |
-| Back wall - wood            | ![image](Original/Back-wall-wood_large.png)          | ![image](Custom/Back-wall-wood_large.png)    |  ╚(ಠ_ಠ)=┐ ┌=(ಠ_ಠ)╝                                                             |
-| Back wall - window 00       | ![image](Original/Back-wall-window-00_large.png)     |                                              |                                                                |
-| Back wall - window 01       | ![image](Original/Back-wall-window-01_large.png)     |                                              |                                                                |
-| Back wall - window 02       | ![image](Original/Back-wall-window-02_large.png)     |                                              |                                                                |
-| Back wall - window 03       | ![image](Original/Back-wall-window-03_large.png)     |                                              |                                                                |
+| Back wall - wood            | ![image](Original/Back-wall-wood_large.png)          | ![image](Custom/Back-wall-wood_large.png)    | ╚(ಠ_ಠ)=┐ ┌=(ಠ_ಠ)╝                                              |
+| Back wall - window 00       | ![image](Original/Back-wall-window-00_large.png)     | ![image](Custom/Back-wall-window-00_large.png)                                              |                                                                |
+| Back wall - window 01       | ![image](Original/Back-wall-window-01_large.png)     |   ![image](Custom/Back-wall-window-01_large.png)                                            |                                                                |
+| Back wall - window 02       | ![image](Original/Back-wall-window-02_large.png)     |  ![image](Custom/Back-wall-window-02_large.png)                                             |                                                                |
+| Back wall - window 03       | ![image](Original/Back-wall-window-03_large.png)     |  ![image](Custom/Back-wall-window-03_large.png)                                             |                                                                |
 | Back wall - art 00          | ![image](Original/Back-wall-art-00_large.png)        | ![image](Custom/Back-wall-art-00_large.png)  |                                                                |
 | Back wall - art 01          | ![image](Original/Back-wall-art-01_large.png)        | ![image](Custom/Back-wall-art-01_large.png)  |                                                                |
 | Back wall - art 02          | ![image](Original/Back-wall-art-02_large.png)        | ![image](Custom/Back-wall-art-02_large.png)  |                                                                |
 | Back wall - art 03          | ![image](Original/Back-wall-art-03_large.png)        | ![image](Custom/Back-wall-art-03_large.png)  |                                                                |
 | Flooring - type 01          | ![image](Original/Flooring-type-01_large.png)        | ![image](Custom/Flooring-type-01_large.png)  |                                                                |
-| Flooring - type 02          | ![image](Original/Flooring-type-02_large.png)        |                                              |                                                                |
+| Flooring - type 02          | ![image](Original/Flooring-type-02_large.png)        | ![image](Custom/Flooring-type-02_large.png)  |                                                                |
 | Table - type 01 - 00        | ![image](Original/Table-type-1-00_large.png)         | ![image](Custom/Table-type-1-00_large.png)   |                                                                |
 | Table - type 01 - 01        | ![image](Original/Table-type-1-01_large.png)         | ![image](Custom/Table-type-1-01_large.png)   |                                                                |
 | Table - type 01 - 02        | ![image](Original/Table-type-1-02_large.png)         | ![image](Custom/Table-type-1-02_large.png)   |                                                                |
@@ -272,7 +272,7 @@ gravel.
 ### Constructed Tiles 
 | Constructed Tile       | Original                                                      | Custom                                               |
 | ---------------------- | ------------------------------------------------------------- | ---------------------------------------------------- |
-| Back wall - window     | ![image](Original/Constructed/Back-wall-window_large.png)     |                                                      |
+| Back wall - window     | ![image](Original/Constructed/Back-wall-window_large.png)     | ![image](Custom/Constructed/Back-wall-window_large.png)                                                     |
 | Back wall - art        | ![image](Original/Constructed/Back-wall-art_large.png)        | ![image](Custom/Constructed/Back-wall-art_large.png) |
 | Table - type 01        | ![image](Original/Constructed/Table-type-01_large.png)        | ![image](Custom/Constructed/Table-type-01_large.png) |
 | Indoor plant - type 01 | ![image](Original/Constructed/Indoor-plant-type-01_large.png) |                                                      |
