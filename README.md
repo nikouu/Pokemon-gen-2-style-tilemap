@@ -290,6 +290,15 @@ gravel.
 | Radio - type 02        | ![image](Original/Constructed/Radio-type-02_large.png)        |                                                             |
 
 
+#### Indoor Plant Type 01 Attempts
+For fun, here are some attempts at the indoor plant. The first two are from the game, the latter four are my attempts.
+
+![image](Custom/Drafts/Indoor-plant-00-drafts_large.png)
+
+While what I settled on wasn't perfect (see in the tables above), I did learn:
+1. The flooring that is 1px hatched tiles also applies to the green area
+1. The shading for the plants really makes it. Having the light, medium then dark greens from top to bottom of each leaf.
+1. That the pot looks like it's a plant pot from Zelda.
 
 ### Wanted tiles
 - Back wall
