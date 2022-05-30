@@ -222,14 +222,14 @@ gravel.
 | TV - type 01 - 01           | ![image](Original/TV-type-01-01_large.png)           | ![image](Custom/TV-type-01-01_large.png)           |                                                                |
 | TV - type 01 - 02           | ![image](Original/TV-type-01-02_large.png)           | ![image](Custom/TV-type-01-02_large.png)           |                                                                |
 | TV - type 01 - 03           | ![image](Original/TV-type-01-03_large.png)           | ![image](Custom/TV-type-01-03_large.png)           |                                                                |
-| Bookshelf - type 01 - 00    | ![image](Original/Bookshelf-type-01-00_large.png)    |                                                    |                                                                |
-| Bookshelf - type 01 - 01    | ![image](Original/Bookshelf-type-01-01_large.png)    |                                                    |                                                                |
-| Bookshelf - type 01 - 02    | ![image](Original/Bookshelf-type-01-02_large.png)    |                                                    |                                                                |
-| Bookshelf - type 01 - 03    | ![image](Original/Bookshelf-type-01-03_large.png)    |                                                    |                                                                |
-| Bookshelf - type 01 - 04    | ![image](Original/Bookshelf-type-01-04_large.png)    |                                                    |                                                                |
-| Bookshelf - type 01 - 05    | ![image](Original/Bookshelf-type-01-05_large.png)    |                                                    |                                                                |
-| Bookshelf - type 01 - 06    | ![image](Original/Bookshelf-type-01-06_large.png)    |                                                    |                                                                |
-| Bookshelf - type 01 - 07    | ![image](Original/Bookshelf-type-01-07_large.png)    |                                                    |                                                                |
+| Bookshelf - type 01 - 00    | ![image](Original/Bookshelf-type-01-00_large.png)    | ![image](Custom/Bookshelf-type-01-00_large.png)    |                                                                |
+| Bookshelf - type 01 - 01    | ![image](Original/Bookshelf-type-01-01_large.png)    | ![image](Custom/Bookshelf-type-01-01_large.png)    |                                                                |
+| Bookshelf - type 01 - 02    | ![image](Original/Bookshelf-type-01-02_large.png)    | ![image](Custom/Bookshelf-type-01-02_large.png)    |                                                                |
+| Bookshelf - type 01 - 03    | ![image](Original/Bookshelf-type-01-03_large.png)    | ![image](Custom/Bookshelf-type-01-03_large.png)    |                                                                |
+| Bookshelf - type 01 - 04    | ![image](Original/Bookshelf-type-01-04_large.png)    | ![image](Custom/Bookshelf-type-01-04_large.png)    |                                                                |
+| Bookshelf - type 01 - 05    | ![image](Original/Bookshelf-type-01-05_large.png)    | ![image](Custom/Bookshelf-type-01-05_large.png)    |                                                                |
+| Bookshelf - type 01 - 06    | ![image](Original/Bookshelf-type-01-06_large.png)    | ![image](Custom/Bookshelf-type-01-06_large.png)    |                                                                |
+| Bookshelf - type 01 - 07    | ![image](Original/Bookshelf-type-01-07_large.png)    | ![image](Custom/Bookshelf-type-01-07_large.png)    |                                                                |
 | Bed - type 01 - 00          | ![image](Original/Bed-type-01-00_large.png)          |                                                    |                                                                |
 | Bed - type 01 - 01          | ![image](Original/Bed-type-01-01_large.png)          |                                                    |                                                                |
 | Bed - type 01 - 02          | ![image](Original/Bed-type-01-02_large.png)          |                                                    |                                                                |
@@ -238,12 +238,12 @@ gravel.
 | Bed - type 01 - 05          | ![image](Original/Bed-type-01-05_large.png)          |                                                    |                                                                |
 | Bed - type 01 - 06          | ![image](Original/Bed-type-01-06_large.png)          |                                                    |                                                                |
 | Bed - type 01 - 07          | ![image](Original/Bed-type-01-07_large.png)          |                                                    |                                                                |
-| Fridge - type 01 - 00       | ![image](Original/Fridge-type-01-00_large.png)       |                                                    |                                                                |
-| Fridge - type 01 - 01       | ![image](Original/Fridge-type-01-01_large.png)       |                                                    |                                                                |
-| Fridge - type 01 - 02       | ![image](Original/Fridge-type-01-02_large.png)       |                                                    |                                                                |
-| Fridge - type 01 - 03       | ![image](Original/Fridge-type-01-03_large.png)       |                                                    |                                                                |
-| Fridge - type 01 - 04       | ![image](Original/Fridge-type-01-04_large.png)       |                                                    |                                                                |
-| Fridge - type 01 - 05       | ![image](Original/Fridge-type-01-05_large.png)       |                                                    |                                                                |
+| Fridge - type 01 - 00       | ![image](Original/Fridge-type-01-00_large.png)       | ![image](Custom/Fridge-type-01-00_large.png)       |                                                                |
+| Fridge - type 01 - 01       | ![image](Original/Fridge-type-01-01_large.png)       | ![image](Custom/Fridge-type-01-01_large.png)       |                                                                |
+| Fridge - type 01 - 02       | ![image](Original/Fridge-type-01-02_large.png)       | ![image](Custom/Fridge-type-01-02_large.png)       |                                                                |
+| Fridge - type 01 - 03       | ![image](Original/Fridge-type-01-03_large.png)       | ![image](Custom/Fridge-type-01-03_large.png)       |                                                                |
+| Fridge - type 01 - 04       | ![image](Original/Fridge-type-01-04_large.png)       | ![image](Custom/Fridge-type-01-04_large.png)       |                                                                |
+| Fridge - type 01 - 05       | ![image](Original/Fridge-type-01-05_large.png)       | ![image](Custom/Fridge-type-01-05_large.png)       |                                                                |
 | Sink - 01                   | ![image](Original/Sink-00_large.png)                 |                                                    |                                                                |
 | Sink - 02                   | ![image](Original/Sink-01_large.png)                 |                                                    |                                                                |
 | Stove - 00                  | ![image](Original/Stove-00_large.png)                |                                                    |                                                                |
@@ -278,9 +278,9 @@ gravel.
 | Indoor plant - type 01 | ![image](Original/Constructed/Indoor-plant-type-01_large.png) | ![image](Custom/Constructed/Indoor-plant-type-01_large.png) |
 | Computer - type 01     | ![image](Original/Constructed/Computer-type-01_large.png)     |                                                             |
 | TV - type 01           | ![image](Original/Constructed/Tv-type-01_large.png)           | ![image](Custom/Constructed/Tv-type-01_large.png)           |
-| Bookshelf - type 01    | ![image](Original/Constructed/Bookshelf-type-01_large.png)    |                                                             |
+| Bookshelf - type 01    | ![image](Original/Constructed/Bookshelf-type-01_large.png)    | ![image](Custom/Constructed/Bookshelf-type-01_large.png)    |
 | Bed - type 01          | ![image](Original/Constructed/Bed-type-01_large.png)          |                                                             |
-| Fridge - type 01       | ![image](Original/Constructed/Fridge-type-01_large.png)       |                                                             |
+| Fridge - type 01       | ![image](Original/Constructed/Fridge-type-01_large.png)       | ![image](Custom/Constructed/Fridge-type-01_large.png)     |
 | Sink                   | ![image](Original/Constructed/Sink_large.png)                 |                                                             |
 | Stove                  | ![image](Original/Constructed/Stove_large.png)                |                                                             |
 | Cabinet                | ![image](Original/Constructed/Cabinet_large.png)              |                                                             |
