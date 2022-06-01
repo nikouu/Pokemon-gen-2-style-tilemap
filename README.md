@@ -244,8 +244,8 @@ gravel.
 | Fridge - type 01 - 03       | ![image](Original/Fridge-type-01-03_large.png)       | ![image](Custom/Fridge-type-01-03_large.png)       |                                                                |
 | Fridge - type 01 - 04       | ![image](Original/Fridge-type-01-04_large.png)       | ![image](Custom/Fridge-type-01-04_large.png)       |                                                                |
 | Fridge - type 01 - 05       | ![image](Original/Fridge-type-01-05_large.png)       | ![image](Custom/Fridge-type-01-05_large.png)       |                                                                |
-| Sink - 01                   | ![image](Original/Sink-00_large.png)                 |                                                    |                                                                |
-| Sink - 02                   | ![image](Original/Sink-01_large.png)                 |                                                    |                                                                |
+| Sink - 01                   | ![image](Original/Sink-00_large.png)                 | ![image](Custom/Sink-00_large.png)                 | This custom sink might be my favorite piece of this project.   |
+| Sink - 02                   | ![image](Original/Sink-01_large.png)                 | ![image](Custom/Sink-01_large.png)                 |                                                                |
 | Stove - 00                  | ![image](Original/Stove-00_large.png)                |                                                    |                                                                |
 | Stove - 01                  | ![image](Original/Stove-01_large.png)                |                                                    |                                                                |
 | Stove - 02                  | ![image](Original/Stove-02_large.png)                |                                                    |                                                                |
@@ -281,7 +281,7 @@ gravel.
 | Bookshelf - type 01    | ![image](Original/Constructed/Bookshelf-type-01_large.png)    | ![image](Custom/Constructed/Bookshelf-type-01_large.png)    |
 | Bed - type 01          | ![image](Original/Constructed/Bed-type-01_large.png)          | ![image](Custom/Constructed/Bed-type-01_large.png)        |
 | Fridge - type 01       | ![image](Original/Constructed/Fridge-type-01_large.png)       | ![image](Custom/Constructed/Fridge-type-01_large.png)       |
-| Sink                   | ![image](Original/Constructed/Sink_large.png)                 |                                                             |
+| Sink                   | ![image](Original/Constructed/Sink_large.png)                 | ![image](Custom/Constructed/Sink_large.png)                                                            |
 | Stove                  | ![image](Original/Constructed/Stove_large.png)                |                                                             |
 | Cabinet                | ![image](Original/Constructed/Cabinet_large.png)              |                                                             |
 | Stool - type 01        | ![image](Original/Constructed/Stool-type-01_large.png)        |                                                             |
