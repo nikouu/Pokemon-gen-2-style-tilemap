@@ -212,12 +212,12 @@ gravel.
 | Indoor plant - type 01 - 05 | ![image](Original/Indoor-plant-type-01-05_large.png) | ![image](Custom/Indoor-plant-type-01-05_large.png) |                                                                |
 | Indoor plant - type 01 - 06 | ![image](Original/Indoor-plant-type-01-06_large.png) | ![image](Custom/Indoor-plant-type-01-06_large.png) |                                                                |
 | Indoor plant - type 01 - 07 | ![image](Original/Indoor-plant-type-01-07_large.png) | ![image](Custom/Indoor-plant-type-01-07_large.png) |                                                                |
-| Computer - type 01 - 00     | ![image](Original/Computer-type-01-00_large.png)     |                                                    |                                                                |
-| Computer - type 01 - 01     | ![image](Original/Computer-type-01-01_large.png)     |                                                    |                                                                |
-| Computer - type 01 - 02     | ![image](Original/Computer-type-01-02_large.png)     |                                                    |                                                                |
-| Computer - type 01 - 03     | ![image](Original/Computer-type-01-03_large.png)     |                                                    |                                                                |
-| Computer - type 01 - 04     | ![image](Original/Computer-type-01-04_large.png)     |                                                    |                                                                |
-| Computer - type 01 - 05     | ![image](Original/Computer-type-01-05_large.png)     |                                                    | Uses the bottom of the bookshelf as the bottom of the computer |
+| Computer - type 01 - 00     | ![image](Original/Computer-type-01-00_large.png)     | ![image](Custom/Computer-type-01-00_large.png)     |                                                                |
+| Computer - type 01 - 01     | ![image](Original/Computer-type-01-01_large.png)     | ![image](Custom/Computer-type-01-01_large.png)     | Looks like I drew a rare wide screen old CRT                   |
+| Computer - type 01 - 02     | ![image](Original/Computer-type-01-02_large.png)     | ![image](Custom/Computer-type-01-02_large.png)     |                                                                |
+| Computer - type 01 - 03     | ![image](Original/Computer-type-01-03_large.png)     | ![image](Custom/Computer-type-01-03_large.png)     |                                                                |
+| Computer - type 01 - 04     | ![image](Original/Computer-type-01-04_large.png)     | ![image](Custom/Computer-type-01-04_large.png)     |                                                                |
+| Computer - type 01 - 05     | ![image](Original/Computer-type-01-05_large.png)     | ![image](Custom/Computer-type-01-05_large.png)     | Uses the bottom of the bookshelf as the bottom of the computer |
 | TV - type 01 - 00           | ![image](Original/TV-type-01-00_large.png)           | ![image](Custom/TV-type-01-00_large.png)           |                                                                |
 | TV - type 01 - 01           | ![image](Original/TV-type-01-01_large.png)           | ![image](Custom/TV-type-01-01_large.png)           |                                                                |
 | TV - type 01 - 02           | ![image](Original/TV-type-01-02_large.png)           | ![image](Custom/TV-type-01-02_large.png)           |                                                                |
@@ -276,11 +276,11 @@ gravel.
 | Back wall - art        | ![image](Original/Constructed/Back-wall-art_large.png)        | ![image](Custom/Constructed/Back-wall-art_large.png)        |
 | Table - type 01        | ![image](Original/Constructed/Table-type-01_large.png)        | ![image](Custom/Constructed/Table-type-01_large.png)        |
 | Indoor plant - type 01 | ![image](Original/Constructed/Indoor-plant-type-01_large.png) | ![image](Custom/Constructed/Indoor-plant-type-01_large.png) |
-| Computer - type 01     | ![image](Original/Constructed/Computer-type-01_large.png)     |                                                             |
+| Computer - type 01     | ![image](Original/Constructed/Computer-type-01_large.png)     | ![image](Custom/Constructed/Computer-type-01_large.png)   |
 | TV - type 01           | ![image](Original/Constructed/Tv-type-01_large.png)           | ![image](Custom/Constructed/Tv-type-01_large.png)           |
 | Bookshelf - type 01    | ![image](Original/Constructed/Bookshelf-type-01_large.png)    | ![image](Custom/Constructed/Bookshelf-type-01_large.png)    |
 | Bed - type 01          | ![image](Original/Constructed/Bed-type-01_large.png)          |                                                             |
-| Fridge - type 01       | ![image](Original/Constructed/Fridge-type-01_large.png)       | ![image](Custom/Constructed/Fridge-type-01_large.png)     |
+| Fridge - type 01       | ![image](Original/Constructed/Fridge-type-01_large.png)       | ![image](Custom/Constructed/Fridge-type-01_large.png)       |
 | Sink                   | ![image](Original/Constructed/Sink_large.png)                 |                                                             |
 | Stove                  | ![image](Original/Constructed/Stove_large.png)                |                                                             |
 | Cabinet                | ![image](Original/Constructed/Cabinet_large.png)              |                                                             |
