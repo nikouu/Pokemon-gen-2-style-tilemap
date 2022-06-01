@@ -246,10 +246,10 @@ gravel.
 | Fridge - type 01 - 05       | ![image](Original/Fridge-type-01-05_large.png)       | ![image](Custom/Fridge-type-01-05_large.png)       |                                                                |
 | Sink - 01                   | ![image](Original/Sink-00_large.png)                 | ![image](Custom/Sink-00_large.png)                 | This custom sink might be my favorite piece of this project.   |
 | Sink - 02                   | ![image](Original/Sink-01_large.png)                 | ![image](Custom/Sink-01_large.png)                 |                                                                |
-| Stove - 00                  | ![image](Original/Stove-00_large.png)                |                                                    |                                                                |
-| Stove - 01                  | ![image](Original/Stove-01_large.png)                |                                                    |                                                                |
-| Stove - 02                  | ![image](Original/Stove-02_large.png)                |                                                    |                                                                |
-| Stove - 03                  | ![image](Original/Stove-03_large.png)                |                                                    |                                                                |
+| Stove - 00                  | ![image](Original/Stove-00_large.png)                | ![image](Custom/Stove-00_large.png)                |                                                                |
+| Stove - 01                  | ![image](Original/Stove-01_large.png)                | ![image](Custom/Stove-01_large.png)                |                                                                |
+| Stove - 02                  | ![image](Original/Stove-02_large.png)                | ![image](Custom/Stove-02_large.png)                |                                                                |
+| Stove - 03                  | ![image](Original/Stove-03_large.png)                | ![image](Custom/Stove-03_large.png)                |                                                                |
 | Cabnet - 00                 | ![image](Original/Cabnet-00_large.png)               |                                                    |                                                                |
 | Cabnet - 01                 | ![image](Original/Cabnet-01_large.png)               |                                                    |                                                                |
 | Stool - type 01 - 00        | ![image](Original/Stool-type-01-00_large.png)        |                                                    |                                                                |
@@ -279,10 +279,10 @@ gravel.
 | Computer - type 01     | ![image](Original/Constructed/Computer-type-01_large.png)     | ![image](Custom/Constructed/Computer-type-01_large.png)     |
 | TV - type 01           | ![image](Original/Constructed/Tv-type-01_large.png)           | ![image](Custom/Constructed/Tv-type-01_large.png)           |
 | Bookshelf - type 01    | ![image](Original/Constructed/Bookshelf-type-01_large.png)    | ![image](Custom/Constructed/Bookshelf-type-01_large.png)    |
-| Bed - type 01          | ![image](Original/Constructed/Bed-type-01_large.png)          | ![image](Custom/Constructed/Bed-type-01_large.png)        |
+| Bed - type 01          | ![image](Original/Constructed/Bed-type-01_large.png)          | ![image](Custom/Constructed/Bed-type-01_large.png)          |
 | Fridge - type 01       | ![image](Original/Constructed/Fridge-type-01_large.png)       | ![image](Custom/Constructed/Fridge-type-01_large.png)       |
-| Sink                   | ![image](Original/Constructed/Sink_large.png)                 | ![image](Custom/Constructed/Sink_large.png)                                                            |
-| Stove                  | ![image](Original/Constructed/Stove_large.png)                |                                                             |
+| Sink                   | ![image](Original/Constructed/Sink_large.png)                 | ![image](Custom/Constructed/Sink_large.png)                 |
+| Stove                  | ![image](Original/Constructed/Stove_large.png)                | ![image](Custom/Constructed/Stove_large.png)                |
 | Cabinet                | ![image](Original/Constructed/Cabinet_large.png)              |                                                             |
 | Stool - type 01        | ![image](Original/Constructed/Stool-type-01_large.png)        |                                                             |
 | Stool - type 02        | ![image](Original/Constructed/Stool-type-02_large.png)        |                                                             |
@@ -299,6 +299,11 @@ While what I settled on wasn't perfect (see in the tables above), I did learn:
 1. The flooring that is 1px hatched tiles also applies to the green area
 1. The shading for the plants really makes it. Having the light, medium then dark greens from top to bottom of each leaf.
 1. That the pot looks like it's a plant pot from Zelda.
+
+#### Let that sink in
+Like noted above, I'm really proud of the sink. I just think it looks neat. Showed it to a friend, and he returned with:
+
+![image](Etc/UpgradingSinkMeme.png)
 
 ### Wanted tiles
 - Back wall
