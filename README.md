@@ -138,41 +138,10 @@ This helps me create tilemaps easily by only having to document them here. The t
  - [bgb notes](https://github.com/doeg/gb-skeleton/blob/master/docs/bgb.md) 
  - [More bgb notes](https://eldred.fr/gb-asm-tutorial/part1/tracing.html)
 
-### Wanted tiles
-A list of types of tiles I'd like to have. 
-
-#### Simple tiles
-- Path
-  - A completely blank tile. Usually intersperced with the path with  
-- Path with gravel 
-  - This is the most common path in Gen 2 Pokemon
-gravel.
-- Flat grass
-  - The general green outside floor tile
-- Short tree
-  - The headbutt trees
-- Tall tree
-  - The trees that are double the short tree height
-- Sign
-  - The route/city signs
-- Ridge
-  - The ledges the player can jump off
-  - The tiles that create rocky hills and mountains
-
-#### Animated tiles
-- Water
-- Tall grass
-- Flowers 
-  - There are Johto flowers and Kanto flowers, But I'll be focusing on Johto. 
-  - I think Johto flowers run at 24 frames per animation frame. Assembly [here](https://github.com/pret/pokegold/blob/c133efea5f8438ea40be83dc3b2039494574c768/engine/tilesets/tileset_anims.asm#L408).
-  - Also both seem to [run at different speeds](https://twitter.com/crystal_rby/status/1163503969429336066).
-
-#### Building tiles 
-- Door
-- Window
-- Flat roof style
-- Fill in for building (hatched?)
-- Fill in for building (brick)
+#### Flowers
+- There are Johto flowers and Kanto flowers, But I'll be focusing on Johto. 
+- I think Johto flowers run at 24 frames per animation frame. Assembly [here](https://github.com/pret/pokegold/blob/c133efea5f8438ea40be83dc3b2039494574c768/engine/tilesets/tileset_anims.asm#L408).
+- Also both seem to [run at different speeds](https://twitter.com/crystal_rby/status/1163503969429336066).
 
 ## Indoor
 
@@ -304,21 +273,3 @@ While what I settled on wasn't perfect (see in the tables above), I did learn:
 Like noted above, I'm really proud of the sink. I just think it looks neat. Showed it to a friend, and he returned with:
 
 ![image](Etc/UpgradingSinkMeme.png)
-
-### Wanted tiles
-- Back wall
-- Window
-- Art/poster
-- Flooring
-- Table
-- Tall plant
-- Computer
-- TV
-- Bookshelf
-- Bed
-- Fridge
-- Sink
-- Stovetop/oven
-- Cupboard/cabinet
-- Stool
-- Radio
