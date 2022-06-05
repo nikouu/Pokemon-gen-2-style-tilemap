@@ -229,10 +229,10 @@ This helps me create tilemaps easily by only having to document them here. The t
 | Stool - type 02 - 01        | ![image](Original/Stool-type-02-01_large.png)        |                                                    |                                                                |
 | Stool - type 02 - 02        | ![image](Original/Stool-type-02-02_large.png)        |                                                    |                                                                |
 | Stool - type 02 - 03        | ![image](Original/Stool-type-02-03_large.png)        |                                                    |                                                                |
-| Radio - type 01 - 00        | ![image](Original/Radio-type-01-00_large.png)        |                                                    |                                                                |
-| Radio - type 01 - 01        | ![image](Original/Radio-type-01-01_large.png)        |                                                    |                                                                |
-| Radio - type 01 - 02        | ![image](Original/Radio-type-01-02_large.png)        |                                                    |                                                                |
-| Radio - type 01 - 03        | ![image](Original/Radio-type-01-03_large.png)        |                                                    |                                                                |
+| Radio - type 01 - 00        | ![image](Original/Radio-type-01-00_large.png)        | ![image](Custom/Radio-type-01-00_large.png)        |                                                                |
+| Radio - type 01 - 01        | ![image](Original/Radio-type-01-01_large.png)        | ![image](Custom/Radio-type-01-01_large.png)        |                                                                |
+| Radio - type 01 - 02        | ![image](Original/Radio-type-01-02_large.png)        | ![image](Custom/Radio-type-01-02_large.png)        |                                                                |
+| Radio - type 01 - 03        | ![image](Original/Radio-type-01-03_large.png)        | ![image](Custom/Radio-type-01-03_large.png)        |                                                                |
 | Radio - type 02 - 00        | ![image](Original/Radio-type-02-00_large.png)        | ![image](Custom/Radio-type-02-00_large.png)        |                                                                |
 | Radio - type 02 - 01        | ![image](Original/Radio-type-02-01_large.png)        | ![image](Custom/Radio-type-02-01_large.png)        |                                                                |
 | Radio - type 02 - 02        | ![image](Original/Radio-type-02-02_large.png)        | ![image](Custom/Radio-type-02-02_large.png)        |                                                                |
@@ -255,7 +255,7 @@ This helps me create tilemaps easily by only having to document them here. The t
 | Cabinet                | ![image](Original/Constructed/Cabinet_large.png)              | ![image](Custom/Constructed/Cabinet_large.png)              |
 | Stool - type 01        | ![image](Original/Constructed/Stool-type-01_large.png)        |                                                             |
 | Stool - type 02        | ![image](Original/Constructed/Stool-type-02_large.png)        |                                                             |
-| Radio - type 01        | ![image](Original/Constructed/Radio-type-01_large.png)        |                                                             |
+| Radio - type 01        | ![image](Original/Constructed/Radio-type-01_large.png)        | ![image](Custom/Constructed/Radio-type-01_large.png)      |
 | Radio - type 02        | ![image](Original/Constructed/Radio-type-02_large.png)        | ![image](Custom/Constructed/Radio-type-02_large.png)        |
 
 
