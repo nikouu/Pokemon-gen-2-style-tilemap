@@ -12,6 +12,18 @@ var tilemapDetailsPath = args[1];
 var outputPath = args[2];
 var readmePath = args[3];
 
+
+
+//var pathStart = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), @"GitHub\Pokemon-gen-2-style-tilemap");
+
+//var tilesDirectory = Path.Combine(pathStart, "Original");
+//var tilemapDetailsPath = Path.Combine(pathStart, @"TilemapDetails.json");
+//var outputPath = Path.Combine(pathStart, "Original_gb.png");
+//var readmePath = Path.Combine(pathStart, @"README.md");
+//var convertToGBColour = true;
+
+
+
 var pipeline = new MarkdownPipelineBuilder().UseAdvancedExtensions().Build();
 var readmeMarkdown = Markdown.Parse(File.ReadAllText(readmePath), pipeline);
 
@@ -75,7 +87,7 @@ foreach (var rowTiles in tilemapDetailsRow)
 
         if (File.Exists(tilePath))
         {
-            tileImage = new Bitmap(tilePath);
+            tileImage = new Bitmap(tilePath);            
         }
         else
         {
