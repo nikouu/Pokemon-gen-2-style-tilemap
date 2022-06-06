@@ -5,27 +5,27 @@ using System.Drawing;
 Console.WriteLine("Hello, World!");
 
 var threeColourTile = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments),
-    @"GitHub\Pokemon-gen-2-style-tilemap/Original/Building-window.png");
+    @"GitHub\Pokemon-gen-2-style-tilemap/Original/Building-roof-flat-04.png");
 
+threeColourTile = @"C:\Users\Niko Uusitalo\Documents\GitHub\Little-Mokki-In-The-Woods\LittleMokkiInTheWoods\assets\backgrounds\Mokki-area-export.png";
 var image = new Bitmap(threeColourTile);
 
 var colourisedImage = new Bitmap(image.Width, image.Height);
 
 if (image.Width > 8 && image.Height > 8)
 {
-    for (int i = 0; i < image.Width; i = i + 8)
+    for (int i = 0; i < image.Width; i += 8)
     {
-        for (int j = 0; j < image.Height; j = j + 8 )
+        for (int j = 0; j < image.Height; j += 8)
         {
             var cloneRectangle = new Rectangle(i, j, 8, 8);
-            var tile = image.Clone(cloneRectangle, image.PixelFormat);
+            using var tile = image.Clone(cloneRectangle, image.PixelFormat);
 
-            var colouredTile = Colouriser.ColouriseTile(tile);
+            using var colouredTile = Colouriser.ColouriseTile(tile);
 
-            using (Graphics g = Graphics.FromImage(colourisedImage))
-            {
-                g.DrawImage(colouredTile, cloneRectangle);
-            }
+            using var g = Graphics.FromImage(colourisedImage);
+            g.DrawImage(colouredTile, cloneRectangle);
+
         }
     }
 }

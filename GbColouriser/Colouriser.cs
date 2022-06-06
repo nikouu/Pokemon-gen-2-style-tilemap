@@ -84,7 +84,7 @@ namespace GbColouriser
 
             var colourMapper = (whites.Count, blacks.Count, sourceColours.Count()) switch
             {
-                (_, _, 3) => ThreeColourMapper(sourceColours, whites, blacks),
+                //(_, _, 3) => ThreeColourMapper(sourceColours, whites, blacks),
                 (_, _, _) => StandardMapper(sourceColours, whites, blacks)
             };
 
@@ -117,6 +117,18 @@ namespace GbColouriser
                 gbColours = new List<Color> { GBDark, GBLight, GBWhite };
 
                 orderedSourceColours.Remove(blacks[0]);
+                colourMapper[blacks[0]] = GBBlack;
+            }
+            else if (whites.Count > 0 && blacks.Count > 0)
+            {
+                // lightest to darkest
+                orderedSourceColours = sourceColours.OrderByDescending(x => x.GetBrightness()).ToList();
+                gbColours = new List<Color> { GBLight, GBDark };
+
+                orderedSourceColours.Remove(whites[0]);
+                orderedSourceColours.Remove(blacks[0]);
+
+                colourMapper[whites[0]] = GBWhite;
                 colourMapper[blacks[0]] = GBBlack;
             }
             else
@@ -152,6 +164,10 @@ namespace GbColouriser
                 // darkest to lightest
                 orderedSourceColours = sourceColours.OrderBy(x => x.GetBrightness()).ToArray();
                 gbColours = new[] { GBBlack, GBDark, GBLight, GBWhite };
+            }
+            else if (whites.Count > 0 && blacks.Count > 0)
+            {
+
             }
             else
             {
