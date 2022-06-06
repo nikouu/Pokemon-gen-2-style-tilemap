@@ -224,10 +224,10 @@ This helps me create tilemaps easily by only having to document them here. The t
 | Stove - 03                   | ![image](Original/Stove-03_large.png)                   | ![image](Custom/Stove-03_large.png)                   |                                                                |
 | Cabnet - 00                  | ![image](Original/Cabnet-00_large.png)                  | ![image](Custom/Cabnet-00_large.png)                  | I guess it's a drawer now                                      |
 | Cabnet - 01                  | ![image](Original/Cabnet-01_large.png)                  | ![image](Custom/Cabnet-01_large.png)                  |                                                                |
-| Stool - type 01 - 00         | ![image](Original/Stool-type-01-00_large.png)           |                                                       |                                                                |
-| Stool - type 01 - 01         | ![image](Original/Stool-type-01-01_large.png)           |                                                       |                                                                |
-| Stool - type 01 - 02         | ![image](Original/Stool-type-01-02_large.png)           |                                                       |                                                                |
-| Stool - type 01 - 03         | ![image](Original/Stool-type-01-03_large.png)           |                                                       |                                                                |
+| Stool - type 01 - 00         | ![image](Original/Stool-type-01-00_large.png)           | ![image](Custom/Stool-type-01-00_large.png)           |                                                                |
+| Stool - type 01 - 01         | ![image](Original/Stool-type-01-01_large.png)           | ![image](Custom/Stool-type-01-01_large.png)           |                                                                |
+| Stool - type 01 - 02         | ![image](Original/Stool-type-01-02_large.png)           | ![image](Custom/Stool-type-01-02_large.png)           |                                                                |
+| Stool - type 01 - 03         | ![image](Original/Stool-type-01-03_large.png)           | ![image](Custom/Stool-type-01-03_large.png)           |                                                                |
 | Stool - type 02 - 00         | ![image](Original/Stool-type-02-00_large.png)           |                                                       |                                                                |
 | Stool - type 02 - 01         | ![image](Original/Stool-type-02-01_large.png)           |                                                       |                                                                |
 | Stool - type 02 - 02         | ![image](Original/Stool-type-02-02_large.png)           |                                                       |                                                                |
@@ -260,13 +260,12 @@ This helps me create tilemaps easily by only having to document them here. The t
 | Sink                    | ![image](Original/Constructed/Sink_large.png)                    | ![image](Custom/Constructed/Sink_large.png)                    |
 | Stove                   | ![image](Original/Constructed/Stove_large.png)                   | ![image](Custom/Constructed/Stove_large.png)                   |
 | Cabinet                 | ![image](Original/Constructed/Cabinet_large.png)                 | ![image](Custom/Constructed/Cabinet_large.png)                 |
-| Stool - type 01         | ![image](Original/Constructed/Stool-type-01_large.png)           |                                                                |
-| Stool - type 02         | ![image](Original/Constructed/Stool-type-02_large.png)           |                                                                |
+| Stool - type 01         | ![image](Original/Constructed/Stool-type-01_large.png)           | ![image](Custom/Constructed/Stool-type-01_large.png)           |
+| Stool - type 02         | ![image](Original/Constructed/Stool-type-02_large.png)           | ![image](Custom/Constructed/Stool-type-02_large.png)           |
 | Radio - type 01         | ![image](Original/Constructed/Radio-type-01_large.png)           | ![image](Custom/Constructed/Radio-type-01_large.png)           |
 | Radio - type 02         | ![image](Original/Constructed/Radio-type-02_large.png)           | ![image](Custom/Constructed/Radio-type-02_large.png)           |
 | Indoor Exit Mat type 01 | ![image](Original/Constructed/Indoor-exit-mat-type-01_large.png) | ![image](Custom/Constructed/Indoor-exit-mat-type-01_large.png) |
 | Indoor Exit Mat type 02 | ![image](Original/Constructed/Indoor-exit-mat-type-02_large.png) | ![image](Custom/Constructed/Indoor-exit-mat-type-02_large.png) |
-|                         |                                                                  |                                                                |
 
 
 #### Indoor Plant Type 01 Attempts
