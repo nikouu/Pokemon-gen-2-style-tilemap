@@ -90,20 +90,23 @@ This helps me create tilemaps easily by only having to document them here. The t
 | Building - Door 00        | ![image](Original/Building-door-00_large.png)      | ![image](Custom/Building-door-00_large.png)      | Top left door. Never realised the door was so highlighted in the top half. I'm assuming this is to show the light coming out of the window. And perhaps this is the same door used in the night scenes, so it would look nicelyl it without having toc hange the tile. |
 | Building - Door 01        | ![image](Original/Building-door-01_large.png)      | ![image](Custom/Building-door-01_large.png)      | Top right door                                                                                                                                                                                                                                                         |
 | Building - Door 02        | ![image](Original/Building-door-02_large.png)      | ![image](Custom/Building-door-02_large.png)      | Bottom left door                                                                                                                                                                                                                                                       |
-| Building - Door 03        | ![image](Original/Building-door-03_large.png)      | ![image](Custom/Building-door-03_large.png)      | Bottom right door                                                                                                                                                                                                                                                      |                                                                                                                                                                                                                                                                  |
+| Building - Door 03        | ![image](Original/Building-door-03_large.png)      | ![image](Custom/Building-door-03_large.png)      | Bottom right door                                                                                                                                                                                                                                                      |
+| Outdoor Exit Mat          | ![image](Original/Outdoor-exit-mat_large.png)      | ![image](Custom/Outdoor-exit-mat_large.png)      |                                                                                                                                                                                                                                                                        |
 
 ### Constructed tiles
 
-| Constructed Tile | Original                                              | Custom                                              |
-| ---------------- | ----------------------------------------------------- | --------------------------------------------------- |
-| Tree - short     | ![image](Original/Constructed/Tree-short_large.png)   | ![image](Custom/Constructed/Tree-short_large.png)   |
-| Tree - tall      | ![image](Original/Constructed/Tree-tall_large.png)    | ![image](Custom/Constructed/Tree-tall_large.png)    |
-| Sign             | ![image](Original/Constructed/Sign_large.png)         | ![image](Custom/Constructed/Sign_large.png)         |
-| Ridge            | ![image](Original/Constructed/Ridge_large.png)        | ![image](Custom/Constructed/Ridge_large.png)        |
-| Water            | ![image](Original/Constructed/Water_large.gif)        |                                                     |
-| Grass - rustle   | ![image](Original/Constructed/Grass-rustle_large.png) |                                                     |
-| Flower - Johto   | ![image](Original/Constructed/Flower-johto_large.gif) | ![image](Custom/Constructed/Flower-johto_large.gif) |
-| Building         | ![image](Original/Constructed/Building_large.png)     | ![image](Custom/Constructed/Building_large.png)     |
+| Constructed Tile         | Original                                                          | Custom                                                          |
+| ------------------------ | ----------------------------------------------------------------- | --------------------------------------------------------------- |
+| Tree - short             | ![image](Original/Constructed/Tree-short_large.png)               | ![image](Custom/Constructed/Tree-short_large.png)               |
+| Tree - tall              | ![image](Original/Constructed/Tree-tall_large.png)                | ![image](Custom/Constructed/Tree-tall_large.png)                |
+| Sign                     | ![image](Original/Constructed/Sign_large.png)                     | ![image](Custom/Constructed/Sign_large.png)                     |
+| Ridge                    | ![image](Original/Constructed/Ridge_large.png)                    | ![image](Custom/Constructed/Ridge_large.png)                    |
+| Water                    | ![image](Original/Constructed/Water_large.gif)                    |                                                                 |
+| Grass - rustle           | ![image](Original/Constructed/Grass-rustle_large.png)             |                                                                 |
+| Flower - Johto           | ![image](Original/Constructed/Flower-johto_large.gif)             | ![image](Custom/Constructed/Flower-johto_large.gif)             |
+| Building                 | ![image](Original/Constructed/Building_large.png)                 | ![image](Custom/Constructed/Building_large.png)                 |
+| Outdoor exit mat type 01 | ![image](Original/Constructed/Outdoor-exit-mat-type-01_large.png) | ![image](Custom/Constructed/Outdoor-exit-mat-type-01_large.png) |
+| Outdoor exit mat type 02 | ![image](Original/Constructed/Outdoor-exit-mat-type-02_large.png) | ![image](Custom/Constructed/Outdoor-exit-mat-type-02_large.png) |
 
 ### Observations
 - Due to the GBC limitation, only 4 colours per sprite. Often this is a "black", "white", main colour light, and main colour dark.
@@ -146,117 +149,124 @@ This helps me create tilemaps easily by only having to document them here. The t
 ## Indoor
 
 ### Tiles
-| Tile                        | Original                                             | Custom                                             | Notes                                                          |
-| --------------------------- | ---------------------------------------------------- | -------------------------------------------------- | -------------------------------------------------------------- |
-| Void                        | ![image](Original/Void_large.png)                    | ![image](Custom/Void_large.png)                    |                                                                |
-| Back wall - painted         | ![image](Original/Back-wall-painted_large.png)       | ![image](Custom/Back-wall-painted_large.png)       |                                                                |
-| Back wall - wood            | ![image](Original/Back-wall-wood_large.png)          | ![image](Custom/Back-wall-wood_large.png)          | ╚(ಠ_ಠ)=┐ ┌=(ಠ_ಠ)╝                                              |
-| Back wall - window 00       | ![image](Original/Back-wall-window-00_large.png)     | ![image](Custom/Back-wall-window-00_large.png)     |                                                                |
-| Back wall - window 01       | ![image](Original/Back-wall-window-01_large.png)     | ![image](Custom/Back-wall-window-01_large.png)     |                                                                |
-| Back wall - window 02       | ![image](Original/Back-wall-window-02_large.png)     | ![image](Custom/Back-wall-window-02_large.png)     |                                                                |
-| Back wall - window 03       | ![image](Original/Back-wall-window-03_large.png)     | ![image](Custom/Back-wall-window-03_large.png)     |                                                                |
-| Back wall - art 00          | ![image](Original/Back-wall-art-00_large.png)        | ![image](Custom/Back-wall-art-00_large.png)        |                                                                |
-| Back wall - art 01          | ![image](Original/Back-wall-art-01_large.png)        | ![image](Custom/Back-wall-art-01_large.png)        |                                                                |
-| Back wall - art 02          | ![image](Original/Back-wall-art-02_large.png)        | ![image](Custom/Back-wall-art-02_large.png)        |                                                                |
-| Back wall - art 03          | ![image](Original/Back-wall-art-03_large.png)        | ![image](Custom/Back-wall-art-03_large.png)        |                                                                |
-| Flooring - type 01          | ![image](Original/Flooring-type-01_large.png)        | ![image](Custom/Flooring-type-01_large.png)        |                                                                |
-| Flooring - type 02          | ![image](Original/Flooring-type-02_large.png)        | ![image](Custom/Flooring-type-02_large.png)        |                                                                |
-| Table - type 01 - 00        | ![image](Original/Table-type-1-00_large.png)         | ![image](Custom/Table-type-1-00_large.png)         |                                                                |
-| Table - type 01 - 01        | ![image](Original/Table-type-1-01_large.png)         | ![image](Custom/Table-type-1-01_large.png)         |                                                                |
-| Table - type 01 - 02        | ![image](Original/Table-type-1-02_large.png)         | ![image](Custom/Table-type-1-02_large.png)         |                                                                |
-| Table - type 01 - 03        | ![image](Original/Table-type-1-03_large.png)         | ![image](Custom/Table-type-1-03_large.png)         |                                                                |
-| Table - type 01 - 04        | ![image](Original/Table-type-1-04_large.png)         | ![image](Custom/Table-type-1-04_large.png)         |                                                                |
-| Table - type 01 - 05        | ![image](Original/Table-type-1-05_large.png)         | ![image](Custom/Table-type-1-05_large.png)         |                                                                |
-| Table - type 01 - 06        | ![image](Original/Table-type-1-06_large.png)         | ![image](Custom/Table-type-1-06_large.png)         |                                                                |
-| Table - type 01 - 07        | ![image](Original/Table-type-1-07_large.png)         | ![image](Custom/Table-type-1-07_large.png)         |                                                                |
-| Table - type 01 - 08        | ![image](Original/Table-type-1-08_large.png)         | ![image](Custom/Table-type-1-08_large.png)         |                                                                |
-| Table - type 01 - 09        | ![image](Original/Table-type-1-09_large.png)         | ![image](Custom/Table-type-1-09_large.png)         |                                                                |
-| Table - type 01 - 10        | ![image](Original/Table-type-1-10_large.png)         | ![image](Custom/Table-type-1-10_large.png)         |                                                                |
-| Table - type 01 - 11        | ![image](Original/Table-type-1-11_large.png)         | ![image](Custom/Table-type-1-11_large.png)         |                                                                |
-| Indoor plant - type 01 - 00 | ![image](Original/Indoor-plant-type-01-00_large.png) | ![image](Custom/Indoor-plant-type-01-00_large.png) |                                                                |
-| Indoor plant - type 01 - 01 | ![image](Original/Indoor-plant-type-01-01_large.png) | ![image](Custom/Indoor-plant-type-01-01_large.png) |                                                                |
-| Indoor plant - type 01 - 02 | ![image](Original/Indoor-plant-type-01-02_large.png) | ![image](Custom/Indoor-plant-type-01-02_large.png) |                                                                |
-| Indoor plant - type 01 - 03 | ![image](Original/Indoor-plant-type-01-03_large.png) | ![image](Custom/Indoor-plant-type-01-03_large.png) |                                                                |
-| Indoor plant - type 01 - 04 | ![image](Original/Indoor-plant-type-01-04_large.png) | ![image](Custom/Indoor-plant-type-01-04_large.png) |                                                                |
-| Indoor plant - type 01 - 05 | ![image](Original/Indoor-plant-type-01-05_large.png) | ![image](Custom/Indoor-plant-type-01-05_large.png) |                                                                |
-| Indoor plant - type 01 - 06 | ![image](Original/Indoor-plant-type-01-06_large.png) | ![image](Custom/Indoor-plant-type-01-06_large.png) |                                                                |
-| Indoor plant - type 01 - 07 | ![image](Original/Indoor-plant-type-01-07_large.png) | ![image](Custom/Indoor-plant-type-01-07_large.png) |                                                                |
-| Computer - type 01 - 00     | ![image](Original/Computer-type-01-00_large.png)     | ![image](Custom/Computer-type-01-00_large.png)     |                                                                |
-| Computer - type 01 - 01     | ![image](Original/Computer-type-01-01_large.png)     | ![image](Custom/Computer-type-01-01_large.png)     | Looks like I drew a rare wide screen old CRT                   |
-| Computer - type 01 - 02     | ![image](Original/Computer-type-01-02_large.png)     | ![image](Custom/Computer-type-01-02_large.png)     |                                                                |
-| Computer - type 01 - 03     | ![image](Original/Computer-type-01-03_large.png)     | ![image](Custom/Computer-type-01-03_large.png)     |                                                                |
-| Computer - type 01 - 04     | ![image](Original/Computer-type-01-04_large.png)     | ![image](Custom/Computer-type-01-04_large.png)     |                                                                |
-| Computer - type 01 - 05     | ![image](Original/Computer-type-01-05_large.png)     | ![image](Custom/Computer-type-01-05_large.png)     | Uses the bottom of the bookshelf as the bottom of the computer |
-| TV - type 01 - 00           | ![image](Original/TV-type-01-00_large.png)           | ![image](Custom/TV-type-01-00_large.png)           |                                                                |
-| TV - type 01 - 01           | ![image](Original/TV-type-01-01_large.png)           | ![image](Custom/TV-type-01-01_large.png)           |                                                                |
-| TV - type 01 - 02           | ![image](Original/TV-type-01-02_large.png)           | ![image](Custom/TV-type-01-02_large.png)           |                                                                |
-| TV - type 01 - 03           | ![image](Original/TV-type-01-03_large.png)           | ![image](Custom/TV-type-01-03_large.png)           |                                                                |
-| Bookshelf - type 01 - 00    | ![image](Original/Bookshelf-type-01-00_large.png)    | ![image](Custom/Bookshelf-type-01-00_large.png)    |                                                                |
-| Bookshelf - type 01 - 01    | ![image](Original/Bookshelf-type-01-01_large.png)    | ![image](Custom/Bookshelf-type-01-01_large.png)    |                                                                |
-| Bookshelf - type 01 - 02    | ![image](Original/Bookshelf-type-01-02_large.png)    | ![image](Custom/Bookshelf-type-01-02_large.png)    |                                                                |
-| Bookshelf - type 01 - 03    | ![image](Original/Bookshelf-type-01-03_large.png)    | ![image](Custom/Bookshelf-type-01-03_large.png)    |                                                                |
-| Bookshelf - type 01 - 04    | ![image](Original/Bookshelf-type-01-04_large.png)    | ![image](Custom/Bookshelf-type-01-04_large.png)    |                                                                |
-| Bookshelf - type 01 - 05    | ![image](Original/Bookshelf-type-01-05_large.png)    | ![image](Custom/Bookshelf-type-01-05_large.png)    |                                                                |
-| Bookshelf - type 01 - 06    | ![image](Original/Bookshelf-type-01-06_large.png)    | ![image](Custom/Bookshelf-type-01-06_large.png)    |                                                                |
-| Bookshelf - type 01 - 07    | ![image](Original/Bookshelf-type-01-07_large.png)    | ![image](Custom/Bookshelf-type-01-07_large.png)    |                                                                |
-| Bed - type 01 - 00          | ![image](Original/Bed-type-01-00_large.png)          | ![image](Custom/Bed-type-01-00_large.png)          |                                                                |
-| Bed - type 01 - 01          | ![image](Original/Bed-type-01-01_large.png)          | ![image](Custom/Bed-type-01-01_large.png)          |                                                                |
-| Bed - type 01 - 02          | ![image](Original/Bed-type-01-02_large.png)          | ![image](Custom/Bed-type-01-02_large.png)          |                                                                |
-| Bed - type 01 - 03          | ![image](Original/Bed-type-01-03_large.png)          | ![image](Custom/Bed-type-01-03_large.png)          |                                                                |
-| Bed - type 01 - 04          | ![image](Original/Bed-type-01-04_large.png)          | ![image](Custom/Bed-type-01-04_large.png)          |                                                                |
-| Bed - type 01 - 05          | ![image](Original/Bed-type-01-05_large.png)          | ![image](Custom/Bed-type-01-05_large.png)          |                                                                |
-| Bed - type 01 - 06          | ![image](Original/Bed-type-01-06_large.png)          | ![image](Custom/Bed-type-01-06_large.png)          |                                                                |
-| Bed - type 01 - 07          | ![image](Original/Bed-type-01-07_large.png)          | ![image](Custom/Bed-type-01-07_large.png)          |                                                                |
-| Fridge - type 01 - 00       | ![image](Original/Fridge-type-01-00_large.png)       | ![image](Custom/Fridge-type-01-00_large.png)       |                                                                |
-| Fridge - type 01 - 01       | ![image](Original/Fridge-type-01-01_large.png)       | ![image](Custom/Fridge-type-01-01_large.png)       |                                                                |
-| Fridge - type 01 - 02       | ![image](Original/Fridge-type-01-02_large.png)       | ![image](Custom/Fridge-type-01-02_large.png)       |                                                                |
-| Fridge - type 01 - 03       | ![image](Original/Fridge-type-01-03_large.png)       | ![image](Custom/Fridge-type-01-03_large.png)       |                                                                |
-| Fridge - type 01 - 04       | ![image](Original/Fridge-type-01-04_large.png)       | ![image](Custom/Fridge-type-01-04_large.png)       |                                                                |
-| Fridge - type 01 - 05       | ![image](Original/Fridge-type-01-05_large.png)       | ![image](Custom/Fridge-type-01-05_large.png)       |                                                                |
-| Sink - 01                   | ![image](Original/Sink-00_large.png)                 | ![image](Custom/Sink-00_large.png)                 | This custom sink might be my favorite piece of this project.   |
-| Sink - 02                   | ![image](Original/Sink-01_large.png)                 | ![image](Custom/Sink-01_large.png)                 |                                                                |
-| Stove - 00                  | ![image](Original/Stove-00_large.png)                | ![image](Custom/Stove-00_large.png)                |                                                                |
-| Stove - 01                  | ![image](Original/Stove-01_large.png)                | ![image](Custom/Stove-01_large.png)                |                                                                |
-| Stove - 02                  | ![image](Original/Stove-02_large.png)                | ![image](Custom/Stove-02_large.png)                |                                                                |
-| Stove - 03                  | ![image](Original/Stove-03_large.png)                | ![image](Custom/Stove-03_large.png)                |                                                                |
-| Cabnet - 00                 | ![image](Original/Cabnet-00_large.png)               | ![image](Custom/Cabnet-00_large.png)               | I guess it's a drawer now                                      |
-| Cabnet - 01                 | ![image](Original/Cabnet-01_large.png)               | ![image](Custom/Cabnet-01_large.png)               |                                                                |
-| Stool - type 01 - 00        | ![image](Original/Stool-type-01-00_large.png)        |                                                    |                                                                |
-| Stool - type 01 - 01        | ![image](Original/Stool-type-01-01_large.png)        |                                                    |                                                                |
-| Stool - type 01 - 02        | ![image](Original/Stool-type-01-02_large.png)        |                                                    |                                                                |
-| Stool - type 01 - 03        | ![image](Original/Stool-type-01-03_large.png)        |                                                    |                                                                |
-| Stool - type 02 - 00        | ![image](Original/Stool-type-02-00_large.png)        |                                                    |                                                                |
-| Stool - type 02 - 01        | ![image](Original/Stool-type-02-01_large.png)        |                                                    |                                                                |
-| Stool - type 02 - 02        | ![image](Original/Stool-type-02-02_large.png)        |                                                    |                                                                |
-| Stool - type 02 - 03        | ![image](Original/Stool-type-02-03_large.png)        |                                                    |                                                                |
-| Radio - type 01 - 00        | ![image](Original/Radio-type-01-00_large.png)        | ![image](Custom/Radio-type-01-00_large.png)        |                                                                |
-| Radio - type 01 - 01        | ![image](Original/Radio-type-01-01_large.png)        | ![image](Custom/Radio-type-01-01_large.png)        |                                                                |
-| Radio - type 01 - 02        | ![image](Original/Radio-type-01-02_large.png)        | ![image](Custom/Radio-type-01-02_large.png)        |                                                                |
-| Radio - type 01 - 03        | ![image](Original/Radio-type-01-03_large.png)        | ![image](Custom/Radio-type-01-03_large.png)        |                                                                |
-| Radio - type 02 - 00        | ![image](Original/Radio-type-02-00_large.png)        | ![image](Custom/Radio-type-02-00_large.png)        |                                                                |
-| Radio - type 02 - 01        | ![image](Original/Radio-type-02-01_large.png)        | ![image](Custom/Radio-type-02-01_large.png)        |                                                                |
-| Radio - type 02 - 02        | ![image](Original/Radio-type-02-02_large.png)        | ![image](Custom/Radio-type-02-02_large.png)        |                                                                |
-| Radio - type 02 - 03        | ![image](Original/Radio-type-02-03_large.png)        | ![image](Custom/Radio-type-02-03_large.png)        |                                                                |
+| Tile                         | Original                                                | Custom                                                | Notes                                                          |
+| ---------------------------- | ------------------------------------------------------- | ----------------------------------------------------- | -------------------------------------------------------------- |
+| Void                         | ![image](Original/Void_large.png)                       | ![image](Custom/Void_large.png)                       |                                                                |
+| Back wall - painted          | ![image](Original/Back-wall-painted_large.png)          | ![image](Custom/Back-wall-painted_large.png)          |                                                                |
+| Back wall - wood             | ![image](Original/Back-wall-wood_large.png)             | ![image](Custom/Back-wall-wood_large.png)             | ╚(ಠ_ಠ)=┐ ┌=(ಠ_ಠ)╝                                              |
+| Back wall - window 00        | ![image](Original/Back-wall-window-00_large.png)        | ![image](Custom/Back-wall-window-00_large.png)        |                                                                |
+| Back wall - window 01        | ![image](Original/Back-wall-window-01_large.png)        | ![image](Custom/Back-wall-window-01_large.png)        |                                                                |
+| Back wall - window 02        | ![image](Original/Back-wall-window-02_large.png)        | ![image](Custom/Back-wall-window-02_large.png)        |                                                                |
+| Back wall - window 03        | ![image](Original/Back-wall-window-03_large.png)        | ![image](Custom/Back-wall-window-03_large.png)        |                                                                |
+| Back wall - art 00           | ![image](Original/Back-wall-art-00_large.png)           | ![image](Custom/Back-wall-art-00_large.png)           |                                                                |
+| Back wall - art 01           | ![image](Original/Back-wall-art-01_large.png)           | ![image](Custom/Back-wall-art-01_large.png)           |                                                                |
+| Back wall - art 02           | ![image](Original/Back-wall-art-02_large.png)           | ![image](Custom/Back-wall-art-02_large.png)           |                                                                |
+| Back wall - art 03           | ![image](Original/Back-wall-art-03_large.png)           | ![image](Custom/Back-wall-art-03_large.png)           |                                                                |
+| Flooring - type 01           | ![image](Original/Flooring-type-01_large.png)           | ![image](Custom/Flooring-type-01_large.png)           |                                                                |
+| Flooring - type 02           | ![image](Original/Flooring-type-02_large.png)           | ![image](Custom/Flooring-type-02_large.png)           |                                                                |
+| Table - type 01 - 00         | ![image](Original/Table-type-1-00_large.png)            | ![image](Custom/Table-type-1-00_large.png)            |                                                                |
+| Table - type 01 - 01         | ![image](Original/Table-type-1-01_large.png)            | ![image](Custom/Table-type-1-01_large.png)            |                                                                |
+| Table - type 01 - 02         | ![image](Original/Table-type-1-02_large.png)            | ![image](Custom/Table-type-1-02_large.png)            |                                                                |
+| Table - type 01 - 03         | ![image](Original/Table-type-1-03_large.png)            | ![image](Custom/Table-type-1-03_large.png)            |                                                                |
+| Table - type 01 - 04         | ![image](Original/Table-type-1-04_large.png)            | ![image](Custom/Table-type-1-04_large.png)            |                                                                |
+| Table - type 01 - 05         | ![image](Original/Table-type-1-05_large.png)            | ![image](Custom/Table-type-1-05_large.png)            |                                                                |
+| Table - type 01 - 06         | ![image](Original/Table-type-1-06_large.png)            | ![image](Custom/Table-type-1-06_large.png)            |                                                                |
+| Table - type 01 - 07         | ![image](Original/Table-type-1-07_large.png)            | ![image](Custom/Table-type-1-07_large.png)            |                                                                |
+| Table - type 01 - 08         | ![image](Original/Table-type-1-08_large.png)            | ![image](Custom/Table-type-1-08_large.png)            |                                                                |
+| Table - type 01 - 09         | ![image](Original/Table-type-1-09_large.png)            | ![image](Custom/Table-type-1-09_large.png)            |                                                                |
+| Table - type 01 - 10         | ![image](Original/Table-type-1-10_large.png)            | ![image](Custom/Table-type-1-10_large.png)            |                                                                |
+| Table - type 01 - 11         | ![image](Original/Table-type-1-11_large.png)            | ![image](Custom/Table-type-1-11_large.png)            |                                                                |
+| Indoor plant - type 01 - 00  | ![image](Original/Indoor-plant-type-01-00_large.png)    | ![image](Custom/Indoor-plant-type-01-00_large.png)    |                                                                |
+| Indoor plant - type 01 - 01  | ![image](Original/Indoor-plant-type-01-01_large.png)    | ![image](Custom/Indoor-plant-type-01-01_large.png)    |                                                                |
+| Indoor plant - type 01 - 02  | ![image](Original/Indoor-plant-type-01-02_large.png)    | ![image](Custom/Indoor-plant-type-01-02_large.png)    |                                                                |
+| Indoor plant - type 01 - 03  | ![image](Original/Indoor-plant-type-01-03_large.png)    | ![image](Custom/Indoor-plant-type-01-03_large.png)    |                                                                |
+| Indoor plant - type 01 - 04  | ![image](Original/Indoor-plant-type-01-04_large.png)    | ![image](Custom/Indoor-plant-type-01-04_large.png)    |                                                                |
+| Indoor plant - type 01 - 05  | ![image](Original/Indoor-plant-type-01-05_large.png)    | ![image](Custom/Indoor-plant-type-01-05_large.png)    |                                                                |
+| Indoor plant - type 01 - 06  | ![image](Original/Indoor-plant-type-01-06_large.png)    | ![image](Custom/Indoor-plant-type-01-06_large.png)    |                                                                |
+| Indoor plant - type 01 - 07  | ![image](Original/Indoor-plant-type-01-07_large.png)    | ![image](Custom/Indoor-plant-type-01-07_large.png)    |                                                                |
+| Computer - type 01 - 00      | ![image](Original/Computer-type-01-00_large.png)        | ![image](Custom/Computer-type-01-00_large.png)        |                                                                |
+| Computer - type 01 - 01      | ![image](Original/Computer-type-01-01_large.png)        | ![image](Custom/Computer-type-01-01_large.png)        | Looks like I drew a rare wide screen old CRT                   |
+| Computer - type 01 - 02      | ![image](Original/Computer-type-01-02_large.png)        | ![image](Custom/Computer-type-01-02_large.png)        |                                                                |
+| Computer - type 01 - 03      | ![image](Original/Computer-type-01-03_large.png)        | ![image](Custom/Computer-type-01-03_large.png)        |                                                                |
+| Computer - type 01 - 04      | ![image](Original/Computer-type-01-04_large.png)        | ![image](Custom/Computer-type-01-04_large.png)        |                                                                |
+| Computer - type 01 - 05      | ![image](Original/Computer-type-01-05_large.png)        | ![image](Custom/Computer-type-01-05_large.png)        | Uses the bottom of the bookshelf as the bottom of the computer |
+| TV - type 01 - 00            | ![image](Original/TV-type-01-00_large.png)              | ![image](Custom/TV-type-01-00_large.png)              |                                                                |
+| TV - type 01 - 01            | ![image](Original/TV-type-01-01_large.png)              | ![image](Custom/TV-type-01-01_large.png)              |                                                                |
+| TV - type 01 - 02            | ![image](Original/TV-type-01-02_large.png)              | ![image](Custom/TV-type-01-02_large.png)              |                                                                |
+| TV - type 01 - 03            | ![image](Original/TV-type-01-03_large.png)              | ![image](Custom/TV-type-01-03_large.png)              |                                                                |
+| Bookshelf - type 01 - 00     | ![image](Original/Bookshelf-type-01-00_large.png)       | ![image](Custom/Bookshelf-type-01-00_large.png)       |                                                                |
+| Bookshelf - type 01 - 01     | ![image](Original/Bookshelf-type-01-01_large.png)       | ![image](Custom/Bookshelf-type-01-01_large.png)       |                                                                |
+| Bookshelf - type 01 - 02     | ![image](Original/Bookshelf-type-01-02_large.png)       | ![image](Custom/Bookshelf-type-01-02_large.png)       |                                                                |
+| Bookshelf - type 01 - 03     | ![image](Original/Bookshelf-type-01-03_large.png)       | ![image](Custom/Bookshelf-type-01-03_large.png)       |                                                                |
+| Bookshelf - type 01 - 04     | ![image](Original/Bookshelf-type-01-04_large.png)       | ![image](Custom/Bookshelf-type-01-04_large.png)       |                                                                |
+| Bookshelf - type 01 - 05     | ![image](Original/Bookshelf-type-01-05_large.png)       | ![image](Custom/Bookshelf-type-01-05_large.png)       |                                                                |
+| Bookshelf - type 01 - 06     | ![image](Original/Bookshelf-type-01-06_large.png)       | ![image](Custom/Bookshelf-type-01-06_large.png)       |                                                                |
+| Bookshelf - type 01 - 07     | ![image](Original/Bookshelf-type-01-07_large.png)       | ![image](Custom/Bookshelf-type-01-07_large.png)       |                                                                |
+| Bed - type 01 - 00           | ![image](Original/Bed-type-01-00_large.png)             | ![image](Custom/Bed-type-01-00_large.png)             |                                                                |
+| Bed - type 01 - 01           | ![image](Original/Bed-type-01-01_large.png)             | ![image](Custom/Bed-type-01-01_large.png)             |                                                                |
+| Bed - type 01 - 02           | ![image](Original/Bed-type-01-02_large.png)             | ![image](Custom/Bed-type-01-02_large.png)             |                                                                |
+| Bed - type 01 - 03           | ![image](Original/Bed-type-01-03_large.png)             | ![image](Custom/Bed-type-01-03_large.png)             |                                                                |
+| Bed - type 01 - 04           | ![image](Original/Bed-type-01-04_large.png)             | ![image](Custom/Bed-type-01-04_large.png)             |                                                                |
+| Bed - type 01 - 05           | ![image](Original/Bed-type-01-05_large.png)             | ![image](Custom/Bed-type-01-05_large.png)             |                                                                |
+| Bed - type 01 - 06           | ![image](Original/Bed-type-01-06_large.png)             | ![image](Custom/Bed-type-01-06_large.png)             |                                                                |
+| Bed - type 01 - 07           | ![image](Original/Bed-type-01-07_large.png)             | ![image](Custom/Bed-type-01-07_large.png)             |                                                                |
+| Fridge - type 01 - 00        | ![image](Original/Fridge-type-01-00_large.png)          | ![image](Custom/Fridge-type-01-00_large.png)          |                                                                |
+| Fridge - type 01 - 01        | ![image](Original/Fridge-type-01-01_large.png)          | ![image](Custom/Fridge-type-01-01_large.png)          |                                                                |
+| Fridge - type 01 - 02        | ![image](Original/Fridge-type-01-02_large.png)          | ![image](Custom/Fridge-type-01-02_large.png)          |                                                                |
+| Fridge - type 01 - 03        | ![image](Original/Fridge-type-01-03_large.png)          | ![image](Custom/Fridge-type-01-03_large.png)          |                                                                |
+| Fridge - type 01 - 04        | ![image](Original/Fridge-type-01-04_large.png)          | ![image](Custom/Fridge-type-01-04_large.png)          |                                                                |
+| Fridge - type 01 - 05        | ![image](Original/Fridge-type-01-05_large.png)          | ![image](Custom/Fridge-type-01-05_large.png)          |                                                                |
+| Sink - 01                    | ![image](Original/Sink-00_large.png)                    | ![image](Custom/Sink-00_large.png)                    | This custom sink might be my favorite piece of this project.   |
+| Sink - 02                    | ![image](Original/Sink-01_large.png)                    | ![image](Custom/Sink-01_large.png)                    |                                                                |
+| Stove - 00                   | ![image](Original/Stove-00_large.png)                   | ![image](Custom/Stove-00_large.png)                   |                                                                |
+| Stove - 01                   | ![image](Original/Stove-01_large.png)                   | ![image](Custom/Stove-01_large.png)                   |                                                                |
+| Stove - 02                   | ![image](Original/Stove-02_large.png)                   | ![image](Custom/Stove-02_large.png)                   |                                                                |
+| Stove - 03                   | ![image](Original/Stove-03_large.png)                   | ![image](Custom/Stove-03_large.png)                   |                                                                |
+| Cabnet - 00                  | ![image](Original/Cabnet-00_large.png)                  | ![image](Custom/Cabnet-00_large.png)                  | I guess it's a drawer now                                      |
+| Cabnet - 01                  | ![image](Original/Cabnet-01_large.png)                  | ![image](Custom/Cabnet-01_large.png)                  |                                                                |
+| Stool - type 01 - 00         | ![image](Original/Stool-type-01-00_large.png)           |                                                       |                                                                |
+| Stool - type 01 - 01         | ![image](Original/Stool-type-01-01_large.png)           |                                                       |                                                                |
+| Stool - type 01 - 02         | ![image](Original/Stool-type-01-02_large.png)           |                                                       |                                                                |
+| Stool - type 01 - 03         | ![image](Original/Stool-type-01-03_large.png)           |                                                       |                                                                |
+| Stool - type 02 - 00         | ![image](Original/Stool-type-02-00_large.png)           |                                                       |                                                                |
+| Stool - type 02 - 01         | ![image](Original/Stool-type-02-01_large.png)           |                                                       |                                                                |
+| Stool - type 02 - 02         | ![image](Original/Stool-type-02-02_large.png)           |                                                       |                                                                |
+| Stool - type 02 - 03         | ![image](Original/Stool-type-02-03_large.png)           |                                                       |                                                                |
+| Radio - type 01 - 00         | ![image](Original/Radio-type-01-00_large.png)           | ![image](Custom/Radio-type-01-00_large.png)           |                                                                |
+| Radio - type 01 - 01         | ![image](Original/Radio-type-01-01_large.png)           | ![image](Custom/Radio-type-01-01_large.png)           |                                                                |
+| Radio - type 01 - 02         | ![image](Original/Radio-type-01-02_large.png)           | ![image](Custom/Radio-type-01-02_large.png)           |                                                                |
+| Radio - type 01 - 03         | ![image](Original/Radio-type-01-03_large.png)           | ![image](Custom/Radio-type-01-03_large.png)           |                                                                |
+| Radio - type 02 - 00         | ![image](Original/Radio-type-02-00_large.png)           | ![image](Custom/Radio-type-02-00_large.png)           |                                                                |
+| Radio - type 02 - 01         | ![image](Original/Radio-type-02-01_large.png)           | ![image](Custom/Radio-type-02-01_large.png)           |                                                                |
+| Radio - type 02 - 02         | ![image](Original/Radio-type-02-02_large.png)           | ![image](Custom/Radio-type-02-02_large.png)           |                                                                |
+| Radio - type 02 - 03         | ![image](Original/Radio-type-02-03_large.png)           | ![image](Custom/Radio-type-02-03_large.png)           |                                                                |
+| Indoor Exit Mat type 01 - 00 | ![image](Original/Indoor-exit-mat-type-01-00_large.png) | ![image](Custom/Indoor-exit-mat-type-01-00_large.png) |                                                                |
+| Indoor Exit Mat type 01 - 01 | ![image](Original/Indoor-exit-mat-type-01-01_large.png) | ![image](Custom/Indoor-exit-mat-type-01-01_large.png) |                                                                |
+| Indoor Exit Mat type 02 - 00 | ![image](Original/Indoor-exit-mat-type-02-00_large.png) | ![image](Custom/Indoor-exit-mat-type-02-00_large.png) |                                                                |
+| Indoor Exit Mat type 02 - 00 | ![image](Original/Indoor-exit-mat-type-02-01_large.png) | ![image](Custom/Indoor-exit-mat-type-02-01_large.png) |                                                                |
 
 ### Constructed Tiles 
-| Constructed Tile       | Original                                                      | Custom                                                      |
-| ---------------------- | ------------------------------------------------------------- | ----------------------------------------------------------- |
-| Back wall - window     | ![image](Original/Constructed/Back-wall-window_large.png)     | ![image](Custom/Constructed/Back-wall-window_large.png)     |
-| Back wall - art        | ![image](Original/Constructed/Back-wall-art_large.png)        | ![image](Custom/Constructed/Back-wall-art_large.png)        |
-| Table - type 01        | ![image](Original/Constructed/Table-type-01_large.png)        | ![image](Custom/Constructed/Table-type-01_large.png)        |
-| Indoor plant - type 01 | ![image](Original/Constructed/Indoor-plant-type-01_large.png) | ![image](Custom/Constructed/Indoor-plant-type-01_large.png) |
-| Computer - type 01     | ![image](Original/Constructed/Computer-type-01_large.png)     | ![image](Custom/Constructed/Computer-type-01_large.png)     |
-| TV - type 01           | ![image](Original/Constructed/Tv-type-01_large.png)           | ![image](Custom/Constructed/Tv-type-01_large.png)           |
-| Bookshelf - type 01    | ![image](Original/Constructed/Bookshelf-type-01_large.png)    | ![image](Custom/Constructed/Bookshelf-type-01_large.png)    |
-| Bed - type 01          | ![image](Original/Constructed/Bed-type-01_large.png)          | ![image](Custom/Constructed/Bed-type-01_large.png)          |
-| Fridge - type 01       | ![image](Original/Constructed/Fridge-type-01_large.png)       | ![image](Custom/Constructed/Fridge-type-01_large.png)       |
-| Sink                   | ![image](Original/Constructed/Sink_large.png)                 | ![image](Custom/Constructed/Sink_large.png)                 |
-| Stove                  | ![image](Original/Constructed/Stove_large.png)                | ![image](Custom/Constructed/Stove_large.png)                |
-| Cabinet                | ![image](Original/Constructed/Cabinet_large.png)              | ![image](Custom/Constructed/Cabinet_large.png)              |
-| Stool - type 01        | ![image](Original/Constructed/Stool-type-01_large.png)        |                                                             |
-| Stool - type 02        | ![image](Original/Constructed/Stool-type-02_large.png)        |                                                             |
-| Radio - type 01        | ![image](Original/Constructed/Radio-type-01_large.png)        | ![image](Custom/Constructed/Radio-type-01_large.png)      |
-| Radio - type 02        | ![image](Original/Constructed/Radio-type-02_large.png)        | ![image](Custom/Constructed/Radio-type-02_large.png)        |
+| Constructed Tile        | Original                                                         | Custom                                                         |
+| ----------------------- | ---------------------------------------------------------------- | -------------------------------------------------------------- |
+| Back wall - window      | ![image](Original/Constructed/Back-wall-window_large.png)        | ![image](Custom/Constructed/Back-wall-window_large.png)        |
+| Back wall - art         | ![image](Original/Constructed/Back-wall-art_large.png)           | ![image](Custom/Constructed/Back-wall-art_large.png)           |
+| Table - type 01         | ![image](Original/Constructed/Table-type-01_large.png)           | ![image](Custom/Constructed/Table-type-01_large.png)           |
+| Indoor plant - type 01  | ![image](Original/Constructed/Indoor-plant-type-01_large.png)    | ![image](Custom/Constructed/Indoor-plant-type-01_large.png)    |
+| Computer - type 01      | ![image](Original/Constructed/Computer-type-01_large.png)        | ![image](Custom/Constructed/Computer-type-01_large.png)        |
+| TV - type 01            | ![image](Original/Constructed/Tv-type-01_large.png)              | ![image](Custom/Constructed/Tv-type-01_large.png)              |
+| Bookshelf - type 01     | ![image](Original/Constructed/Bookshelf-type-01_large.png)       | ![image](Custom/Constructed/Bookshelf-type-01_large.png)       |
+| Bed - type 01           | ![image](Original/Constructed/Bed-type-01_large.png)             | ![image](Custom/Constructed/Bed-type-01_large.png)             |
+| Fridge - type 01        | ![image](Original/Constructed/Fridge-type-01_large.png)          | ![image](Custom/Constructed/Fridge-type-01_large.png)          |
+| Sink                    | ![image](Original/Constructed/Sink_large.png)                    | ![image](Custom/Constructed/Sink_large.png)                    |
+| Stove                   | ![image](Original/Constructed/Stove_large.png)                   | ![image](Custom/Constructed/Stove_large.png)                   |
+| Cabinet                 | ![image](Original/Constructed/Cabinet_large.png)                 | ![image](Custom/Constructed/Cabinet_large.png)                 |
+| Stool - type 01         | ![image](Original/Constructed/Stool-type-01_large.png)           |                                                                |
+| Stool - type 02         | ![image](Original/Constructed/Stool-type-02_large.png)           |                                                                |
+| Radio - type 01         | ![image](Original/Constructed/Radio-type-01_large.png)           | ![image](Custom/Constructed/Radio-type-01_large.png)           |
+| Radio - type 02         | ![image](Original/Constructed/Radio-type-02_large.png)           | ![image](Custom/Constructed/Radio-type-02_large.png)           |
+| Indoor Exit Mat type 01 | ![image](Original/Constructed/Indoor-exit-mat-type-01_large.png) | ![image](Custom/Constructed/Indoor-exit-mat-type-01_large.png) |
+| Indoor Exit Mat type 02 | ![image](Original/Constructed/Indoor-exit-mat-type-02_large.png) | ![image](Custom/Constructed/Indoor-exit-mat-type-02_large.png) |
+|                         |                                                                  |                                                                |
 
 
 #### Indoor Plant Type 01 Attempts
