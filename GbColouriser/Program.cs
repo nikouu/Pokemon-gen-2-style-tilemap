@@ -19,6 +19,8 @@ if (image.Width > 8 && image.Height > 8)
         for (int j = 0; j < image.Height; j += 8)
         {
             var cloneRectangle = new Rectangle(i, j, 8, 8);
+
+            // https://stackoverflow.com/a/59658657
             using var tile = image.Clone(cloneRectangle, image.PixelFormat);
 
             using var colouredTile = Colouriser.ColouriseTile(tile);
