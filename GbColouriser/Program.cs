@@ -5,9 +5,9 @@ using System.Drawing;
 Console.WriteLine("Hello, World!");
 
 var threeColourTile = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments),
-    @"GitHub\Pokemon-gen-2-style-tilemap/Original/Building-roof-flat-04.png");
+    @"GitHub\Pokemon-gen-2-style-tilemap/NewBuildingSample.png");
 
-threeColourTile = @"C:\Users\Niko Uusitalo\Documents\GitHub\Little-Mokki-In-The-Woods\LittleMokkiInTheWoods\assets\backgrounds\Mokki-area-export.png";
+//threeColourTile = @"C:\Users\Niko Uusitalo\Documents\GitHub\Little-Mokki-In-The-Woods\LittleMokkiInTheWoods\assets\backgrounds\Mokki-area-export.png";
 var image = new Bitmap(threeColourTile);
 
 var colourisedImage = new Bitmap(image.Width, image.Height);
@@ -38,4 +38,4 @@ else
 
 
 colourisedImage.Save(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments),
-    @"GitHub\Pokemon-gen-2-style-tilemap/ayylmao.png"));
+    @"GitHub\Pokemon-gen-2-style-tilemap/ayylmao2.png"));
