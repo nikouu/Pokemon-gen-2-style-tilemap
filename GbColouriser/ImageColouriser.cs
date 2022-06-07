@@ -10,6 +10,7 @@ namespace GbColouriser
     public class ImageColouriser
     {
         private Dictionary<Color, List<Color>> _colourDictionary;
+        private List<Color> _missingColours;
         private readonly int _width;
         private readonly int _height;
         private readonly Image _image;
@@ -27,6 +28,7 @@ namespace GbColouriser
             _height = height;
             _image = image;
             _colourDictionary = new Dictionary<Color, List<Color>>();
+            _missingColours = new List<Color>();
         }
 
         public TileMetadata[,] Process()
@@ -79,7 +81,7 @@ namespace GbColouriser
                 var tupleList = new List<Tuple<int, Color>>();
 
                 foreach (var distinctColour in distinctColours)
-                {                    
+                {
                     var colourCount = value.Where(x => x == distinctColour).Count();
                     tupleList.Add(new Tuple<int, Color>(colourCount, distinctColour));
                 }
@@ -125,15 +127,19 @@ namespace GbColouriser
                 {
                     var colour = (whites.Count, blacks.Count) switch
                     {
-                        (0, 0) => GBMissing, // come back to this later to see if it can be worked out after other tiles have been processed
+                        (0, 0) => inputTile[i, j], // come back to this later to see if it can be worked out after other tiles have been processed
                         (0, 1) => GBBlack,
                         (1, 0) => GBWhite,
                         (_, _) => throw new Exception("How did we get here?")
                     };
 
-                    _colourDictionary[inputTile[i, j]].Add(colour);
+                    if (colour == inputTile[i, j])
+                    {
+                        _missingColours.Add(colour);
+                    }
 
-                    recolouredTileColours[i, j] = colour;
+                    recolouredTileColours[i,j] = colour;
+                    _colourDictionary[inputTile[i, j]].Add(GBMissing);
                 }
             }
 
@@ -195,7 +201,7 @@ namespace GbColouriser
                     var colour = localColourMap.ContainsKey(inputColour) switch
                     {
                         true => localColourMap[inputColour],
-                        false => GBMissing
+                        false => inputColour
                     };
 
                     _colourDictionary[inputColour].Add(colour);
@@ -256,10 +262,10 @@ namespace GbColouriser
                     var colour = localColourMap.ContainsKey(inputColour) switch
                     {
                         true => localColourMap[inputColour],
-                        false => GBMissing
+                        false => inputColour
                     };
 
-                    _colourDictionary[inputColour].Add(colour);
+                    _colourDictionary[inputColour].Add(GBMissing);
                     recolouredTileColours[i, j] = colour;
                 }
             }
@@ -285,7 +291,7 @@ namespace GbColouriser
 
                     var colour = localColourMap[inputColour];
 
-                    _colourDictionary[inputColour].Add(colour);
+                    _colourDictionary[inputColour].Add(GBMissing);
                     recolouredTileColours[i, j] = colour;
                 }
             }
@@ -304,15 +310,15 @@ namespace GbColouriser
             {
                 for (int j = 0; j < recolouredTileColours.GetLength(1); j++)
                 {
-                    var inputColour = inputTile[i, j];
+                    var inputColour = inputTile[i, j];                    
 
                     var colour = colourDictionary.ContainsKey(inputColour) switch
                     {
                         true => colourDictionary[inputColour],
                         false => inputColour
                     };
-                 
-                    recolouredTileColours[i, j] = colour;                    
+
+                    recolouredTileColours[i, j] = colour;
                 }
             }
 
