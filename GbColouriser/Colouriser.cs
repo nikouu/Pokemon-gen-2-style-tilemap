@@ -16,6 +16,9 @@ namespace GbColouriser
         public static Color GBLight => Color.FromArgb(134, 192, 108);
         public static Color GBWhite => Color.FromArgb(224, 248, 207);
 
+        // look to have a dictionary of all the colours on the image and what GB colour they map to
+        // perhaps if some true colours are mapped to different gb colours, then that might be a sign to work somethign out
+        // maybe lean that colour toward the gb colour its been assigned to most and sort out the discrepency that way?
         public static Bitmap ColouriseTile(Bitmap sourceImage)
         {
             if (sourceImage.Width > 8 || sourceImage.Height > 8)
@@ -131,6 +134,12 @@ namespace GbColouriser
                 colourMapper[whites[0]] = GBWhite;
                 colourMapper[blacks[0]] = GBBlack;
             }
+            else if (whites.Count == 0 && blacks.Count == 0 && sourceColours.Count() <= 2)
+            {
+                // lightest to darkest
+                orderedSourceColours = sourceColours.OrderByDescending(x => x.GetBrightness()).ToList();
+                gbColours = new List<Color> { GBLight, GBDark };  
+            }
             else
             {
                 // lightest to darkest
@@ -167,7 +176,15 @@ namespace GbColouriser
             }
             else if (whites.Count > 0 && blacks.Count > 0)
             {
-
+                // lightest to darkest
+                orderedSourceColours = sourceColours.OrderByDescending(x => x.GetBrightness()).ToArray();
+                gbColours = new[] { GBWhite, GBBlack };
+            }
+            else if (whites.Count == 0 && blacks.Count == 0)
+            {
+                // lightest to darkest
+                orderedSourceColours = sourceColours.OrderByDescending(x => x.GetBrightness()).ToArray();
+                gbColours = new[] { GBLight, GBDark };
             }
             else
             {
