@@ -224,23 +224,23 @@ namespace GbColouriser
             var whites = GetWhites(inputTile.Colours);
             var blacks = GetBlacks(inputTile.Colours);
 
-            if (!whites.Any())
-            {
-                possibleGBColours.Remove(GBWhite);
-            }
-            else
-            {
-                localColourMap[whites[0]] = GBWhite;
-            }
+            //if (!whites.Any())
+            //{
+            //    possibleGBColours.Remove(GBWhite);
+            //}
+            //else
+            //{
+            //    localColourMap[whites[0]] = GBWhite;
+            //}
 
-            if (!blacks.Any())
-            {
-                possibleGBColours.Remove(GBBlack);
-            }
-            else
-            {
-                localColourMap[blacks[0]] = GBBlack;
-            }
+            //if (!blacks.Any())
+            //{
+            //    possibleGBColours.Remove(GBBlack);
+            //}
+            //else
+            //{
+            //    localColourMap[blacks[0]] = GBBlack;
+            //}
 
             // we cant determine the final colour if it is a dark or light shade
             if (whites.Any() && blacks.Any())
