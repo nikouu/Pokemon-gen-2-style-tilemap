@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
@@ -11,17 +12,22 @@ namespace GbColouriser
     {
         private readonly Color[,] _colourMap;
         private readonly HashSet<Color> _colours;
+        private Lazy<int> _hash;
+    
 
         public TileMetadata()
         {
             _colourMap = new Color[8, 8];
             _colours = new HashSet<Color>();
+            _hash = new Lazy<int>(() => GenerateHash());
         }
 
         public Color this[int x, int y]
         {
             get => _colourMap[x, y];
         }
+
+        public int ColourHash => _hash.Value;
 
         public HashSet<Color> Colours => _colours;
 
@@ -54,6 +60,23 @@ namespace GbColouriser
                     _colours.Add(rawColours[i, j]);
                 }
             }
+        }
+
+        private int GenerateHash()
+        {
+            // i couldnt work out how to make a hash that worked :/
+            // couldnt get it working with adding in i and j values and bit shifting
+            var stringBuilder = new StringBuilder();
+
+            for (int i = 0; i < _colourMap.GetLength(0); i++)
+            {
+                for (int j = 0; j < _colourMap.GetLength(1); j++)
+                {
+                    stringBuilder.Append(_colourMap[i, j]);
+                }
+            }
+
+            return stringBuilder.ToString().GetHashCode();
         }
     }
 }
