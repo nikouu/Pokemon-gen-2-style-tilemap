@@ -13,6 +13,8 @@ namespace GbColouriser
         private HashSet<Color> _missingColours;
         private Dictionary<Color, Color> _calculatedColourDictionary;
 
+        private Dictionary<List<Color>, List<Color>> _tileColourMap;
+
         private readonly int _width;
         private readonly int _height;
         private readonly Image _image;
@@ -32,6 +34,7 @@ namespace GbColouriser
             _collectedColoursDictionary = new Dictionary<Color, List<Color>>();
             _missingColours = new HashSet<Color>();
             _calculatedColourDictionary = new Dictionary<Color, Color>();
+            _tileColourMap = new Dictionary<List<Color>, List<Color>>();
         }
 
         public TileMetadata[,] Process()
@@ -55,7 +58,7 @@ namespace GbColouriser
             RecolourTiles(recolouredTiles);
 
             // 3. Calculate the colour dictionary
-            CalculateColourDictionary();
+            //CalculateColourDictionary();
 
 
             //// if any of the values have zero as a value
@@ -68,7 +71,7 @@ namespace GbColouriser
             //}           
 
             // 4. Reprocess tiles with worked out colour values
-            ProcessMissingColours(recolouredTiles);
+            //ProcessMissingColours(recolouredTiles);
 
             // i need a weighted reproccessing step, that goes "for each true colour, what has the biggest weight to it
             // or if there are other tiles that use the same true colours, look to them and take a weighted guess
@@ -76,9 +79,9 @@ namespace GbColouriser
             // if there are any coloursl left over, we have to make a decision on what colour they are. 
             if (_missingColours.Any())
             {
-                EstimateRemainingColours(recolouredTiles);
+                //EstimateRemainingColours(recolouredTiles);
 
-                ProcessMissingColours(recolouredTiles);
+                //ProcessMissingColours(recolouredTiles);
             }
 
 
@@ -259,25 +262,105 @@ namespace GbColouriser
 
         private void RecolourTiles(TileMetadata[,] recolouredTiles)
         {
+            var tileList = new List<TileMetadata>();
+            var tileCoords = new Dictionary<TileMetadata, (int x, int y)>();
+
             for (int i = 0; i < _image.Tiles.GetLength(0); i++)
             {
                 for (int j = 0; j < _image.Tiles.GetLength(1); j++)
                 {
                     var tile = _image.Tiles[i, j];
-                    var colours = tile.Colours;
 
-                    var recolouredTile = colours.Count switch
-                    {
-                        1 => ProcessOneColour(tile),
-                        2 => ProcessTwoColours(tile),
-                        3 => ProcessThreeColours(tile),
-                        4 => ProcessFourColours(tile),
-                        _ => throw new Exception("Can't have more than four colours.")
-                    };
+                    tileList.Add(tile);
+                    tileCoords.Add(tile, (i, j));
+                    //var colours = tile.Colours;
 
-                    recolouredTiles[i, j] = recolouredTile;
+                    ////var recolouredTile = colours.Count switch
+                    ////{
+                    ////    1 => ProcessOneColour(tile),
+                    ////    2 => ProcessTwoColours(tile),
+                    ////    3 => ProcessThreeColours(tile),
+                    ////    4 => ProcessFourColours(tile),
+                    ////    _ => throw new Exception("Can't have more than four colours.")
+                    ////};
+
+
+
+
+                    //recolouredTiles[i, j] = recolouredTile;
                 }
             }
+
+            tileList = tileList.OrderByDescending(x => x.Colours.Count).ToList();
+
+            foreach (var item in tileList)
+            {
+                var recolouredTile = item.Colours.Count switch
+                {
+                    4 => ProcessFourColours(item),
+                    _ => ProcessFromSimilarMoreColouredTiles(item)
+                };
+
+                var (i, j) = tileCoords[item];
+                recolouredTiles[i, j] = recolouredTile;
+
+                // lol searching again
+                //for (int i = 0; i < _image.Tiles.GetLength(0); i++)
+                //{
+                //    for (int j = 0; j < _image.Tiles.GetLength(1); j++)
+                //    {
+                //        var tile = _image.Tiles[i, j];
+
+                //        if (tile.ColourHash == item.ColourHash)
+                //        {
+                //            recolouredTiles[i, j] = recolouredTile;
+                //        }
+                //    }
+                //}
+            }
+
+        }
+
+        private TileMetadata ProcessFromSimilarMoreColouredTiles(TileMetadata inputTile)
+        {
+            var recolouredTileColours = new Color[8, 8];
+
+            // find a 4 colour that contains all the colours of this three colour
+            var keyList = new HashSet<Color>();
+            var valueList = new HashSet<Color>();
+
+            foreach (var (key, value) in _tileColourMap.Where(x => x.Key.Count == inputTile.Colours.Count + 1))
+            {                
+                if (key.ContainsAll(inputTile.Colours))
+                {
+                    // found a 4 colour that has all the colours of this
+
+                   
+
+                    for (int i = 0; i < recolouredTileColours.GetLength(0); i++)
+                    {
+                        for (int j = 0; j < recolouredTileColours.GetLength(1); j++)
+                        {
+                            var inputColour = inputTile[i, j];
+
+                            var indexOfProccessedTileColour = key.IndexOf(inputColour);
+
+                            recolouredTileColours[i, j] = value[indexOfProccessedTileColour];
+
+                            keyList.Add(inputColour);
+                            valueList.Add(value[indexOfProccessedTileColour]);
+                        }
+                    }
+
+                    break; // i think, if the colours are there we dont need to process anymore?
+                }
+            }
+
+            _tileColourMap.Add(keyList.ToList(), valueList.ToList());
+
+            var recolouredTile = new TileMetadata();
+            recolouredTile.LoadTile(recolouredTileColours);
+            return recolouredTile;
         }
 
         private TileMetadata ProcessOneColour(TileMetadata inputTile)
@@ -447,7 +530,7 @@ namespace GbColouriser
             else
             {
                 // a local colour map isnt created when there is an unknown colour
-                
+
             }
 
             localColourMap = colourGradient.Zip(possibleGBColours, (k, v) => new { k, v }).ToDictionary(x => x.k, x => x.v);
@@ -499,6 +582,8 @@ namespace GbColouriser
             var lightestToDarkestColours = inputTile.Colours.OrderByDescending(x => Brightness(x)).ToList();
 
             var localColourMap = lightestToDarkestColours.Zip(possibleGBColours, (k, v) => new { k, v }).ToDictionary(x => x.k, x => x.v);
+
+            _tileColourMap.TryAdd(localColourMap.Keys.ToList(), localColourMap.Values.ToList());
 
             for (int i = 0; i < recolouredTileColours.GetLength(0); i++)
             {
