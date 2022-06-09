@@ -70,6 +70,9 @@ namespace GbColouriser
             // 4. Reprocess tiles with worked out colour values
             ProcessMissingColours(recolouredTiles);
 
+            // i need a weighted reproccessing step, that goes "for each true colour, what has the biggest weight to it
+            // or if there are other tiles that use the same true colours, look to them and take a weighted guess
+
             // if there are any coloursl left over, we have to make a decision on what colour they are. 
             if (_missingColours.Any())
             {
@@ -113,8 +116,8 @@ namespace GbColouriser
                         if (missingColours.Count() == 1)
                         {
                             var missingColour = missingColours.First();
-                            var missingColourBrightness = missingColour.GetBrightness();
-                            var brightnessMap = tile.Colours.ToDictionary(x => x, y => y.GetBrightness());
+                            var missingColourBrightness = Brightness(missingColour);
+                            var brightnessMap = tile.Colours.ToDictionary(x => x, y => Brightness(y));
                             brightnessMap.Remove(missingColour); // so it doesnt find itself                      
 
                             // a single colour tile on its own that could not be determined
@@ -140,24 +143,33 @@ namespace GbColouriser
                             }
 
 
-                            if (missingColourBrightness > closestColourByBrightness.GetBrightness())
+                            if (missingColourBrightness > Brightness(closestColourByBrightness))
                             {
-                                // if missing colour is brighter
+                                // put it at next brightest available space
+
+                                for (int m = 0; m < gbColourMap.Count; m++)
+                                {
+                                    if (gbColourMap.ElementAt(m).Value == Color.Empty)
+                                    {
+                                        _missingColours.Remove(missingColour);
+                                        _calculatedColourDictionary[missingColour] = gbColourMap.ElementAt(m).Key;
+                                        break;
+                                    }
+                                }
+
                             }
                             else
                             {
                                 // if missing colour is not brighter
-                                if (gbColourMap.ElementAt(indexOfBrightestColour + 1).Value == Color.Empty)
-                                {
-                                    _missingColours.Remove(missingColour);
-                                    _calculatedColourDictionary[missingColour] = gbColourMap.ElementAt(indexOfBrightestColour + 1).Key;
-                                }
-                                else
-                                {
-                                    // uh oh
 
+                                for (int m = gbColourMap.Count - 1; m >= 0; m--)
+                                {
+                                    if (gbColourMap.ElementAt(m).Value == Color.Empty)
+                                    {
+                                        _missingColours.Remove(missingColour);
+                                        _calculatedColourDictionary[missingColour] = gbColourMap.ElementAt(m).Key;
+                                    }
                                 }
-
 
                             }
 
@@ -175,7 +187,7 @@ namespace GbColouriser
                         {
                             throw new Exception("How did we get here?");
                         }
-                                               
+
 
                         // missing colour(s) found.
                     }
@@ -311,7 +323,7 @@ namespace GbColouriser
             var recolouredTileColours = new Color[8, 8];
             var possibleGBColours = new List<Color> { GBWhite, GBLight, GBDark, GBBlack };
             var localColourMap = new Dictionary<Color, Color>();
-            var lightestToDarkestColours = inputTile.Colours.OrderByDescending(x => x.GetBrightness()).ToList();
+            var lightestToDarkestColours = inputTile.Colours.OrderByDescending(x => Brightness(x)).ToList();
 
             var whites = GetWhites(inputTile.Colours);
             var blacks = GetBlacks(inputTile.Colours);
@@ -393,28 +405,38 @@ namespace GbColouriser
             var recolouredTileColours = new Color[8, 8];
             var possibleGBColours = new List<Color> { GBWhite, GBLight, GBDark, GBBlack };
             var localColourMap = new Dictionary<Color, Color>();
-            var lightestToDarkestColours = inputTile.Colours.OrderByDescending(x => x.GetBrightness()).ToList();
+            var colourGradient = new List<Color>();
 
             var whites = GetWhites(inputTile.Colours);
             var blacks = GetBlacks(inputTile.Colours);
 
-            //if (!whites.Any())
-            //{
-            //    possibleGBColours.Remove(GBWhite);
-            //}
-            //else
-            //{
-            //    localColourMap[whites[0]] = GBWhite;
-            //}
+            if (!whites.Any())
+            {
+                possibleGBColours.Remove(GBWhite);
+            }
+            else
+            {
+                localColourMap[whites[0]] = GBWhite;
+            }
 
-            //if (!blacks.Any())
-            //{
-            //    possibleGBColours.Remove(GBBlack);
-            //}
-            //else
-            //{
-            //    localColourMap[blacks[0]] = GBBlack;
-            //}
+            if (!blacks.Any())
+            {
+                possibleGBColours.Remove(GBBlack);
+            }
+            else
+            {
+                localColourMap[blacks[0]] = GBBlack;
+            }
+
+            if (whites.Any() && !blacks.Any())
+            {
+                colourGradient = inputTile.Colours.OrderByDescending(x => Brightness(x)).ToList();
+            }
+            else if (!whites.Any() && blacks.Any())
+            {
+                colourGradient = inputTile.Colours.OrderBy(x => Brightness(x)).ToList();
+                possibleGBColours.Reverse();
+            }
 
             // we cant determine the final colour if it is a dark or light shade
             if (whites.Any() && blacks.Any())
@@ -425,8 +447,11 @@ namespace GbColouriser
             else
             {
                 // a local colour map isnt created when there is an unknown colour
-                localColourMap = lightestToDarkestColours.Zip(possibleGBColours, (k, v) => new { k, v }).ToDictionary(x => x.k, x => x.v);
+                
             }
+
+            localColourMap = colourGradient.Zip(possibleGBColours, (k, v) => new { k, v }).ToDictionary(x => x.k, x => x.v);
+
 
             for (int i = 0; i < recolouredTileColours.GetLength(0); i++)
             {
@@ -471,7 +496,7 @@ namespace GbColouriser
         {
             var recolouredTileColours = new Color[8, 8];
             var possibleGBColours = new List<Color> { GBWhite, GBLight, GBDark, GBBlack };
-            var lightestToDarkestColours = inputTile.Colours.OrderByDescending(x => x.GetBrightness()).ToList();
+            var lightestToDarkestColours = inputTile.Colours.OrderByDescending(x => Brightness(x)).ToList();
 
             var localColourMap = lightestToDarkestColours.Zip(possibleGBColours, (k, v) => new { k, v }).ToDictionary(x => x.k, x => x.v);
 
