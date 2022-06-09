@@ -51,6 +51,7 @@ namespace GbColouriser
                 for (int j = 0; j < rawColours.GetLength(1); j++)
                 {
                     _colourMap[i, j] = rawColours[i, j];
+                    _colours.Add(rawColours[i, j]);
                 }
             }
         }
