@@ -17,6 +17,9 @@ This helps me create tilemaps easily by only having to document them here. The t
 | --------------------------- | ------------------------- |
 | ![image](Original.png)      | ![image](Custom.png)      |
 
+## Colouriser
+Also included is a colouriser which turns each tile into the 4 colour GameBoy colours.
+
 ## Notes
 - Gameboy tiles are 8x8 pixels
 - However, lots of things (including people) are 16x16 pixels (i.e. 2x2 tiles)
