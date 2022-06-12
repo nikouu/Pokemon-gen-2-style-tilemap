@@ -4,10 +4,12 @@
 1. Similar but different tiles. The kind that when side by side you can't really work out which is the original.
 1. Same colour palette 
 
-## Compiler
+These will be addressed via:
+
+### Compiler
 There's a *crusty* compiler that extracts data from the tables in this readme.md file to generate:
 1. A tilemap for both the [original](Original.png) and [custom](Custom.png) tiles
-2. A JSON output of the tilemap with tile names, the filename, and coordinates: [TilemapDetails.json](TilemapDetails.json)
+1. A JSON output of the tilemap with tile names, the filename, and coordinates: [TilemapDetails.json](TilemapDetails.json)
 
 If there are missing tiles, a fuchsia square is used instead. 
 
@@ -17,8 +19,8 @@ This helps me create tilemaps easily by only having to document them here. The t
 | --------------------------- | ------------------------- |
 | ![image](Original.png)      | ![image](Custom.png)      |
 
-## Colouriser
-Also included is a colouriser which turns each tile into the 4 colour GameBoy colours.
+### Colouriser
+Also included is a colouriser which turns each tile into the 4 colour GameBoy colours. This is useful to directly import the sheet into something like GBStudio.
 
 ## Notes
 - Gameboy tiles are 8x8 pixels
