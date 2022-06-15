@@ -2,6 +2,9 @@
 using GbColouriser;
 using System.Drawing;
 
+// https://develop.gbstudio.dev/docs/sprites/
+// https://www.gbstudio.dev/docs/backgrounds/ 
+
 Console.WriteLine("Hello, World!");
 
 var threeColourTile = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments),
