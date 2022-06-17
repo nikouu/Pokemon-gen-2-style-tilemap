@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Drawing;
-using System.Linq;
+﻿using System.Drawing;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace GbColouriser
 {
@@ -14,7 +9,7 @@ namespace GbColouriser
         private readonly HashSet<Color> _colours;
         private Lazy<int> _hash;
         private Point _coordinate;
-    
+
 
         public Tile()
         {

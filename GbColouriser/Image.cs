@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Drawing;
+﻿using System.Drawing;
 using System.Drawing.Imaging;
-using System.Linq;
 using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace GbColouriser
 {
@@ -65,9 +60,9 @@ namespace GbColouriser
 
             var recolouredImage = new Bitmap(_width, _height);
 
-            for (int i = 0; i < _width; i ++)
+            for (int i = 0; i < _width; i++)
             {
-                for (int j = 0; j < _height; j ++)
+                for (int j = 0; j < _height; j++)
                 {
                     var tileArrayX = i / 8;
                     var tileArrayY = j / 8;
@@ -79,7 +74,7 @@ namespace GbColouriser
 
                     var colour = tile[tileX, tileY];
 
-                    
+
                     recolouredImage.SetPixel(i, j, colour);
                 }
             }

@@ -1,16 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Drawing;
 
 namespace GbColouriser
 {
     public class RecolouredImage
     {
         private readonly Image _originalImage;
-        
+
         private readonly RecolouredTile[,] _recolouredTiles;
 
         // Keys being the colours in the tile, ordered by brightness, and values being the gb colours, in the same order

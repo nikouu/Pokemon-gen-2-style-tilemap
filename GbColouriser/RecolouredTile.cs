@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.Linq;
+﻿using System.Drawing;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace GbColouriser
 {
@@ -95,7 +91,7 @@ namespace GbColouriser
         }
 
         public string GenerateColourKeyString()
-        {        
+        {
             var stringBuilder = new StringBuilder();
 
             foreach (var item in OriginalColours.OrderBy(x => x.GetPerceivedBrightness()))
