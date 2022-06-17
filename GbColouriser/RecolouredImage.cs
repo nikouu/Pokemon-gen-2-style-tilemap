@@ -19,6 +19,7 @@ namespace GbColouriser
         // Keys being the "hash" of the tile. Allows quick lookup for Colour dictionary for previously seen identical tiles
         public Dictionary<int, string> TileDictionary;
 
+
         public RecolouredImage(Image originalImage)
         {
             _originalImage = originalImage;

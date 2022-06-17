@@ -34,20 +34,6 @@ namespace GbColouriser
             _colourKeyString = new Lazy<string>(() => GenerateColourKeyString());
 
             _originalTileHash = new Lazy<int>(() => _originalTile.ColourHash);
-
-            //_colourDictionary.Add(Color.Empty, Color.Empty);
-            Setup();
-        }
-
-        private void Setup()
-        {
-            for (int i = 0; i < _originalTile.ColourMap.GetLength(0); i++)
-            {
-                for (int j = 0; j < _originalTile.ColourMap.GetLength(1); j++)
-                {
-                    
-                }
-            }
         }
 
         public Color this[int x, int y]
@@ -61,6 +47,10 @@ namespace GbColouriser
                     _colourDictionary.Add(_originalTile[x, y], value);
                 }
                 _gbColours.Add(value);
+                if (_gbColours.Count > OriginalColourCount)
+                {
+                    throw new Exception();
+                }
             }
         }
 
@@ -87,11 +77,13 @@ namespace GbColouriser
 
         public int OriginalTileHash => _originalTileHash.Value;
 
+        public bool IsFullyRecoloured => OriginalColourCount == Colours.Count;
+
         public string ColourKeyString
         {
             get
             {
-                if (_colourKeyString.IsValueCreated || OriginalColourCount == Colours.Count)
+                if (_colourKeyString.IsValueCreated || IsFullyRecoloured)
                 {
                     return _colourKeyString.Value;
                 }
