@@ -14,6 +14,7 @@ namespace GbColouriser
         Color this[int x, int y] { get; }
 
         HashSet<Color> Colours { get; }
+        Color[,] ColourMap { get; }
 
         int ColourHash { get; }
     }

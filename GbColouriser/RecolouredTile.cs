@@ -15,27 +15,103 @@ namespace GbColouriser
 
         private readonly HashSet<Color> _gbColours;
 
-        private int _hash;
+        // key is original colour
+        private readonly Dictionary<Color, Color> _colourDictionary;
+
+        private Lazy<int> _originalColourCount;
+
+        private readonly Lazy<int> _originalTileHash;
 
         public RecolouredTile(Tile originalTile)
         {
             _originalTile = originalTile;
             _gbColours = new HashSet<Color>();
             _gbColourMap = new Color[8, 8];
+            _colourDictionary = new Dictionary<Color, Color>();
+
+            _originalColourCount = new Lazy<int>(() => OriginalColours.Count);
+
+            _colourKeyString = new Lazy<string>(() => GenerateColourKeyString());
+
+            _originalTileHash = new Lazy<int>(() => _originalTile.ColourHash);
+
+            //_colourDictionary.Add(Color.Empty, Color.Empty);
+            Setup();
+        }
+
+        private void Setup()
+        {
+            for (int i = 0; i < _originalTile.ColourMap.GetLength(0); i++)
+            {
+                for (int j = 0; j < _originalTile.ColourMap.GetLength(1); j++)
+                {
+                    
+                }
+            }
         }
 
         public Color this[int x, int y]
         {
             get => _gbColourMap[x, y];
+            set
+            {
+                _gbColourMap[x, y] = value;
+                if (!_colourDictionary.ContainsKey(_originalTile[x, y]))
+                {
+                    _colourDictionary.Add(_originalTile[x, y], value);
+                }
+                _gbColours.Add(value);
+            }
         }
 
-        public int ColourHash => _hash;
+        public int ColourHash => 0;
 
         public HashSet<Color> Colours => _gbColours;
+
+        public Color[,] ColourMap => _gbColourMap;
 
         // can be made lazy/cached
         public HashSet<Color> OriginalColours => _originalTile.Colours;
 
+        public int OriginalColourCount => _originalColourCount.Value;
+
+        public Color[,] OriginalTileColourMap => _originalTile.ColourMap;
+
         public Point Coordinate => _originalTile.Coordinate;
+
+        public Color ColourDictionary(Color colour) => _colourDictionary[colour];
+
+        public Dictionary<Color, Color> ColourDictionaryCopy => new Dictionary<Color, Color>(_colourDictionary);
+
+        private Lazy<string> _colourKeyString;
+
+        public int OriginalTileHash => _originalTileHash.Value;
+
+        public string ColourKeyString
+        {
+            get
+            {
+                if (_colourKeyString.IsValueCreated || OriginalColourCount == Colours.Count)
+                {
+                    return _colourKeyString.Value;
+                }
+                else
+                {
+                    return "";
+                }
+            }
+        }
+
+        public string GenerateColourKeyString()
+        {        
+            var stringBuilder = new StringBuilder();
+
+            foreach (var item in OriginalColours.OrderBy(x => x.GetPerceivedBrightness()))
+            {
+                stringBuilder.Append(item);
+            }
+
+            return stringBuilder.ToString();
+        }
     }
 }

@@ -34,6 +34,9 @@ namespace GbColouriser
             var imageByteCount = rawImage.Stride * rawImage.Height;
             var imageBytes = new byte[imageByteCount];
 
+            var croppedBitmap = new Bitmap(8, 8); // maybe this gets properly reused between runs?
+
+
             Marshal.Copy(rawImage.Scan0, imageBytes, 0, imageByteCount);
 
             for (int i = 0; i < image.Width; i += 8)
@@ -41,7 +44,6 @@ namespace GbColouriser
                 for (int j = 0; j < image.Height; j += 8)
                 {
                     var croppedBytes = GetCroppedImage(imageBytes, rawImage.Stride, i, j, 8, 8);
-                    var croppedBitmap = new Bitmap(8, 8); //replace allocation later somehow?
                     var croppedData = croppedBitmap.LockBits(new Rectangle(0, 0, 8, 8), ImageLockMode.WriteOnly, image.PixelFormat);
 
                     Marshal.Copy(croppedBytes, 0, croppedData.Scan0, croppedBytes.Length);
@@ -49,7 +51,7 @@ namespace GbColouriser
                     croppedBitmap.UnlockBits(croppedData);
 
                     _tiles[i / 8, j / 8] = new Tile();
-                    _tiles[i / 8, j / 8].LoadTile(croppedBitmap);
+                    _tiles[i / 8, j / 8].LoadTile(croppedBitmap, i / 8, j / 8);
                 }
             }
 
@@ -58,7 +60,7 @@ namespace GbColouriser
 
         public Bitmap Recolour()
         {
-            var imageProcessor = new ImageColouriser(_width, _height, this);
+            var imageProcessor = new ImageColouriser(this);
             var tiles = imageProcessor.Process();
 
             var recolouredImage = new Bitmap(_width, _height);

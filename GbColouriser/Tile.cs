@@ -34,6 +34,8 @@ namespace GbColouriser
 
         public Point Coordinate => _coordinate;
 
+        public Color[,] ColourMap => _colourMap;
+
         public void LoadTile(Bitmap tile, int x, int y)
         {
             if (tile.Width > 8 || tile.Height > 8)
