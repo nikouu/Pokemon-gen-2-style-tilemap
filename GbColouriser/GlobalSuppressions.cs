@@ -5,5 +5,5 @@
 
 using System.Diagnostics.CodeAnalysis;
 
-[assembly: SuppressMessage("Interoperability", "CA1416:Validate platform compatibility", Justification = "<Pending>", Scope = "member", Target = "~M:GbColouriser.TileMetadata.LoadTile(System.Drawing.Bitmap)~System.Threading.Tasks.Task")]
+[assembly: SuppressMessage("Interoperability", "CA1416:Validate platform compatibility", Justification = "<Pending>", Scope = "member", Target = "~M:GbColouriser.Tile.LoadTile(System.Drawing.Bitmap)~System.Threading.Tasks.Task")]
 [assembly: SuppressMessage("Interoperability", "CA1416:Validate platform compatibility", Justification = "<Pending>", Scope = "member", Target = "~M:GbColouriser.Image.LoadImageAsync(System.Drawing.Bitmap)~System.Threading.Tasks.Task")]

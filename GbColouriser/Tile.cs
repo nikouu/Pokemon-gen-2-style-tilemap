@@ -8,14 +8,15 @@ using System.Threading.Tasks;
 
 namespace GbColouriser
 {
-    public class TileMetadata
+    public class Tile : ITile
     {
         private readonly Color[,] _colourMap;
         private readonly HashSet<Color> _colours;
         private Lazy<int> _hash;
+        private Point _coordinate;
     
 
-        public TileMetadata()
+        public Tile()
         {
             _colourMap = new Color[8, 8];
             _colours = new HashSet<Color>();
@@ -31,12 +32,16 @@ namespace GbColouriser
 
         public HashSet<Color> Colours => _colours;
 
-        public void LoadTile(Bitmap tile)
+        public Point Coordinate => _coordinate;
+
+        public void LoadTile(Bitmap tile, int x, int y)
         {
             if (tile.Width > 8 || tile.Height > 8)
             {
                 throw new ArgumentOutOfRangeException(nameof(tile));
             }
+
+            _coordinate = new Point(x, y);
 
             for (int i = 0; i < tile.Width; i++)
             {
@@ -50,8 +55,10 @@ namespace GbColouriser
             }
         }
 
-        public void LoadTile(Color[,] rawColours)
+        public void LoadTile(Color[,] rawColours, int x, int y)
         {
+            _coordinate = new Point(x, y);
+
             for (int i = 0; i < rawColours.GetLength(0); i++)
             {
                 for (int j = 0; j < rawColours.GetLength(1); j++)

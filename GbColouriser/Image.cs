@@ -14,16 +14,18 @@ namespace GbColouriser
         private readonly int _width;
         private readonly int _height;
 
-        private readonly TileMetadata[,] _tiles;
+        private readonly Tile[,] _tiles;
 
         public Image(int width, int height)
         {
             _width = width;
             _height = height;
-            _tiles = new TileMetadata[width / 8, height / 8];
+            _tiles = new Tile[width / 8, height / 8];
         }
 
-        public TileMetadata[,] Tiles => _tiles;
+        public Tile[,] Tiles => _tiles;
+        public int Width => _width;
+        public int Height => _height;
 
         public void LoadImage(Bitmap image)
         {
@@ -46,7 +48,7 @@ namespace GbColouriser
 
                     croppedBitmap.UnlockBits(croppedData);
 
-                    _tiles[i / 8, j / 8] = new TileMetadata();
+                    _tiles[i / 8, j / 8] = new Tile();
                     _tiles[i / 8, j / 8].LoadTile(croppedBitmap);
                 }
             }
