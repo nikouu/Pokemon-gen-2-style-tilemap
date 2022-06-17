@@ -19,7 +19,7 @@ namespace GbColouriser
         {
             _colourMap = new Color[8, 8];
             _colours = new HashSet<Color>();
-            _hash = new Lazy<int>(() => GenerateHash());
+            _hash = new Lazy<int>(() => GenerateHash()); // hm, this should be ensured to only be called after a load
         }
 
         public Color this[int x, int y]
