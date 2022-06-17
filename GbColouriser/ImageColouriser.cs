@@ -39,9 +39,9 @@ namespace GbColouriser
             _tileColourMap = new Dictionary<List<Color>, List<Color>>();
         }
 
-        public TileMetadata[,] Process()
+        public Tile[,] Process()
         {
-            var recolouredTiles = new TileMetadata[_width / 8, _height / 8];
+            var recolouredTiles = new Tile[_width / 8, _height / 8];
 
             // 1. Get all the colours into the dictionary
             for (int i = 0; i < _width; i++)
@@ -122,7 +122,7 @@ namespace GbColouriser
             return recolouredTiles;
         }
 
-        private void EstimateRemainingColours(TileMetadata[,] recolouredTiles)
+        private void EstimateRemainingColours(Tile[,] recolouredTiles)
         {
             for (int i = 0; i < _image.Tiles.GetLength(0); i++)
             {
@@ -232,7 +232,7 @@ namespace GbColouriser
             }
         }
 
-        private void ProcessMissingColours(TileMetadata[,] recolouredTiles)
+        private void ProcessMissingColours(Tile[,] recolouredTiles)
         {
             for (int i = 0; i < _image.Tiles.GetLength(0); i++)
             {
@@ -294,10 +294,10 @@ namespace GbColouriser
             //return adjustedColourDictionary;
         }
 
-        private void RecolourTiles(TileMetadata[,] recolouredTiles)
+        private void RecolourTiles(Tile[,] recolouredTiles)
         {
-            var tileList = new List<TileMetadata>();
-            var tileCoords = new Dictionary<TileMetadata, (int x, int y)>();
+            var tileList = new List<Tile>();
+            var tileCoords = new Dictionary<Tile, (int x, int y)>();
 
             for (int i = 0; i < _image.Tiles.GetLength(0); i++)
             {
@@ -355,7 +355,7 @@ namespace GbColouriser
 
         }
 
-        private TileMetadata ProcessFromSimilarMoreColouredTiles(TileMetadata inputTile)
+        private Tile ProcessFromSimilarMoreColouredTiles(Tile inputTile)
         {
             var recolouredTileColours = new Color[8, 8];
 
@@ -392,12 +392,12 @@ namespace GbColouriser
 
             _tileColourMap.Add(keyList.ToList(), valueList.ToList());
 
-            var recolouredTile = new TileMetadata();
+            var recolouredTile = new Tile();
             recolouredTile.LoadTile(recolouredTileColours);
             return recolouredTile;
         }
 
-        private TileMetadata ProcessOneColour(TileMetadata inputTile)
+        private Tile ProcessOneColour(Tile inputTile)
         {
             var recolouredTileColours = new Color[8, 8];
             var whites = GetWhites(inputTile.Colours);
@@ -429,13 +429,13 @@ namespace GbColouriser
                 }
             }
 
-            var recolouredTile = new TileMetadata();
+            var recolouredTile = new Tile();
             recolouredTile.LoadTile(recolouredTileColours);
             return recolouredTile;
         }
 
         // this can have 6 combinations
-        private TileMetadata ProcessTwoColours(TileMetadata inputTile)
+        private Tile ProcessTwoColours(Tile inputTile)
         {
             var recolouredTileColours = new Color[8, 8];
             var possibleGBColours = new List<Color> { GBWhite, GBLight, GBDark, GBBlack };
@@ -512,12 +512,12 @@ namespace GbColouriser
                 }
             }
 
-            var recolouredTile = new TileMetadata();
+            var recolouredTile = new Tile();
             recolouredTile.LoadTile(recolouredTileColours);
             return recolouredTile;
         }
 
-        private TileMetadata ProcessThreeColours(TileMetadata inputTile)
+        private Tile ProcessThreeColours(Tile inputTile)
         {
             var recolouredTileColours = new Color[8, 8];
             var possibleGBColours = new List<Color> { GBWhite, GBLight, GBDark, GBBlack };
@@ -604,12 +604,12 @@ namespace GbColouriser
                 }
             }
 
-            var recolouredTile = new TileMetadata();
+            var recolouredTile = new Tile();
             recolouredTile.LoadTile(recolouredTileColours);
             return recolouredTile;
         }
 
-        private TileMetadata ProcessFourColours(TileMetadata inputTile)
+        private Tile ProcessFourColours(Tile inputTile)
         {
             var recolouredTileColours = new Color[8, 8];
             var possibleGBColours = new List<Color> { GBWhite, GBLight, GBDark, GBBlack };
@@ -633,12 +633,12 @@ namespace GbColouriser
                 }
             }
 
-            var recolouredTile = new TileMetadata();
+            var recolouredTile = new Tile();
             recolouredTile.LoadTile(recolouredTileColours);
             return recolouredTile;
         }
 
-        private TileMetadata ReprocessTile(TileMetadata inputTile)
+        private Tile ReprocessTile(Tile inputTile)
         {
             var recolouredTileColours = new Color[8, 8];
 
@@ -668,7 +668,7 @@ namespace GbColouriser
                 }
             }
 
-            var recolouredTile = new TileMetadata();
+            var recolouredTile = new Tile();
             recolouredTile.LoadTile(recolouredTileColours);
             return recolouredTile;
         }
