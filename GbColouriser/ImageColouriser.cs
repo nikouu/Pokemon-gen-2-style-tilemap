@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Drawing;
 
 namespace GbColouriser
 {
@@ -242,46 +237,6 @@ namespace GbColouriser
                     recolouredTile[i, j] = localColourMap[recolouredTile.OriginalTileColourMap[i, j]];
                 }
             }
-        }
-
-        private List<Color> GetWhites(IEnumerable<Color> sourceColours)
-        {
-            var whiteList = new List<Color>();
-            foreach (var item in sourceColours)
-            {
-                if (IsWhite(item))
-                {
-                    whiteList.Add(item);
-                }
-            }
-
-            return whiteList;
-        }
-
-        private List<Color> GetBlacks(IEnumerable<Color> sourceColours)
-        {
-            var blackList = new List<Color>();
-            foreach (var item in sourceColours)
-            {
-                if (IsBlack(item))
-                {
-                    blackList.Add(item);
-                }
-            }
-
-            return blackList;
-        }
-
-        private bool IsWhite(Color colour) => AreColoursClose(colour, Color.White, 50);
-        private bool IsBlack(Color colour) => AreColoursClose(colour, Color.Black, 100);
-
-        // https://stackoverflow.com/a/25168506
-        private bool AreColoursClose(Color a, Color z, int threshold = 50)
-        {
-            int r = (int)a.R - z.R,
-                g = (int)a.G - z.G,
-                b = (int)a.B - z.B;
-            return (r * r + g * g + b * b) <= threshold * threshold;
         }
     }
 }

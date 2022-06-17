@@ -1,5 +1,4 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using GbColouriser;
 using System.Drawing;
 
 Console.WriteLine("Hello, World!");
