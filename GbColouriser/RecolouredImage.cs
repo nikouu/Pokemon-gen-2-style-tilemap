@@ -36,7 +36,7 @@ namespace GbColouriser
 
         private void SetupTiles()
         {
-            var originalTileIterator = _originalImage.Tiles.TileIterator();
+            var originalTileIterator = _originalImage.Tiles.ToIEnumerable();
             foreach (var originalTile in originalTileIterator)
             {
                 _recolouredTiles[originalTile.Coordinate.X, originalTile.Coordinate.Y] = new RecolouredTile(originalTile);

@@ -7,8 +7,8 @@ Console.WriteLine("Hello, World!");
 var threeColourTile = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments),
     @"GitHub\Pokemon-gen-2-style-tilemap/Original/Grass-flat.png");
 
-threeColourTile = @"C:\Users\Niko Uusitalo\Documents\GitHub\Pokemon-gen-2-style-tilemap\NewBuildingSample-piece.png";
-threeColourTile = @"C:\Users\Niko Uusitalo\Documents\GitHub\Little-Mokki-In-The-Woods\LittleMokkiInTheWoods\assets\backgrounds\Mokki-area-export.png";
+threeColourTile = @"C:\Users\Niko Uusitalo\Documents\GitHub\Pokemon-gen-2-style-tilemap\ayylmao.png";
+//threeColourTile = @"C:\Users\Niko Uusitalo\Documents\GitHub\Little-Mokki-In-The-Woods\LittleMokkiInTheWoods\assets\backgrounds\Mokki-area-export.png";
 var image = new Bitmap(threeColourTile);
 
 

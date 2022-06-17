@@ -16,13 +16,24 @@ namespace GbColouriser
         }
 
         // https://docs.microsoft.com/en-us/archive/msdn-magazine/2017/june/essential-net-custom-iterators-with-yield
-        public static IEnumerable<ITile> TileIterator<ITile>(this ITile[,] tileArray)
+        public static IEnumerable<T> ToIEnumerable<T>(this T[,] twoDimensionalArray)
         {
-            for (int i = 0; i < tileArray.GetLength(0); i++)
+            for (int i = 0; i < twoDimensionalArray.GetLength(0); i++)
             {
-                for (int j = 0; j < tileArray.GetLength(1); j++)
+                for (int j = 0; j < twoDimensionalArray.GetLength(1); j++)
                 {
-                    yield return tileArray[i, j];
+                    yield return twoDimensionalArray[i, j];
+                }
+            }
+        }
+
+        public static IEnumerable<((int x, int y) coordinates, T item)> ToIEnumerableWithCoords<T>(this T[,] twoDimensionalArray)
+        {
+            for (int i = 0; i < twoDimensionalArray.GetLength(0); i++)
+            {
+                for (int j = 0; j < twoDimensionalArray.GetLength(1); j++)
+                {
+                    yield return ((i, j), twoDimensionalArray[i, j]);
                 }
             }
         }
