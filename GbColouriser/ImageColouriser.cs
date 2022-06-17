@@ -19,6 +19,8 @@ namespace GbColouriser
         private readonly int _height;
         private readonly Image _image;
 
+        // probably need to work out then create a new colour information object that encompasses all those dictionaries
+
         private Color GBWhite => Color.FromArgb(224, 248, 207);
         private Color GBLight => Color.FromArgb(134, 192, 108);
         private Color GBDark => Color.FromArgb(48, 104, 80);
@@ -82,6 +84,38 @@ namespace GbColouriser
                 //EstimateRemainingColours(recolouredTiles);
 
                 //ProcessMissingColours(recolouredTiles);
+
+                // back to the estimation work. dont have to estimate 4 colours, just 3, 2, and 1. 
+
+                // the lighest colour in the whole set and the darkest are easy to assign colours to, just in case they already werent assigned?
+
+                // can prob start grouping tiles by their colours. because each tile that contains the same x colours will have teh same shading
+                // so working one out will work all the others out that have the same
+
+                // perhaps group all the true colours in order. so all the "whites", "lights" etc so there is one continunous list colours
+                // ordered by their colour and as such maybe ordered by their gb colour groups. could maybe use that to help determine 
+                // a single missing colour or something - just where that missing colour fits in the brightness spectrum
+
+                // work on tiles with fewest missing colours, or greatest first? maybe greatest since we can have the most comparisons between
+                // colours and thus eliminating guesswork for which: "lighter" or "darker" to apply to that tile
+
+                // mayube have a RecolouredTile object which has reference to the original tile, but all the colouring metadata like the
+                // dictionaries above and can reason about the current state of the tiles recolouring. maybe this object could inherit 
+                // from tilemetadata then can take in a tile as an input parameter for the constructor
+
+                // maybe another obejct that is the recoloured image. which is full of recolouredTiles. allows us to query against all
+                // the recoloured tiles, like looking at all thecolours in the whole image
+
+                // so new control flow could be
+                // 1. get all the 4 colour tiles done
+                // 2. propagate down those 4 colours
+                // 3. pick out darkest and lightest tiles and assign values
+                // 4. do a pass with the lightest and darkest tiles, that might change some 3 missing colours to a 2 or something
+                // 5. work through 3 missing colour tiles
+                // 6. propogate those down too
+                // 7. repeat with two colour tiles
+                // 8. propgate down
+                // 9. make an educated guess with any single colour tiles based on the brightness scale
             }
 
 
