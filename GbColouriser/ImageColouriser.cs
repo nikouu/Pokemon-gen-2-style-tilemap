@@ -46,7 +46,7 @@ namespace GbColouriser
             //}
 
             // 2. Recolour the tiles
-            RecolourTiles(_recolouredImage);
+
 
             // 3. Calculate the colour dictionary
             //CalculateColourDictionary();
@@ -105,11 +105,120 @@ namespace GbColouriser
             // 8. propgate down
             // 9. make an educated guess with any single colour tiles based on the brightness scale
 
+            FirstRecolourTilePass(_recolouredImage);
+
+            // imagine actually writing this horror of a linq statement
+            var mostUsedGbColoursPerRealColourDictionary = _recolouredImage.TileColourDictionary
+                .SelectMany(x => x.Value)
+                .OrderByDescending(x => x.Key.GetPerceivedBrightness())
+                .GroupBy(x => x.Key)
+                .ToDictionary(x => x.Key, y => y.GroupBy(x => x.Value).OrderByDescending(x => x.Key).First().First().Value);
+
+            //
+
+
+            var unfinishedTiles = _recolouredImage.Tiles.TileIterator().Where(x => !x.IsFullyRecoloured).ToList();
+            ColourTransparentTiles(unfinishedTiles);
+
+            unfinishedTiles = unfinishedTiles.Where(x => !x.IsFullyRecoloured).ToList();
+            EstimateUnfinishedTilesWithExistingColours(mostUsedGbColoursPerRealColourDictionary, unfinishedTiles);
+
+            unfinishedTiles = unfinishedTiles.Where(x => !x.IsFullyRecoloured).ToList();
+
+            var brightnessDictionary = mostUsedGbColoursPerRealColourDictionary.ToLookup(x => x.Key.GetPerceivedBrightness(), z => z);
+
+            foreach (var unfinishedTile in unfinishedTiles)
+            {
+                if (_recolouredImage.TileDictionary.ContainsKey(unfinishedTile.OriginalTileHash))
+                {
+                    var colourDictionaryKey = _recolouredImage.TileDictionary[unfinishedTile.OriginalTileHash];
+                    ProcessFromExistingTileDictionary(unfinishedTile, _recolouredImage.TileColourDictionary[colourDictionaryKey]);
+                }
+                else if (_recolouredImage.TileColourDictionary.ContainsKey(unfinishedTile.ColourKeyString))
+                {
+                    ProcessFromExistingTileDictionary(unfinishedTile, _recolouredImage.TileColourDictionary[unfinishedTile.ColourKeyString]);
+                }
+                else
+                {
+                    for (int i = 0; i < unfinishedTile.ColourMap.GetLength(0); i++)
+                    {
+                        for (int j = 0; j < unfinishedTile.ColourMap.GetLength(1); j++)
+                        {
+                            var currentColour = unfinishedTile[i, j];                            
+
+                            if (currentColour.IsEmpty && unfinishedTile.IsFullyRecoloured)
+                            {
+                                // the colour has been found in a previous loop, and now its time to apply that colour to the remaining pixels
+                                unfinishedTile[i, j] = unfinishedTile.ColourDictionary(unfinishedTile.OriginalTileColourMap[i, j]);
+                            }
+                            else if (currentColour.IsEmpty && !unfinishedTile.IsFullyRecoloured)
+                            {
+                                var remainingColourOptions = new List<Color> { GBWhite, GBLight, GBDark, GBBlack }.Except(unfinishedTile.Colours).ToDictionary(x => x.GetPerceivedBrightness(), z => z);
+                                var currentOriginalColour = unfinishedTile.OriginalTileColourMap[i, j];
+                                var currentOriginalColourBrightness = currentOriginalColour.GetPerceivedBrightness();
+
+                                var closest = remainingColourOptions.OrderBy(x => Math.Abs(currentOriginalColourBrightness - x.Key)).First();
+
+                                unfinishedTile[i, j] = closest.Value;
+                                // still more colours to find
+                            }
+                            else
+                            {
+                                // pixel is good to go already
+                                continue;
+                            }
+                        }
+                    }
+                    UpdateImageDictionaryCaches(_recolouredImage, unfinishedTile);
+                }
+            }
 
             return _recolouredImage.Tiles;
         }
 
-        private void RecolourTiles(RecolouredImage recolouredImage)
+        private static void EstimateUnfinishedTilesWithExistingColours(Dictionary<Color, Color> mostUsedGbColoursPerRealColourDictionary, List<RecolouredTile> unfinishedTiles)
+        {
+            foreach (var unfinishedTile in unfinishedTiles)
+            {
+                for (int i = 0; i < unfinishedTile.ColourMap.GetLength(0); i++)
+                {
+                    for (int j = 0; j < unfinishedTile.ColourMap.GetLength(1); j++)
+                    {
+                        var currentOriginalColour = unfinishedTile.OriginalTileColourMap[i, j];
+
+                        if (mostUsedGbColoursPerRealColourDictionary.ContainsKey(currentOriginalColour))
+                        {
+
+                            unfinishedTile[i, j] = mostUsedGbColoursPerRealColourDictionary[currentOriginalColour];
+                        }
+                    }
+                }
+            }
+        }
+
+        private void ColourTransparentTiles(List<RecolouredTile> unfinishedTiles)
+        {
+            foreach (var unfinishedTile in unfinishedTiles)
+            {
+                if (unfinishedTile.OriginalColourCount == 1)
+                {
+                    var singleColour = unfinishedTile.OriginalColours.First();
+
+                    if (singleColour.A == 0 && singleColour.R == 0 && singleColour.G == 0 && singleColour.B == 0)
+                    {
+                        for (int i = 0; i < unfinishedTile.ColourMap.GetLength(0); i++)
+                        {
+                            for (int j = 0; j < unfinishedTile.ColourMap.GetLength(1); j++)
+                            {
+                                unfinishedTile[i, j] = GBBlack;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        private void FirstRecolourTilePass(RecolouredImage recolouredImage)
         {
             var tiles = recolouredImage.Tiles.TileIterator().OrderByDescending(x => x.OriginalColourCount).ToList();
 
@@ -122,28 +231,19 @@ namespace GbColouriser
                     if (recolouredImage.TileDictionary.ContainsKey(tile.OriginalTileHash))
                     {
                         var colourDictionaryKey = recolouredImage.TileDictionary[tile.OriginalTileHash];
-                        //Console.WriteLine("cache hit");
                         ProcessFromExistingTileDictionary(tile, recolouredImage.TileColourDictionary[colourDictionaryKey]);
                     }
                     else if (recolouredImage.TileColourDictionary.ContainsKey(tile.ColourKeyString))
                     {
-                        //Console.WriteLine("cache hit2");
                         ProcessFromExistingTileDictionary(tile, recolouredImage.TileColourDictionary[tile.ColourKeyString]);
                     }
                     else if (tile.OriginalColourCount == 4)
                     {
                         ProcessFourColours(tile);
-                        var tileColourDictionaryKeys = tile.OriginalColours.OrderBy(x => x.GetPerceivedBrightness());
-                        var tileColourDictionaryValues = new List<Color>();
-
-                        foreach (var tileColour in tileColourDictionaryKeys)
-                        {
-                            tileColourDictionaryValues.Add(tile.ColourDictionary(tileColour));
-                        }
-
-                        recolouredImage.TileColourDictionary.TryAdd(tile.ColourKeyString, tile.ColourDictionaryCopy);
-
-                        recolouredImage.TileDictionary.TryAdd(tile.OriginalTileHash, tile.ColourKeyString);
+                        UpdateImageDictionaryCaches(recolouredImage, tile);
+                    }
+                    else if (tile.OriginalColourCount == 1)
+                    {
 
                     }
                     else
@@ -155,34 +255,25 @@ namespace GbColouriser
                             continue;
                         }
 
-                        var tileColourDictionaryKeys = tile.OriginalColours.OrderBy(x => x.GetPerceivedBrightness());
-                        var tileColourDictionaryValues = new List<Color>();
-
-                        foreach (var tileColour in tileColourDictionaryKeys)
-                        {
-                            tileColourDictionaryValues.Add(tile.ColourDictionary(tileColour));
-                        }
-
-                        recolouredImage.TileColourDictionary.TryAdd(tile.ColourKeyString, tile.ColourDictionaryCopy);
-
-                        recolouredImage.TileDictionary.TryAdd(tile.OriginalTileHash, tile.ColourKeyString);
+                        UpdateImageDictionaryCaches(recolouredImage, tile);
                     }
                 }
             }
+        }
 
-            //foreach (var tile in tiles)
-            //{
-            //    switch (tile.OriginalColours.Count)
-            //    {
-            //        case 4:
-            //            ProcessFourColours(tile);
-            //            break;
-            //        default:
-            //            var tileSubset = groupedTiles.;
-            //            ProcessFromSimilarMoreColouredTiles(tile, tileSubset);
-            //            break;
-            //    }
-            //}
+        private static void UpdateImageDictionaryCaches(RecolouredImage recolouredImage, RecolouredTile tile)
+        {
+            var tileColourDictionaryKeys = tile.OriginalColours.OrderBy(x => x.GetPerceivedBrightness());
+            var tileColourDictionaryValues = new List<Color>();
+
+            foreach (var tileColour in tileColourDictionaryKeys)
+            {
+                tileColourDictionaryValues.Add(tile.ColourDictionary(tileColour));
+            }
+
+            recolouredImage.TileColourDictionary.TryAdd(tile.ColourKeyString, tile.ColourDictionaryCopy);
+
+            recolouredImage.TileDictionary.TryAdd(tile.OriginalTileHash, tile.ColourKeyString);
         }
 
         private void ProcessFromExistingTileDictionary(RecolouredTile recolouredTile, Dictionary<Color, Color> dictionary)
